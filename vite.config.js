@@ -19,6 +19,9 @@ function manifestPlugin() {
 
 export default defineConfig({
   base: '/reserva-playa-tortuga-data/',
+  define: {
+    'process.env.NODE_ENV': JSON.stringify('production'),
+  },
   plugins: [react(), manifestPlugin()],
   build: {
     lib: {
