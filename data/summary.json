@@ -1,7 +1,27 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-26T16:32:46.834808+00:00",
+  "generated_at": "2026-08-26T19:13:51.654456+00:00",
+  "total_nests": 1392,
+  "total_eggs": 88148,
   "by_beach": [
+    {
+      "beach": "Ballena",
+      "species": "Lora /Olive ridley",
+      "nests": 2,
+      "eggs": 95
+    },
+    {
+      "beach": "Ballena, sector Elan",
+      "species": "Lora /Olive ridley",
+      "nests": 1,
+      "eggs": 95
+    },
+    {
+      "beach": "Chaman",
+      "species": "Lora /Olive ridley",
+      "nests": 1,
+      "eggs": 115
+    },
     {
       "beach": "Dominical",
       "species": "Lora /Olive ridley",
@@ -39,6 +59,18 @@
       "eggs": 804
     },
     {
+      "beach": "Parque Nacional Marino Ballena-Sector Colonia",
+      "species": "Lora /Olive ridley",
+      "nests": 1,
+      "eggs": 0
+    },
+    {
+      "beach": "Pinuela",
+      "species": "Lora /Olive ridley",
+      "nests": 1,
+      "eggs": 75
+    },
+    {
       "beach": "Tortuga",
       "species": "Carey/Hawksbill",
       "nests": 1,
@@ -61,36 +93,6 @@
       "species": "Lora /Olive ridley",
       "nests": 1,
       "eggs": 0
-    },
-    {
-      "beach": "{\"other\":\"Ballena\"}",
-      "species": "Lora /Olive ridley",
-      "nests": 2,
-      "eggs": 95
-    },
-    {
-      "beach": "{\"other\":\"Ballena, sector Elan\"}",
-      "species": "Lora /Olive ridley",
-      "nests": 1,
-      "eggs": 95
-    },
-    {
-      "beach": "{\"other\":\"Chaman\"}",
-      "species": "Lora /Olive ridley",
-      "nests": 1,
-      "eggs": 115
-    },
-    {
-      "beach": "{\"other\":\"Parque Nacional Marino Ballena-Sector Colonia\"}",
-      "species": "Lora /Olive ridley",
-      "nests": 1,
-      "eggs": 0
-    },
-    {
-      "beach": "{\"other\":\"Pinuela\"}",
-      "species": "Lora /Olive ridley",
-      "nests": 1,
-      "eggs": 75
     }
   ],
   "by_month": [
@@ -227,5 +229,1164 @@
       "nests": 77
     }
   ],
-  "total_nests": 1392
+  "by_year": [
+    {
+      "year": "2023",
+      "total": 374,
+      "nests": 274,
+      "eggs": 24972,
+      "false_crawls": 43,
+      "poached": 23,
+      "wild": 2
+    },
+    {
+      "year": "2024",
+      "total": 191,
+      "nests": 139,
+      "eggs": 13107,
+      "false_crawls": 22,
+      "poached": 16,
+      "wild": 4
+    },
+    {
+      "year": "2025",
+      "total": 686,
+      "nests": 459,
+      "eggs": 40871,
+      "false_crawls": 123,
+      "poached": 31,
+      "wild": 10
+    },
+    {
+      "year": "2026",
+      "total": 141,
+      "nests": 103,
+      "eggs": 9198,
+      "false_crawls": 24,
+      "poached": 1,
+      "wild": 1
+    }
+  ],
+  "by_species": [
+    {
+      "species": "Lora /Olive ridley",
+      "nests": 950,
+      "eggs": 85991,
+      "avg_eggs_per_clutch": 91.4
+    },
+    {
+      "species": "Verde/Green",
+      "nests": 12,
+      "eggs": 878,
+      "avg_eggs_per_clutch": 73.2
+    },
+    {
+      "species": "Unknown",
+      "nests": 8,
+      "eggs": 668,
+      "avg_eggs_per_clutch": 83.5
+    },
+    {
+      "species": "Carey/Hawksbill",
+      "nests": 5,
+      "eggs": 602,
+      "avg_eggs_per_clutch": 120.4
+    }
+  ],
+  "by_species_month": [
+    {
+      "month": "2023-05",
+      "species": "Lora /Olive ridley",
+      "nests": 2
+    },
+    {
+      "month": "2023-06",
+      "species": "Lora /Olive ridley",
+      "nests": 8
+    },
+    {
+      "month": "2023-07",
+      "species": "Lora /Olive ridley",
+      "nests": 23
+    },
+    {
+      "month": "2023-08",
+      "species": "Carey/Hawksbill",
+      "nests": 1
+    },
+    {
+      "month": "2023-08",
+      "species": "Lora /Olive ridley",
+      "nests": 96
+    },
+    {
+      "month": "2023-08",
+      "species": "Verde/Green",
+      "nests": 1
+    },
+    {
+      "month": "2023-09",
+      "species": "Carey/Hawksbill",
+      "nests": 2
+    },
+    {
+      "month": "2023-09",
+      "species": "Lora /Olive ridley",
+      "nests": 63
+    },
+    {
+      "month": "2023-10",
+      "species": "Lora /Olive ridley",
+      "nests": 43
+    },
+    {
+      "month": "2023-10",
+      "species": "Unknown",
+      "nests": 2
+    },
+    {
+      "month": "2023-11",
+      "species": "Lora /Olive ridley",
+      "nests": 28
+    },
+    {
+      "month": "2023-11",
+      "species": "Verde/Green",
+      "nests": 1
+    },
+    {
+      "month": "2023-12",
+      "species": "Lora /Olive ridley",
+      "nests": 4
+    },
+    {
+      "month": "2024-01",
+      "species": "Lora /Olive ridley",
+      "nests": 1
+    },
+    {
+      "month": "2024-04",
+      "species": "Lora /Olive ridley",
+      "nests": 2
+    },
+    {
+      "month": "2024-05",
+      "species": "Carey/Hawksbill",
+      "nests": 1
+    },
+    {
+      "month": "2024-06",
+      "species": "Lora /Olive ridley",
+      "nests": 10
+    },
+    {
+      "month": "2024-06",
+      "species": "Verde/Green",
+      "nests": 1
+    },
+    {
+      "month": "2024-07",
+      "species": "Lora /Olive ridley",
+      "nests": 18
+    },
+    {
+      "month": "2024-08",
+      "species": "Lora /Olive ridley",
+      "nests": 27
+    },
+    {
+      "month": "2024-08",
+      "species": "Verde/Green",
+      "nests": 1
+    },
+    {
+      "month": "2024-09",
+      "species": "Lora /Olive ridley",
+      "nests": 30
+    },
+    {
+      "month": "2024-10",
+      "species": "Lora /Olive ridley",
+      "nests": 36
+    },
+    {
+      "month": "2024-11",
+      "species": "Lora /Olive ridley",
+      "nests": 10
+    },
+    {
+      "month": "2024-12",
+      "species": "Lora /Olive ridley",
+      "nests": 2
+    },
+    {
+      "month": "2025-01",
+      "species": "Lora /Olive ridley",
+      "nests": 2
+    },
+    {
+      "month": "2025-04",
+      "species": "Lora /Olive ridley",
+      "nests": 1
+    },
+    {
+      "month": "2025-05",
+      "species": "Lora /Olive ridley",
+      "nests": 5
+    },
+    {
+      "month": "2025-06",
+      "species": "Lora /Olive ridley",
+      "nests": 9
+    },
+    {
+      "month": "2025-07",
+      "species": "Carey/Hawksbill",
+      "nests": 1
+    },
+    {
+      "month": "2025-07",
+      "species": "Lora /Olive ridley",
+      "nests": 40
+    },
+    {
+      "month": "2025-07",
+      "species": "Verde/Green",
+      "nests": 1
+    },
+    {
+      "month": "2025-08",
+      "species": "Lora /Olive ridley",
+      "nests": 108
+    },
+    {
+      "month": "2025-08",
+      "species": "Unknown",
+      "nests": 1
+    },
+    {
+      "month": "2025-08",
+      "species": "Verde/Green",
+      "nests": 2
+    },
+    {
+      "month": "2025-09",
+      "species": "Lora /Olive ridley",
+      "nests": 150
+    },
+    {
+      "month": "2025-09",
+      "species": "Unknown",
+      "nests": 2
+    },
+    {
+      "month": "2025-09",
+      "species": "Verde/Green",
+      "nests": 2
+    },
+    {
+      "month": "2025-10",
+      "species": "Lora /Olive ridley",
+      "nests": 81
+    },
+    {
+      "month": "2025-10",
+      "species": "Unknown",
+      "nests": 1
+    },
+    {
+      "month": "2025-11",
+      "species": "Lora /Olive ridley",
+      "nests": 34
+    },
+    {
+      "month": "2025-12",
+      "species": "Lora /Olive ridley",
+      "nests": 16
+    },
+    {
+      "month": "2025-12",
+      "species": "Verde/Green",
+      "nests": 3
+    },
+    {
+      "month": "2026-01",
+      "species": "Lora /Olive ridley",
+      "nests": 3
+    },
+    {
+      "month": "2026-05",
+      "species": "Lora /Olive ridley",
+      "nests": 2
+    },
+    {
+      "month": "2026-06",
+      "species": "Lora /Olive ridley",
+      "nests": 7
+    },
+    {
+      "month": "2026-07",
+      "species": "Lora /Olive ridley",
+      "nests": 35
+    },
+    {
+      "month": "2026-08",
+      "species": "Lora /Olive ridley",
+      "nests": 54
+    },
+    {
+      "month": "2026-08",
+      "species": "Unknown",
+      "nests": 2
+    }
+  ],
+  "by_beach_year": [
+    {
+      "year": "2023",
+      "beach": "Ballena",
+      "nests": 0,
+      "eggs": 0
+    },
+    {
+      "year": "2023",
+      "beach": "Ballena, sector Elan",
+      "nests": 1,
+      "eggs": 95
+    },
+    {
+      "year": "2023",
+      "beach": "Dominical",
+      "nests": 10,
+      "eggs": 730
+    },
+    {
+      "year": "2023",
+      "beach": "Hermosa",
+      "nests": 117,
+      "eggs": 10557
+    },
+    {
+      "year": "2023",
+      "beach": "Tortuga",
+      "nests": 146,
+      "eggs": 13590
+    },
+    {
+      "year": "2024",
+      "beach": "Dominical",
+      "nests": 0,
+      "eggs": 0
+    },
+    {
+      "year": "2024",
+      "beach": "Hermosa",
+      "nests": 71,
+      "eggs": 6779
+    },
+    {
+      "year": "2024",
+      "beach": "Tortuga",
+      "nests": 68,
+      "eggs": 6328
+    },
+    {
+      "year": "2024",
+      "beach": "Unknown",
+      "nests": 0,
+      "eggs": 0
+    },
+    {
+      "year": "2025",
+      "beach": "Ballena",
+      "nests": 1,
+      "eggs": 95
+    },
+    {
+      "year": "2025",
+      "beach": "Chaman",
+      "nests": 1,
+      "eggs": 115
+    },
+    {
+      "year": "2025",
+      "beach": "Dominical",
+      "nests": 19,
+      "eggs": 1706
+    },
+    {
+      "year": "2025",
+      "beach": "Hermosa",
+      "nests": 214,
+      "eggs": 19527
+    },
+    {
+      "year": "2025",
+      "beach": "Parque Nacional Marino Ballena-Sector Colonia",
+      "nests": 0,
+      "eggs": 0
+    },
+    {
+      "year": "2025",
+      "beach": "Pinuela",
+      "nests": 1,
+      "eggs": 75
+    },
+    {
+      "year": "2025",
+      "beach": "Tortuga",
+      "nests": 223,
+      "eggs": 19353
+    },
+    {
+      "year": "2026",
+      "beach": "Hermosa",
+      "nests": 43,
+      "eggs": 3853
+    },
+    {
+      "year": "2026",
+      "beach": "Tortuga",
+      "nests": 60,
+      "eggs": 5345
+    }
+  ],
+  "by_activity_month": [
+    {
+      "month": "2023-05",
+      "activity": "Nido/Nest",
+      "count": 2
+    },
+    {
+      "month": "2023-06",
+      "activity": "Nido Saqueado/Poached nest",
+      "count": 1
+    },
+    {
+      "month": "2023-06",
+      "activity": "Nido/Nest",
+      "count": 8
+    },
+    {
+      "month": "2023-06",
+      "activity": "Sálida Falsa/False crawl",
+      "count": 1
+    },
+    {
+      "month": "2023-07",
+      "activity": "Anidación No efectivo /Not effective nesting",
+      "count": 1
+    },
+    {
+      "month": "2023-07",
+      "activity": "Nido Saqueado/Poached nest",
+      "count": 2
+    },
+    {
+      "month": "2023-07",
+      "activity": "Nido/Nest",
+      "count": 23
+    },
+    {
+      "month": "2023-07",
+      "activity": "Sálida Falsa/False crawl",
+      "count": 1
+    },
+    {
+      "month": "2023-08",
+      "activity": "Anidación No efectivo /Not effective nesting",
+      "count": 7
+    },
+    {
+      "month": "2023-08",
+      "activity": "Nido Saqueado/Poached nest",
+      "count": 10
+    },
+    {
+      "month": "2023-08",
+      "activity": "Nido/Nest",
+      "count": 98
+    },
+    {
+      "month": "2023-08",
+      "activity": "Sálida Falsa/False crawl",
+      "count": 21
+    },
+    {
+      "month": "2023-08",
+      "activity": "Tortuga muerta/Dead turtle",
+      "count": 1
+    },
+    {
+      "month": "2023-09",
+      "activity": "Anidación No efectivo /Not effective nesting",
+      "count": 10
+    },
+    {
+      "month": "2023-09",
+      "activity": "Nido Saqueado/Poached nest",
+      "count": 5
+    },
+    {
+      "month": "2023-09",
+      "activity": "Nido/Nest",
+      "count": 65
+    },
+    {
+      "month": "2023-09",
+      "activity": "Sálida Falsa/False crawl",
+      "count": 10
+    },
+    {
+      "month": "2023-09",
+      "activity": "Unknown",
+      "count": 1
+    },
+    {
+      "month": "2023-10",
+      "activity": "Anidación No efectivo /Not effective nesting",
+      "count": 7
+    },
+    {
+      "month": "2023-10",
+      "activity": "Nido Saqueado/Poached nest",
+      "count": 3
+    },
+    {
+      "month": "2023-10",
+      "activity": "Nido salvaje /Wild nest",
+      "count": 1
+    },
+    {
+      "month": "2023-10",
+      "activity": "Nido/Nest",
+      "count": 45
+    },
+    {
+      "month": "2023-10",
+      "activity": "Sálida Falsa/False crawl",
+      "count": 10
+    },
+    {
+      "month": "2023-11",
+      "activity": "Anidación No efectivo /Not effective nesting",
+      "count": 2
+    },
+    {
+      "month": "2023-11",
+      "activity": "Nido Saqueado/Poached nest",
+      "count": 2
+    },
+    {
+      "month": "2023-11",
+      "activity": "Nido salvaje /Wild nest",
+      "count": 1
+    },
+    {
+      "month": "2023-11",
+      "activity": "Nido/Nest",
+      "count": 29
+    },
+    {
+      "month": "2023-11",
+      "activity": "Tortuga muerta/Dead turtle",
+      "count": 1
+    },
+    {
+      "month": "2023-12",
+      "activity": "Anidación No efectivo /Not effective nesting",
+      "count": 1
+    },
+    {
+      "month": "2023-12",
+      "activity": "Nido/Nest",
+      "count": 4
+    },
+    {
+      "month": "2023-12",
+      "activity": "Tortuga Varada / Stranded turtle",
+      "count": 1
+    },
+    {
+      "month": "2024-01",
+      "activity": "Nido/Nest",
+      "count": 1
+    },
+    {
+      "month": "2024-04",
+      "activity": "Nido/Nest",
+      "count": 2
+    },
+    {
+      "month": "2024-05",
+      "activity": "Nido/Nest",
+      "count": 1
+    },
+    {
+      "month": "2024-05",
+      "activity": "Sálida Falsa/False crawl",
+      "count": 1
+    },
+    {
+      "month": "2024-06",
+      "activity": "Nido Saqueado/Poached nest",
+      "count": 1
+    },
+    {
+      "month": "2024-06",
+      "activity": "Nido/Nest",
+      "count": 11
+    },
+    {
+      "month": "2024-07",
+      "activity": "Anidación No efectivo /Not effective nesting",
+      "count": 1
+    },
+    {
+      "month": "2024-07",
+      "activity": "Nido/Nest",
+      "count": 18
+    },
+    {
+      "month": "2024-07",
+      "activity": "Sálida Falsa/False crawl",
+      "count": 2
+    },
+    {
+      "month": "2024-07",
+      "activity": "Tortuga muerta/Dead turtle",
+      "count": 1
+    },
+    {
+      "month": "2024-08",
+      "activity": "Anidación No efectivo /Not effective nesting",
+      "count": 1
+    },
+    {
+      "month": "2024-08",
+      "activity": "Nido Saqueado/Poached nest",
+      "count": 3
+    },
+    {
+      "month": "2024-08",
+      "activity": "Nido/Nest",
+      "count": 28
+    },
+    {
+      "month": "2024-08",
+      "activity": "Sálida Falsa/False crawl",
+      "count": 4
+    },
+    {
+      "month": "2024-09",
+      "activity": "Nido Saqueado/Poached nest",
+      "count": 5
+    },
+    {
+      "month": "2024-09",
+      "activity": "Nido salvaje /Wild nest",
+      "count": 2
+    },
+    {
+      "month": "2024-09",
+      "activity": "Nido/Nest",
+      "count": 30
+    },
+    {
+      "month": "2024-09",
+      "activity": "Sálida Falsa/False crawl",
+      "count": 7
+    },
+    {
+      "month": "2024-09",
+      "activity": "Tortuga muerta/Dead turtle",
+      "count": 2
+    },
+    {
+      "month": "2024-10",
+      "activity": "Anidación No efectivo /Not effective nesting",
+      "count": 3
+    },
+    {
+      "month": "2024-10",
+      "activity": "Nido Saqueado/Poached nest",
+      "count": 3
+    },
+    {
+      "month": "2024-10",
+      "activity": "Nido salvaje /Wild nest",
+      "count": 2
+    },
+    {
+      "month": "2024-10",
+      "activity": "Nido/Nest",
+      "count": 36
+    },
+    {
+      "month": "2024-10",
+      "activity": "Sálida Falsa/False crawl",
+      "count": 6
+    },
+    {
+      "month": "2024-10",
+      "activity": "Tortuga muerta/Dead turtle",
+      "count": 1
+    },
+    {
+      "month": "2024-11",
+      "activity": "Anidación No efectivo /Not effective nesting",
+      "count": 1
+    },
+    {
+      "month": "2024-11",
+      "activity": "Nido Saqueado/Poached nest",
+      "count": 4
+    },
+    {
+      "month": "2024-11",
+      "activity": "Nido/Nest",
+      "count": 10
+    },
+    {
+      "month": "2024-11",
+      "activity": "Sálida Falsa/False crawl",
+      "count": 2
+    },
+    {
+      "month": "2024-12",
+      "activity": "Nido/Nest",
+      "count": 2
+    },
+    {
+      "month": "2025-01",
+      "activity": "Nido/Nest",
+      "count": 2
+    },
+    {
+      "month": "2025-04",
+      "activity": "Nido/Nest",
+      "count": 1
+    },
+    {
+      "month": "2025-05",
+      "activity": "Nido Saqueado/Poached nest",
+      "count": 1
+    },
+    {
+      "month": "2025-05",
+      "activity": "Nido salvaje /Wild nest",
+      "count": 2
+    },
+    {
+      "month": "2025-05",
+      "activity": "Nido/Nest",
+      "count": 5
+    },
+    {
+      "month": "2025-05",
+      "activity": "Sálida Falsa/False crawl",
+      "count": 1
+    },
+    {
+      "month": "2025-05",
+      "activity": "Tortuga muerta/Dead turtle",
+      "count": 1
+    },
+    {
+      "month": "2025-06",
+      "activity": "Nido/Nest",
+      "count": 9
+    },
+    {
+      "month": "2025-06",
+      "activity": "Sálida Falsa/False crawl",
+      "count": 2
+    },
+    {
+      "month": "2025-07",
+      "activity": "Anidación No efectivo /Not effective nesting",
+      "count": 2
+    },
+    {
+      "month": "2025-07",
+      "activity": "Nido Saqueado/Poached nest",
+      "count": 1
+    },
+    {
+      "month": "2025-07",
+      "activity": "Nido/Nest",
+      "count": 42
+    },
+    {
+      "month": "2025-07",
+      "activity": "Sálida Falsa/False crawl",
+      "count": 17
+    },
+    {
+      "month": "2025-07",
+      "activity": "Tortuga muerta/Dead turtle",
+      "count": 1
+    },
+    {
+      "month": "2025-08",
+      "activity": "Anidación No efectivo /Not effective nesting",
+      "count": 14
+    },
+    {
+      "month": "2025-08",
+      "activity": "Nido Saqueado/Poached nest",
+      "count": 2
+    },
+    {
+      "month": "2025-08",
+      "activity": "Nido/Nest",
+      "count": 111
+    },
+    {
+      "month": "2025-08",
+      "activity": "Sálida Falsa/False crawl",
+      "count": 34
+    },
+    {
+      "month": "2025-08",
+      "activity": "Tortuga muerta/Dead turtle",
+      "count": 1
+    },
+    {
+      "month": "2025-09",
+      "activity": "Anidación No efectivo /Not effective nesting",
+      "count": 28
+    },
+    {
+      "month": "2025-09",
+      "activity": "Nido Saqueado/Poached nest",
+      "count": 21
+    },
+    {
+      "month": "2025-09",
+      "activity": "Nido/Nest",
+      "count": 154
+    },
+    {
+      "month": "2025-09",
+      "activity": "Sálida Falsa/False crawl",
+      "count": 37
+    },
+    {
+      "month": "2025-09",
+      "activity": "Tortuga muerta/Dead turtle",
+      "count": 1
+    },
+    {
+      "month": "2025-10",
+      "activity": "Anidación No efectivo /Not effective nesting",
+      "count": 9
+    },
+    {
+      "month": "2025-10",
+      "activity": "Nido Saqueado/Poached nest",
+      "count": 5
+    },
+    {
+      "month": "2025-10",
+      "activity": "Nido salvaje /Wild nest",
+      "count": 2
+    },
+    {
+      "month": "2025-10",
+      "activity": "Nido/Nest",
+      "count": 82
+    },
+    {
+      "month": "2025-10",
+      "activity": "Sálida Falsa/False crawl",
+      "count": 23
+    },
+    {
+      "month": "2025-11",
+      "activity": "Anidación No efectivo /Not effective nesting",
+      "count": 3
+    },
+    {
+      "month": "2025-11",
+      "activity": "Nido salvaje /Wild nest",
+      "count": 3
+    },
+    {
+      "month": "2025-11",
+      "activity": "Nido/Nest",
+      "count": 34
+    },
+    {
+      "month": "2025-11",
+      "activity": "Sálida Falsa/False crawl",
+      "count": 3
+    },
+    {
+      "month": "2025-12",
+      "activity": "Anidación No efectivo /Not effective nesting",
+      "count": 3
+    },
+    {
+      "month": "2025-12",
+      "activity": "Nido Saqueado/Poached nest",
+      "count": 1
+    },
+    {
+      "month": "2025-12",
+      "activity": "Nido salvaje /Wild nest",
+      "count": 3
+    },
+    {
+      "month": "2025-12",
+      "activity": "Nido/Nest",
+      "count": 19
+    },
+    {
+      "month": "2025-12",
+      "activity": "Sálida Falsa/False crawl",
+      "count": 6
+    },
+    {
+      "month": "2026-01",
+      "activity": "Anidación No efectivo /Not effective nesting",
+      "count": 1
+    },
+    {
+      "month": "2026-01",
+      "activity": "Nido/Nest",
+      "count": 3
+    },
+    {
+      "month": "2026-05",
+      "activity": "Nido/Nest",
+      "count": 2
+    },
+    {
+      "month": "2026-06",
+      "activity": "Anidación No efectivo /Not effective nesting",
+      "count": 1
+    },
+    {
+      "month": "2026-06",
+      "activity": "Nido/Nest",
+      "count": 7
+    },
+    {
+      "month": "2026-06",
+      "activity": "Sálida Falsa/False crawl",
+      "count": 2
+    },
+    {
+      "month": "2026-07",
+      "activity": "Anidación No efectivo /Not effective nesting",
+      "count": 4
+    },
+    {
+      "month": "2026-07",
+      "activity": "Nido/Nest",
+      "count": 35
+    },
+    {
+      "month": "2026-07",
+      "activity": "Sálida Falsa/False crawl",
+      "count": 9
+    },
+    {
+      "month": "2026-08",
+      "activity": "Anidación No efectivo /Not effective nesting",
+      "count": 5
+    },
+    {
+      "month": "2026-08",
+      "activity": "Nido Saqueado/Poached nest",
+      "count": 1
+    },
+    {
+      "month": "2026-08",
+      "activity": "Nido salvaje /Wild nest",
+      "count": 1
+    },
+    {
+      "month": "2026-08",
+      "activity": "Nido/Nest",
+      "count": 56
+    },
+    {
+      "month": "2026-08",
+      "activity": "Sálida Falsa/False crawl",
+      "count": 13
+    },
+    {
+      "month": "2026-08",
+      "activity": "Tortuga muerta/Dead turtle",
+      "count": 1
+    }
+  ],
+  "nest_vs_poached_by_month": [
+    {
+      "month": "2023-05",
+      "nests": 2,
+      "poached": 0
+    },
+    {
+      "month": "2023-06",
+      "nests": 8,
+      "poached": 1
+    },
+    {
+      "month": "2023-07",
+      "nests": 23,
+      "poached": 2
+    },
+    {
+      "month": "2023-08",
+      "nests": 98,
+      "poached": 10
+    },
+    {
+      "month": "2023-09",
+      "nests": 65,
+      "poached": 5
+    },
+    {
+      "month": "2023-10",
+      "nests": 45,
+      "poached": 3
+    },
+    {
+      "month": "2023-11",
+      "nests": 29,
+      "poached": 2
+    },
+    {
+      "month": "2023-12",
+      "nests": 4,
+      "poached": 0
+    },
+    {
+      "month": "2024-01",
+      "nests": 1,
+      "poached": 0
+    },
+    {
+      "month": "2024-04",
+      "nests": 2,
+      "poached": 0
+    },
+    {
+      "month": "2024-05",
+      "nests": 1,
+      "poached": 0
+    },
+    {
+      "month": "2024-06",
+      "nests": 11,
+      "poached": 1
+    },
+    {
+      "month": "2024-07",
+      "nests": 18,
+      "poached": 0
+    },
+    {
+      "month": "2024-08",
+      "nests": 28,
+      "poached": 3
+    },
+    {
+      "month": "2024-09",
+      "nests": 30,
+      "poached": 5
+    },
+    {
+      "month": "2024-10",
+      "nests": 36,
+      "poached": 3
+    },
+    {
+      "month": "2024-11",
+      "nests": 10,
+      "poached": 4
+    },
+    {
+      "month": "2024-12",
+      "nests": 2,
+      "poached": 0
+    },
+    {
+      "month": "2025-01",
+      "nests": 2,
+      "poached": 0
+    },
+    {
+      "month": "2025-04",
+      "nests": 1,
+      "poached": 0
+    },
+    {
+      "month": "2025-05",
+      "nests": 5,
+      "poached": 1
+    },
+    {
+      "month": "2025-06",
+      "nests": 9,
+      "poached": 0
+    },
+    {
+      "month": "2025-07",
+      "nests": 42,
+      "poached": 1
+    },
+    {
+      "month": "2025-08",
+      "nests": 111,
+      "poached": 2
+    },
+    {
+      "month": "2025-09",
+      "nests": 154,
+      "poached": 21
+    },
+    {
+      "month": "2025-10",
+      "nests": 82,
+      "poached": 5
+    },
+    {
+      "month": "2025-11",
+      "nests": 34,
+      "poached": 0
+    },
+    {
+      "month": "2025-12",
+      "nests": 19,
+      "poached": 1
+    },
+    {
+      "month": "2026-01",
+      "nests": 3,
+      "poached": 0
+    },
+    {
+      "month": "2026-05",
+      "nests": 2,
+      "poached": 0
+    },
+    {
+      "month": "2026-06",
+      "nests": 7,
+      "poached": 0
+    },
+    {
+      "month": "2026-07",
+      "nests": 35,
+      "poached": 0
+    },
+    {
+      "month": "2026-08",
+      "nests": 56,
+      "poached": 1
+    }
+  ]
 }
