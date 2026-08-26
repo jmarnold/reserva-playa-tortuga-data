@@ -31,7 +31,32 @@
 
   <h2>Activity Breakdown</h2>
   <section>
-    <tortuga-activity-breakdown data-src="/data/nests.json"></tortuga-activity-breakdown>
+    <tortuga-activity-breakdown data-src="/data/summary.json"></tortuga-activity-breakdown>
+  </section>
+
+  <h2>Year-over-Year Comparison</h2>
+  <section>
+    <tortuga-year-over-year data-src="/data/summary.json"></tortuga-year-over-year>
+  </section>
+
+  <h2>Nests Documented vs. Poached</h2>
+  <section>
+    <tortuga-nest-vs-poached data-src="/data/summary.json"></tortuga-nest-vs-poached>
+  </section>
+
+  <h2>Nesting Phenology by Species</h2>
+  <section>
+    <tortuga-species-phenology data-src="/data/summary.json"></tortuga-species-phenology>
+  </section>
+
+  <h2>Average Clutch Size by Species</h2>
+  <section>
+    <tortuga-clutch-size data-src="/data/summary.json"></tortuga-clutch-size>
+  </section>
+
+  <h2>Beach Trend (Year-over-Year)</h2>
+  <section>
+    <tortuga-beach-trend data-src="/data/summary.json"></tortuga-beach-trend>
   </section>
 
   <script type="module" src="/src/main.jsx"></script>

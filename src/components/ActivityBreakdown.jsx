@@ -27,10 +27,10 @@ export function ActivityBreakdown({ src }) {
   if (error) return <p style={styles.msg}>Error: {error}</p>
   if (!data) return <p style={styles.msg}>Loading…</p>
 
-  // Aggregate activity counts from features array
+  // Aggregate activity counts from pre-built monthly summary
   const counts = {}
-  for (const f of data.features ?? []) {
-    counts[f.activity] = (counts[f.activity] ?? 0) + 1
+  for (const row of data.by_activity_month ?? []) {
+    counts[row.activity] = (counts[row.activity] ?? 0) + row.count
   }
 
   const entries = Object.entries(counts).sort((a, b) => b[1] - a[1])

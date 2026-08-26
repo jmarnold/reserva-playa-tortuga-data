@@ -1,6 +1,8 @@
 import React from 'react'
 import { useData } from '../useData'
 
+const CURRENT_YEAR = String(new Date().getFullYear())
+
 export function StatTiles({ src }) {
   const { data, error } = useData(src)
 
@@ -8,15 +10,53 @@ export function StatTiles({ src }) {
   if (!data) return <p style={styles.msg}>Loading…</p>
 
   const totalNests = data.total_nests ?? 0
-  const rows = data.by_beach ?? []
-  const totalEggs = rows.reduce((sum, r) => sum + (r.eggs ?? 0), 0)
-  const speciesSet = new Set(rows.map(r => r.species).filter(s => s !== 'Unknown'))
+  const totalEggs = data.total_eggs ?? 0
+  const beachRows = data.by_beach ?? []
+  const speciesSet = new Set(beachRows.map(r => r.species).filter(s => s !== 'Unknown'))
   const speciesCount = speciesSet.size
 
+  // Poaching rate for the most recent complete year
+  const yearRows = data.by_year ?? []
+  const completeYears = yearRows.filter(r => r.year !== CURRENT_YEAR)
+  const lastComplete = completeYears.reduce(
+    (best, r) => r.year > best.year ? r : best,
+    { year: '0', nests: 0, poached: 0 }
+  )
+  const poachDenom = lastComplete.nests + lastComplete.poached
+  const poachRate = poachDenom > 0 ? lastComplete.poached / poachDenom : 0
+  const poachPct = (poachRate * 100).toFixed(1)
+  const poachColor = poachRate > 0.10 ? '#e76f51' : poachRate > 0.05 ? '#c08a00' : '#2a9d8f'
+
+  // Nests this season: May–Nov of the latest season year with data
+  const monthData = data.nest_vs_poached_by_month ?? []
+  const seasonYear = monthData
+    .filter(r => { const mo = parseInt(r.month.split('-')[1], 10); return mo >= 5 && mo <= 11 })
+    .map(r => r.month.split('-')[0])
+    .sort()
+    .pop() ?? CURRENT_YEAR
+  const nestsThisSeason = monthData
+    .filter(r => {
+      const [y, mo] = r.month.split('-')
+      return y === seasonYear && parseInt(mo, 10) >= 5 && parseInt(mo, 10) <= 11
+    })
+    .reduce((sum, r) => sum + r.nests, 0)
+
   const tiles = [
-    { label: 'Total Nests', value: totalNests.toLocaleString(), icon: '🐢' },
-    { label: 'Total Eggs', value: totalEggs.toLocaleString(), icon: '🥚' },
-    { label: 'Species', value: speciesCount, icon: '🌊' },
+    { label: 'Total Nests', value: totalNests.toLocaleString(), icon: '🐢', color: '#2a9d8f' },
+    { label: 'Total Eggs', value: totalEggs.toLocaleString(), icon: '🥚', color: '#2a9d8f' },
+    { label: 'Species', value: speciesCount, icon: '🌊', color: '#2a9d8f' },
+    {
+      label: `Poaching rate ${lastComplete.year}`,
+      value: `${poachPct}%`,
+      icon: '⚠️',
+      color: poachColor,
+    },
+    {
+      label: `Nests this season (${seasonYear})`,
+      value: nestsThisSeason.toLocaleString(),
+      icon: '📍',
+      color: '#2a9d8f',
+    },
   ]
 
   return (
@@ -24,7 +64,7 @@ export function StatTiles({ src }) {
       {tiles.map(t => (
         <div key={t.label} style={styles.tile}>
           <div style={styles.icon}>{t.icon}</div>
-          <div style={styles.value}>{t.value}</div>
+          <div style={{ ...styles.value, color: t.color }}>{t.value}</div>
           <div style={styles.label}>{t.label}</div>
         </div>
       ))}
@@ -49,6 +89,7 @@ const styles = {
     textAlign: 'center',
   },
   icon: { fontSize: '2rem', marginBottom: '8px' },
-  value: { fontSize: '2rem', fontWeight: 700, color: '#2a9d8f' },
+  value: { fontSize: '2rem', fontWeight: 700 },
   label: { fontSize: '0.85rem', color: '#555', marginTop: '4px' },
+  msg: { fontFamily: 'sans-serif', color: '#555' },
 }
