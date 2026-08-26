@@ -1,18 +1,34 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
+function manifestPlugin() {
+  return {
+    name: 'write-manifest',
+    generateBundle(_, bundle) {
+      const fileName = Object.keys(bundle).find(
+        f => f.startsWith('tortuga-charts.') && f.endsWith('.iife.js')
+      )
+      this.emitFile({
+        type: 'asset',
+        fileName: 'manifest.json',
+        source: JSON.stringify({ script: fileName }, null, 2),
+      })
+    },
+  }
+}
+
 export default defineConfig({
-  plugins: [react()],
+  base: '/reserva-playa-tortuga-data/',
+  plugins: [react(), manifestPlugin()],
   build: {
     lib: {
       entry: 'src/main.jsx',
       name: 'TortugaCharts',
-      fileName: 'tortuga-charts',
       formats: ['iife'],
     },
     rollupOptions: {
       output: {
-        // Single self-contained file for WordPress
+        entryFileNames: 'tortuga-charts.[hash].iife.js',
         inlineDynamicImports: true,
       },
     },
