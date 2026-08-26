@@ -1,0 +1,231 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-08-26T16:19:28.793363+00:00",
+  "by_beach": [
+    {
+      "beach": "Dominical",
+      "species": "Lora /Olive ridley",
+      "nests": 59,
+      "eggs": 2362
+    },
+    {
+      "beach": "Dominical",
+      "species": "Verde/Green",
+      "nests": 3,
+      "eggs": 74
+    },
+    {
+      "beach": "Hermosa",
+      "species": "Carey/Hawksbill",
+      "nests": 7,
+      "eggs": 602
+    },
+    {
+      "beach": "Hermosa",
+      "species": "Lora /Olive ridley",
+      "nests": 608,
+      "eggs": 38642
+    },
+    {
+      "beach": "Hermosa",
+      "species": "Unknown",
+      "nests": 32,
+      "eggs": 668
+    },
+    {
+      "beach": "Hermosa",
+      "species": "Verde/Green",
+      "nests": 26,
+      "eggs": 804
+    },
+    {
+      "beach": "Tortuga",
+      "species": "Carey/Hawksbill",
+      "nests": 1,
+      "eggs": 0
+    },
+    {
+      "beach": "Tortuga",
+      "species": "Lora /Olive ridley",
+      "nests": 646,
+      "eggs": 44616
+    },
+    {
+      "beach": "Tortuga",
+      "species": "Verde/Green",
+      "nests": 3,
+      "eggs": 0
+    },
+    {
+      "beach": "Unknown",
+      "species": "Lora /Olive ridley",
+      "nests": 1,
+      "eggs": 0
+    },
+    {
+      "beach": "{\"other\":\"Ballena\"}",
+      "species": "Lora /Olive ridley",
+      "nests": 2,
+      "eggs": 95
+    },
+    {
+      "beach": "{\"other\":\"Ballena, sector Elan\"}",
+      "species": "Lora /Olive ridley",
+      "nests": 1,
+      "eggs": 95
+    },
+    {
+      "beach": "{\"other\":\"Chaman\"}",
+      "species": "Lora /Olive ridley",
+      "nests": 1,
+      "eggs": 115
+    },
+    {
+      "beach": "{\"other\":\"Parque Nacional Marino Ballena-Sector Colonia\"}",
+      "species": "Lora /Olive ridley",
+      "nests": 1,
+      "eggs": 0
+    },
+    {
+      "beach": "{\"other\":\"Pinuela\"}",
+      "species": "Lora /Olive ridley",
+      "nests": 1,
+      "eggs": 75
+    }
+  ],
+  "by_month": [
+    {
+      "month": "2023-05",
+      "nests": 2
+    },
+    {
+      "month": "2023-06",
+      "nests": 10
+    },
+    {
+      "month": "2023-07",
+      "nests": 27
+    },
+    {
+      "month": "2023-08",
+      "nests": 137
+    },
+    {
+      "month": "2023-09",
+      "nests": 91
+    },
+    {
+      "month": "2023-10",
+      "nests": 66
+    },
+    {
+      "month": "2023-11",
+      "nests": 35
+    },
+    {
+      "month": "2023-12",
+      "nests": 6
+    },
+    {
+      "month": "2024-01",
+      "nests": 1
+    },
+    {
+      "month": "2024-04",
+      "nests": 2
+    },
+    {
+      "month": "2024-05",
+      "nests": 2
+    },
+    {
+      "month": "2024-06",
+      "nests": 12
+    },
+    {
+      "month": "2024-07",
+      "nests": 22
+    },
+    {
+      "month": "2024-08",
+      "nests": 36
+    },
+    {
+      "month": "2024-09",
+      "nests": 46
+    },
+    {
+      "month": "2024-10",
+      "nests": 51
+    },
+    {
+      "month": "2024-11",
+      "nests": 17
+    },
+    {
+      "month": "2024-12",
+      "nests": 2
+    },
+    {
+      "month": "2025-01",
+      "nests": 2
+    },
+    {
+      "month": "2025-04",
+      "nests": 1
+    },
+    {
+      "month": "2025-05",
+      "nests": 10
+    },
+    {
+      "month": "2025-06",
+      "nests": 11
+    },
+    {
+      "month": "2025-07",
+      "nests": 63
+    },
+    {
+      "month": "2025-08",
+      "nests": 162
+    },
+    {
+      "month": "2025-09",
+      "nests": 241
+    },
+    {
+      "month": "2025-10",
+      "nests": 121
+    },
+    {
+      "month": "2025-11",
+      "nests": 43
+    },
+    {
+      "month": "2025-12",
+      "nests": 32
+    },
+    {
+      "month": "2026-01",
+      "nests": 4
+    },
+    {
+      "month": "2026-05",
+      "nests": 2
+    },
+    {
+      "month": "2026-06",
+      "nests": 10
+    },
+    {
+      "month": "2026-07",
+      "nests": 48
+    },
+    {
+      "month": "2026-08",
+      "nests": 77
+    }
+  ],
+  "total_nests": 1392
+}
