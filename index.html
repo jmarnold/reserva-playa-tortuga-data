@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tortuga Charts — Dev Preview</title>
+  <style>
+    body { font-family: sans-serif; max-width: 900px; margin: 40px auto; padding: 0 16px; }
+    h1 { color: #2a9d8f; }
+    h2 { color: #264653; margin-top: 40px; font-size: 1rem; text-transform: uppercase; letter-spacing: .05em; }
+    section { margin-bottom: 40px; }
+  </style>
+</head>
+<body>
+  <h1>Reserva Playa Tortuga — Chart Components</h1>
+
+  <h2>Stat Tiles</h2>
+  <section>
+    <tortuga-stat-tiles data-src="/data/summary.json"></tortuga-stat-tiles>
+  </section>
+
+  <h2>Nests by Month</h2>
+  <section>
+    <tortuga-nests-by-month data-src="/data/summary.json"></tortuga-nests-by-month>
+  </section>
+
+  <h2>Nests by Beach &amp; Species</h2>
+  <section>
+    <tortuga-nests-by-beach data-src="/data/summary.json"></tortuga-nests-by-beach>
+  </section>
+
+  <h2>Activity Breakdown</h2>
+  <section>
+    <tortuga-activity-breakdown data-src="/data/nests.json"></tortuga-activity-breakdown>
+  </section>
+
+  <script type="module" src="/src/main.jsx"></script>
+</body>
+</html>
