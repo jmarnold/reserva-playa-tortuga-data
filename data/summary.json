@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-27T22:33:00.084076+00:00",
-  "total_nests": 1392,
-  "total_eggs": 88148,
+  "generated_at": "2026-08-28T12:09:25.894120+00:00",
+  "total_nests": 1394,
+  "total_eggs": 88234,
   "by_beach": [
     {
       "beach": "Ballena",
@@ -79,8 +79,8 @@
     {
       "beach": "Tortuga",
       "species": "Lora /Olive ridley",
-      "nests": 646,
-      "eggs": 44616
+      "nests": 648,
+      "eggs": 44702
     },
     {
       "beach": "Tortuga",
@@ -226,7 +226,7 @@
     },
     {
       "month": "2026-08",
-      "nests": 77
+      "nests": 79
     }
   ],
   "by_year": [
@@ -259,9 +259,9 @@
     },
     {
       "year": "2026",
-      "total": 141,
-      "nests": 103,
-      "eggs": 9198,
+      "total": 143,
+      "nests": 105,
+      "eggs": 9284,
       "false_crawls": 24,
       "poached": 1,
       "wild": 1
@@ -270,9 +270,9 @@
   "by_species": [
     {
       "species": "Lora /Olive ridley",
-      "nests": 950,
-      "eggs": 85991,
-      "avg_eggs_per_clutch": 91.4
+      "nests": 952,
+      "eggs": 86077,
+      "avg_eggs_per_clutch": 91.3
     },
     {
       "species": "Verde/Green",
@@ -532,7 +532,7 @@
     {
       "month": "2026-08",
       "species": "Lora /Olive ridley",
-      "nests": 54
+      "nests": 56
     },
     {
       "month": "2026-08",
@@ -646,8 +646,8 @@
     {
       "year": "2026",
       "beach": "Tortuga",
-      "nests": 60,
-      "eggs": 5345
+      "nests": 62,
+      "eggs": 5431
     }
   ],
   "by_activity_month": [
@@ -1209,7 +1209,7 @@
     {
       "month": "2026-08",
       "activity": "Nido/Nest",
-      "count": 56
+      "count": 58
     },
     {
       "month": "2026-08",
@@ -1385,7 +1385,7 @@
     },
     {
       "month": "2026-08",
-      "nests": 56,
+      "nests": 58,
       "poached": 1
     }
   ]
