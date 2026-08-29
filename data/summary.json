@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-29T21:09:46.122341+00:00",
-  "total_nests": 1395,
-  "total_eggs": 88332,
+  "generated_at": "2026-08-29T22:10:07.340124+00:00",
+  "total_nests": 6519,
+  "total_eggs": 237584,
   "by_beach": [
     {
       "beach": "Ballena",
@@ -37,26 +37,26 @@
     {
       "beach": "Hermosa",
       "species": "Carey/Hawksbill",
-      "nests": 7,
-      "eggs": 602
+      "nests": 24,
+      "eggs": 1296
     },
     {
       "beach": "Hermosa",
       "species": "Lora /Olive ridley",
-      "nests": 609,
-      "eggs": 38740
+      "nests": 1940,
+      "eggs": 80457
     },
     {
       "beach": "Hermosa",
       "species": "Unknown",
-      "nests": 32,
-      "eggs": 668
+      "nests": 38,
+      "eggs": 955
     },
     {
       "beach": "Hermosa",
       "species": "Verde/Green",
-      "nests": 26,
-      "eggs": 804
+      "nests": 63,
+      "eggs": 1524
     },
     {
       "beach": "Parque Nacional Marino Ballena-Sector Colonia",
@@ -72,6 +72,12 @@
     },
     {
       "beach": "Tortuga",
+      "species": "Baula/Leatherback",
+      "nests": 2,
+      "eggs": 93
+    },
+    {
+      "beach": "Tortuga",
       "species": "Carey/Hawksbill",
       "nests": 1,
       "eggs": 0
@@ -79,54 +85,464 @@
     {
       "beach": "Tortuga",
       "species": "Lora /Olive ridley",
-      "nests": 648,
-      "eggs": 44702
+      "nests": 3742,
+      "eggs": 149704
+    },
+    {
+      "beach": "Tortuga",
+      "species": "Unknown",
+      "nests": 26,
+      "eggs": 124
     },
     {
       "beach": "Tortuga",
       "species": "Verde/Green",
-      "nests": 3,
+      "nests": 34,
+      "eggs": 615
+    },
+    {
+      "beach": "Unknown",
+      "species": "Baula/Leatherback",
+      "nests": 1,
       "eggs": 0
     },
     {
       "beach": "Unknown",
       "species": "Lora /Olive ridley",
-      "nests": 1,
+      "nests": 575,
+      "eggs": 0
+    },
+    {
+      "beach": "Unknown",
+      "species": "Verde/Green",
+      "nests": 5,
       "eggs": 0
     }
   ],
   "by_month": [
+    {
+      "month": "2009-09",
+      "nests": 35
+    },
+    {
+      "month": "2009-10",
+      "nests": 26
+    },
+    {
+      "month": "2009-11",
+      "nests": 14
+    },
+    {
+      "month": "2009-12",
+      "nests": 2
+    },
+    {
+      "month": "2010-07",
+      "nests": 1
+    },
+    {
+      "month": "2010-08",
+      "nests": 20
+    },
+    {
+      "month": "2010-09",
+      "nests": 21
+    },
+    {
+      "month": "2010-10",
+      "nests": 19
+    },
+    {
+      "month": "2010-11",
+      "nests": 3
+    },
+    {
+      "month": "2011-07",
+      "nests": 5
+    },
+    {
+      "month": "2011-08",
+      "nests": 41
+    },
+    {
+      "month": "2011-09",
+      "nests": 30
+    },
+    {
+      "month": "2011-10",
+      "nests": 29
+    },
+    {
+      "month": "2011-11",
+      "nests": 23
+    },
+    {
+      "month": "2011-12",
+      "nests": 11
+    },
+    {
+      "month": "2012-07",
+      "nests": 4
+    },
+    {
+      "month": "2012-08",
+      "nests": 25
+    },
+    {
+      "month": "2012-09",
+      "nests": 27
+    },
+    {
+      "month": "2012-10",
+      "nests": 16
+    },
+    {
+      "month": "2012-11",
+      "nests": 15
+    },
+    {
+      "month": "2012-12",
+      "nests": 4
+    },
+    {
+      "month": "2013-07",
+      "nests": 5
+    },
+    {
+      "month": "2013-08",
+      "nests": 16
+    },
+    {
+      "month": "2013-09",
+      "nests": 25
+    },
+    {
+      "month": "2013-10",
+      "nests": 20
+    },
+    {
+      "month": "2013-11",
+      "nests": 23
+    },
+    {
+      "month": "2013-12",
+      "nests": 6
+    },
+    {
+      "month": "2014-06",
+      "nests": 4
+    },
+    {
+      "month": "2014-07",
+      "nests": 3
+    },
+    {
+      "month": "2014-08",
+      "nests": 42
+    },
+    {
+      "month": "2014-09",
+      "nests": 35
+    },
+    {
+      "month": "2014-10",
+      "nests": 33
+    },
+    {
+      "month": "2014-11",
+      "nests": 10
+    },
+    {
+      "month": "2014-12",
+      "nests": 8
+    },
+    {
+      "month": "2015-01",
+      "nests": 1
+    },
+    {
+      "month": "2015-06",
+      "nests": 2
+    },
+    {
+      "month": "2015-07",
+      "nests": 7
+    },
+    {
+      "month": "2015-08",
+      "nests": 9
+    },
+    {
+      "month": "2015-09",
+      "nests": 17
+    },
+    {
+      "month": "2015-10",
+      "nests": 37
+    },
+    {
+      "month": "2015-11",
+      "nests": 16
+    },
+    {
+      "month": "2015-12",
+      "nests": 4
+    },
+    {
+      "month": "2016-01",
+      "nests": 1
+    },
+    {
+      "month": "2016-07",
+      "nests": 3
+    },
+    {
+      "month": "2016-08",
+      "nests": 6
+    },
+    {
+      "month": "2016-09",
+      "nests": 7
+    },
+    {
+      "month": "2016-10",
+      "nests": 5
+    },
+    {
+      "month": "2016-11",
+      "nests": 5
+    },
+    {
+      "month": "2017-01",
+      "nests": 1
+    },
+    {
+      "month": "2017-06",
+      "nests": 3
+    },
+    {
+      "month": "2017-07",
+      "nests": 12
+    },
+    {
+      "month": "2017-08",
+      "nests": 41
+    },
+    {
+      "month": "2017-09",
+      "nests": 45
+    },
+    {
+      "month": "2017-10",
+      "nests": 41
+    },
+    {
+      "month": "2017-11",
+      "nests": 16
+    },
+    {
+      "month": "2017-12",
+      "nests": 6
+    },
+    {
+      "month": "2018-06",
+      "nests": 2
+    },
+    {
+      "month": "2018-07",
+      "nests": 4
+    },
+    {
+      "month": "2018-08",
+      "nests": 17
+    },
+    {
+      "month": "2018-09",
+      "nests": 13
+    },
+    {
+      "month": "2018-10",
+      "nests": 26
+    },
+    {
+      "month": "2018-11",
+      "nests": 23
+    },
+    {
+      "month": "2018-12",
+      "nests": 7
+    },
+    {
+      "month": "2019-05",
+      "nests": 1
+    },
+    {
+      "month": "2019-06",
+      "nests": 4
+    },
+    {
+      "month": "2019-07",
+      "nests": 16
+    },
+    {
+      "month": "2019-08",
+      "nests": 28
+    },
+    {
+      "month": "2019-09",
+      "nests": 30
+    },
+    {
+      "month": "2019-10",
+      "nests": 30
+    },
+    {
+      "month": "2019-11",
+      "nests": 14
+    },
+    {
+      "month": "2019-12",
+      "nests": 2
+    },
+    {
+      "month": "2020-07",
+      "nests": 9
+    },
+    {
+      "month": "2020-08",
+      "nests": 26
+    },
+    {
+      "month": "2020-09",
+      "nests": 47
+    },
+    {
+      "month": "2020-10",
+      "nests": 47
+    },
+    {
+      "month": "2020-11",
+      "nests": 22
+    },
+    {
+      "month": "2020-12",
+      "nests": 15
+    },
+    {
+      "month": "2021-01",
+      "nests": 2
+    },
+    {
+      "month": "2021-03",
+      "nests": 1
+    },
+    {
+      "month": "2021-04",
+      "nests": 1
+    },
+    {
+      "month": "2021-05",
+      "nests": 4
+    },
+    {
+      "month": "2021-06",
+      "nests": 12
+    },
+    {
+      "month": "2021-07",
+      "nests": 29
+    },
+    {
+      "month": "2021-08",
+      "nests": 118
+    },
+    {
+      "month": "2021-09",
+      "nests": 112
+    },
+    {
+      "month": "2021-10",
+      "nests": 76
+    },
+    {
+      "month": "2021-11",
+      "nests": 31
+    },
+    {
+      "month": "2021-12",
+      "nests": 5
+    },
+    {
+      "month": "2022-01",
+      "nests": 2
+    },
+    {
+      "month": "2022-05",
+      "nests": 3
+    },
+    {
+      "month": "2022-06",
+      "nests": 13
+    },
+    {
+      "month": "2022-07",
+      "nests": 31
+    },
+    {
+      "month": "2022-08",
+      "nests": 102
+    },
+    {
+      "month": "2022-09",
+      "nests": 130
+    },
+    {
+      "month": "2022-10",
+      "nests": 80
+    },
+    {
+      "month": "2022-11",
+      "nests": 36
+    },
+    {
+      "month": "2022-12",
+      "nests": 10
+    },
+    {
+      "month": "2023-01",
+      "nests": 3
+    },
     {
       "month": "2023-05",
       "nests": 2
     },
     {
       "month": "2023-06",
-      "nests": 10
+      "nests": 11
     },
     {
       "month": "2023-07",
-      "nests": 27
+      "nests": 31
     },
     {
       "month": "2023-08",
-      "nests": 137
+      "nests": 181
     },
     {
       "month": "2023-09",
-      "nests": 91
+      "nests": 116
     },
     {
       "month": "2023-10",
-      "nests": 66
+      "nests": 89
     },
     {
       "month": "2023-11",
-      "nests": 35
+      "nests": 51
     },
     {
       "month": "2023-12",
-      "nests": 6
+      "nests": 5
     },
     {
       "month": "2024-01",
@@ -134,7 +550,7 @@
     },
     {
       "month": "2024-04",
-      "nests": 2
+      "nests": 4
     },
     {
       "month": "2024-05",
@@ -142,27 +558,27 @@
     },
     {
       "month": "2024-06",
-      "nests": 12
+      "nests": 13
     },
     {
       "month": "2024-07",
-      "nests": 22
+      "nests": 26
     },
     {
       "month": "2024-08",
-      "nests": 36
+      "nests": 40
     },
     {
       "month": "2024-09",
-      "nests": 46
+      "nests": 71
     },
     {
       "month": "2024-10",
-      "nests": 51
+      "nests": 49
     },
     {
       "month": "2024-11",
-      "nests": 17
+      "nests": 20
     },
     {
       "month": "2024-12",
@@ -170,7 +586,11 @@
     },
     {
       "month": "2025-01",
-      "nests": 2
+      "nests": 1
+    },
+    {
+      "month": "2025-03",
+      "nests": 1
     },
     {
       "month": "2025-04",
@@ -178,122 +598,839 @@
     },
     {
       "month": "2025-05",
-      "nests": 10
+      "nests": 14
     },
     {
       "month": "2025-06",
-      "nests": 11
+      "nests": 14
     },
     {
       "month": "2025-07",
-      "nests": 63
+      "nests": 75
     },
     {
       "month": "2025-08",
-      "nests": 162
+      "nests": 181
     },
     {
       "month": "2025-09",
-      "nests": 241
+      "nests": 258
     },
     {
       "month": "2025-10",
-      "nests": 121
+      "nests": 138
     },
     {
       "month": "2025-11",
-      "nests": 43
+      "nests": 61
     },
     {
       "month": "2025-12",
-      "nests": 32
+      "nests": 35
     },
     {
       "month": "2026-01",
-      "nests": 4
+      "nests": 5
     },
     {
       "month": "2026-05",
-      "nests": 2
+      "nests": 3
     },
     {
       "month": "2026-06",
-      "nests": 10
+      "nests": 14
     },
     {
       "month": "2026-07",
-      "nests": 48
+      "nests": 57
     },
     {
       "month": "2026-08",
-      "nests": 80
+      "nests": 101
     }
   ],
   "by_year": [
     {
+      "year": "2009",
+      "total": 77,
+      "nests": 62,
+      "eggs": 4760,
+      "false_crawls": 15,
+      "poached": 0,
+      "wild": 0
+    },
+    {
+      "year": "2010",
+      "total": 64,
+      "nests": 56,
+      "eggs": 4804,
+      "false_crawls": 6,
+      "poached": 0,
+      "wild": 0
+    },
+    {
+      "year": "2011",
+      "total": 139,
+      "nests": 99,
+      "eggs": 8479,
+      "false_crawls": 39,
+      "poached": 0,
+      "wild": 0
+    },
+    {
+      "year": "2012",
+      "total": 91,
+      "nests": 76,
+      "eggs": 5397,
+      "false_crawls": 15,
+      "poached": 0,
+      "wild": 0
+    },
+    {
+      "year": "2013",
+      "total": 95,
+      "nests": 66,
+      "eggs": 6364,
+      "false_crawls": 29,
+      "poached": 0,
+      "wild": 0
+    },
+    {
+      "year": "2014",
+      "total": 135,
+      "nests": 105,
+      "eggs": 9295,
+      "false_crawls": 30,
+      "poached": 0,
+      "wild": 0
+    },
+    {
+      "year": "2015",
+      "total": 93,
+      "nests": 73,
+      "eggs": 6626,
+      "false_crawls": 20,
+      "poached": 0,
+      "wild": 0
+    },
+    {
+      "year": "2016",
+      "total": 27,
+      "nests": 18,
+      "eggs": 1521,
+      "false_crawls": 9,
+      "poached": 0,
+      "wild": 0
+    },
+    {
+      "year": "2017",
+      "total": 165,
+      "nests": 66,
+      "eggs": 5899,
+      "false_crawls": 95,
+      "poached": 0,
+      "wild": 0
+    },
+    {
+      "year": "2018",
+      "total": 92,
+      "nests": 55,
+      "eggs": 4770,
+      "false_crawls": 37,
+      "poached": 0,
+      "wild": 0
+    },
+    {
+      "year": "2019",
+      "total": 125,
+      "nests": 90,
+      "eggs": 7698,
+      "false_crawls": 31,
+      "poached": 2,
+      "wild": 0
+    },
+    {
+      "year": "2020",
+      "total": 166,
+      "nests": 135,
+      "eggs": 12118,
+      "false_crawls": 30,
+      "poached": 1,
+      "wild": 0
+    },
+    {
+      "year": "2021",
+      "total": 391,
+      "nests": 305,
+      "eggs": 25315,
+      "false_crawls": 62,
+      "poached": 6,
+      "wild": 0
+    },
+    {
+      "year": "2022",
+      "total": 407,
+      "nests": 285,
+      "eggs": 26759,
+      "false_crawls": 70,
+      "poached": 41,
+      "wild": 0
+    },
+    {
       "year": "2023",
-      "total": 374,
-      "nests": 274,
-      "eggs": 24972,
-      "false_crawls": 43,
-      "poached": 23,
+      "total": 489,
+      "nests": 374,
+      "eggs": 34020,
+      "false_crawls": 51,
+      "poached": 26,
       "wild": 2
     },
     {
       "year": "2024",
-      "total": 191,
-      "nests": 139,
-      "eggs": 13107,
-      "false_crawls": 22,
-      "poached": 16,
+      "total": 228,
+      "nests": 169,
+      "eggs": 15450,
+      "false_crawls": 26,
+      "poached": 18,
       "wild": 4
     },
     {
       "year": "2025",
-      "total": 686,
-      "nests": 459,
-      "eggs": 40871,
-      "false_crawls": 123,
-      "poached": 31,
+      "total": 779,
+      "nests": 534,
+      "eggs": 46622,
+      "false_crawls": 132,
+      "poached": 34,
       "wild": 10
     },
     {
       "year": "2026",
-      "total": 144,
-      "nests": 106,
-      "eggs": 9382,
-      "false_crawls": 24,
-      "poached": 1,
+      "total": 180,
+      "nests": 133,
+      "eggs": 11687,
+      "false_crawls": 27,
+      "poached": 4,
       "wild": 1
     }
   ],
   "by_species": [
     {
       "species": "Lora /Olive ridley",
-      "nests": 953,
-      "eggs": 86175,
-      "avg_eggs_per_clutch": 91.3
+      "nests": 2645,
+      "eggs": 232427,
+      "avg_eggs_per_clutch": 91.9
     },
     {
       "species": "Verde/Green",
-      "nests": 12,
-      "eggs": 878,
-      "avg_eggs_per_clutch": 73.2
+      "nests": 32,
+      "eggs": 2213,
+      "avg_eggs_per_clutch": 71.4
     },
     {
       "species": "Unknown",
-      "nests": 8,
-      "eggs": 668,
-      "avg_eggs_per_clutch": 83.5
+      "nests": 12,
+      "eggs": 1079,
+      "avg_eggs_per_clutch": 89.9
     },
     {
       "species": "Carey/Hawksbill",
-      "nests": 5,
-      "eggs": 602,
-      "avg_eggs_per_clutch": 120.4
+      "nests": 11,
+      "eggs": 1296,
+      "avg_eggs_per_clutch": 117.8
+    },
+    {
+      "species": "Baula/Leatherback",
+      "nests": 1,
+      "eggs": 93,
+      "avg_eggs_per_clutch": 93.0
     }
   ],
   "by_species_month": [
+    {
+      "month": "2009-09",
+      "species": "Lora /Olive ridley",
+      "nests": 29
+    },
+    {
+      "month": "2009-10",
+      "species": "Lora /Olive ridley",
+      "nests": 20
+    },
+    {
+      "month": "2009-11",
+      "species": "Lora /Olive ridley",
+      "nests": 12
+    },
+    {
+      "month": "2009-12",
+      "species": "Lora /Olive ridley",
+      "nests": 1
+    },
+    {
+      "month": "2010-07",
+      "species": "Lora /Olive ridley",
+      "nests": 1
+    },
+    {
+      "month": "2010-08",
+      "species": "Lora /Olive ridley",
+      "nests": 18
+    },
+    {
+      "month": "2010-09",
+      "species": "Lora /Olive ridley",
+      "nests": 19
+    },
+    {
+      "month": "2010-10",
+      "species": "Lora /Olive ridley",
+      "nests": 16
+    },
+    {
+      "month": "2010-11",
+      "species": "Lora /Olive ridley",
+      "nests": 2
+    },
+    {
+      "month": "2011-07",
+      "species": "Lora /Olive ridley",
+      "nests": 5
+    },
+    {
+      "month": "2011-08",
+      "species": "Lora /Olive ridley",
+      "nests": 27
+    },
+    {
+      "month": "2011-09",
+      "species": "Lora /Olive ridley",
+      "nests": 23
+    },
+    {
+      "month": "2011-10",
+      "species": "Lora /Olive ridley",
+      "nests": 18
+    },
+    {
+      "month": "2011-10",
+      "species": "Verde/Green",
+      "nests": 2
+    },
+    {
+      "month": "2011-11",
+      "species": "Lora /Olive ridley",
+      "nests": 17
+    },
+    {
+      "month": "2011-11",
+      "species": "Verde/Green",
+      "nests": 1
+    },
+    {
+      "month": "2011-12",
+      "species": "Lora /Olive ridley",
+      "nests": 6
+    },
+    {
+      "month": "2012-07",
+      "species": "Lora /Olive ridley",
+      "nests": 3
+    },
+    {
+      "month": "2012-08",
+      "species": "Lora /Olive ridley",
+      "nests": 20
+    },
+    {
+      "month": "2012-09",
+      "species": "Lora /Olive ridley",
+      "nests": 23
+    },
+    {
+      "month": "2012-10",
+      "species": "Lora /Olive ridley",
+      "nests": 13
+    },
+    {
+      "month": "2012-11",
+      "species": "Lora /Olive ridley",
+      "nests": 13
+    },
+    {
+      "month": "2012-12",
+      "species": "Lora /Olive ridley",
+      "nests": 4
+    },
+    {
+      "month": "2013-07",
+      "species": "Baula/Leatherback",
+      "nests": 1
+    },
+    {
+      "month": "2013-07",
+      "species": "Lora /Olive ridley",
+      "nests": 2
+    },
+    {
+      "month": "2013-08",
+      "species": "Lora /Olive ridley",
+      "nests": 10
+    },
+    {
+      "month": "2013-09",
+      "species": "Lora /Olive ridley",
+      "nests": 18
+    },
+    {
+      "month": "2013-10",
+      "species": "Lora /Olive ridley",
+      "nests": 16
+    },
+    {
+      "month": "2013-11",
+      "species": "Lora /Olive ridley",
+      "nests": 14
+    },
+    {
+      "month": "2013-12",
+      "species": "Lora /Olive ridley",
+      "nests": 5
+    },
+    {
+      "month": "2014-06",
+      "species": "Lora /Olive ridley",
+      "nests": 2
+    },
+    {
+      "month": "2014-07",
+      "species": "Lora /Olive ridley",
+      "nests": 3
+    },
+    {
+      "month": "2014-08",
+      "species": "Lora /Olive ridley",
+      "nests": 31
+    },
+    {
+      "month": "2014-09",
+      "species": "Lora /Olive ridley",
+      "nests": 30
+    },
+    {
+      "month": "2014-10",
+      "species": "Lora /Olive ridley",
+      "nests": 25
+    },
+    {
+      "month": "2014-10",
+      "species": "Verde/Green",
+      "nests": 2
+    },
+    {
+      "month": "2014-11",
+      "species": "Lora /Olive ridley",
+      "nests": 4
+    },
+    {
+      "month": "2014-11",
+      "species": "Verde/Green",
+      "nests": 2
+    },
+    {
+      "month": "2014-12",
+      "species": "Lora /Olive ridley",
+      "nests": 4
+    },
+    {
+      "month": "2014-12",
+      "species": "Verde/Green",
+      "nests": 2
+    },
+    {
+      "month": "2015-01",
+      "species": "Lora /Olive ridley",
+      "nests": 1
+    },
+    {
+      "month": "2015-06",
+      "species": "Lora /Olive ridley",
+      "nests": 1
+    },
+    {
+      "month": "2015-07",
+      "species": "Lora /Olive ridley",
+      "nests": 5
+    },
+    {
+      "month": "2015-08",
+      "species": "Lora /Olive ridley",
+      "nests": 8
+    },
+    {
+      "month": "2015-09",
+      "species": "Lora /Olive ridley",
+      "nests": 13
+    },
+    {
+      "month": "2015-10",
+      "species": "Lora /Olive ridley",
+      "nests": 29
+    },
+    {
+      "month": "2015-11",
+      "species": "Lora /Olive ridley",
+      "nests": 12
+    },
+    {
+      "month": "2015-12",
+      "species": "Lora /Olive ridley",
+      "nests": 4
+    },
+    {
+      "month": "2016-01",
+      "species": "Lora /Olive ridley",
+      "nests": 1
+    },
+    {
+      "month": "2016-07",
+      "species": "Lora /Olive ridley",
+      "nests": 3
+    },
+    {
+      "month": "2016-08",
+      "species": "Lora /Olive ridley",
+      "nests": 3
+    },
+    {
+      "month": "2016-09",
+      "species": "Lora /Olive ridley",
+      "nests": 5
+    },
+    {
+      "month": "2016-10",
+      "species": "Lora /Olive ridley",
+      "nests": 3
+    },
+    {
+      "month": "2016-11",
+      "species": "Lora /Olive ridley",
+      "nests": 3
+    },
+    {
+      "month": "2017-01",
+      "species": "Verde/Green",
+      "nests": 1
+    },
+    {
+      "month": "2017-06",
+      "species": "Lora /Olive ridley",
+      "nests": 1
+    },
+    {
+      "month": "2017-07",
+      "species": "Lora /Olive ridley",
+      "nests": 9
+    },
+    {
+      "month": "2017-08",
+      "species": "Lora /Olive ridley",
+      "nests": 11
+    },
+    {
+      "month": "2017-09",
+      "species": "Lora /Olive ridley",
+      "nests": 15
+    },
+    {
+      "month": "2017-10",
+      "species": "Lora /Olive ridley",
+      "nests": 16
+    },
+    {
+      "month": "2017-11",
+      "species": "Lora /Olive ridley",
+      "nests": 9
+    },
+    {
+      "month": "2017-12",
+      "species": "Lora /Olive ridley",
+      "nests": 4
+    },
+    {
+      "month": "2018-06",
+      "species": "Lora /Olive ridley",
+      "nests": 2
+    },
+    {
+      "month": "2018-07",
+      "species": "Lora /Olive ridley",
+      "nests": 3
+    },
+    {
+      "month": "2018-08",
+      "species": "Lora /Olive ridley",
+      "nests": 8
+    },
+    {
+      "month": "2018-09",
+      "species": "Lora /Olive ridley",
+      "nests": 11
+    },
+    {
+      "month": "2018-10",
+      "species": "Lora /Olive ridley",
+      "nests": 14
+    },
+    {
+      "month": "2018-11",
+      "species": "Lora /Olive ridley",
+      "nests": 12
+    },
+    {
+      "month": "2018-12",
+      "species": "Lora /Olive ridley",
+      "nests": 5
+    },
+    {
+      "month": "2019-05",
+      "species": "Lora /Olive ridley",
+      "nests": 1
+    },
+    {
+      "month": "2019-06",
+      "species": "Lora /Olive ridley",
+      "nests": 1
+    },
+    {
+      "month": "2019-06",
+      "species": "Unknown",
+      "nests": 1
+    },
+    {
+      "month": "2019-07",
+      "species": "Lora /Olive ridley",
+      "nests": 10
+    },
+    {
+      "month": "2019-08",
+      "species": "Lora /Olive ridley",
+      "nests": 23
+    },
+    {
+      "month": "2019-09",
+      "species": "Lora /Olive ridley",
+      "nests": 19
+    },
+    {
+      "month": "2019-10",
+      "species": "Lora /Olive ridley",
+      "nests": 21
+    },
+    {
+      "month": "2019-11",
+      "species": "Lora /Olive ridley",
+      "nests": 13
+    },
+    {
+      "month": "2019-12",
+      "species": "Lora /Olive ridley",
+      "nests": 1
+    },
+    {
+      "month": "2020-07",
+      "species": "Lora /Olive ridley",
+      "nests": 8
+    },
+    {
+      "month": "2020-08",
+      "species": "Lora /Olive ridley",
+      "nests": 22
+    },
+    {
+      "month": "2020-09",
+      "species": "Lora /Olive ridley",
+      "nests": 43
+    },
+    {
+      "month": "2020-10",
+      "species": "Lora /Olive ridley",
+      "nests": 35
+    },
+    {
+      "month": "2020-10",
+      "species": "Unknown",
+      "nests": 1
+    },
+    {
+      "month": "2020-11",
+      "species": "Lora /Olive ridley",
+      "nests": 16
+    },
+    {
+      "month": "2020-12",
+      "species": "Lora /Olive ridley",
+      "nests": 7
+    },
+    {
+      "month": "2020-12",
+      "species": "Verde/Green",
+      "nests": 3
+    },
+    {
+      "month": "2021-01",
+      "species": "Lora /Olive ridley",
+      "nests": 2
+    },
+    {
+      "month": "2021-03",
+      "species": "Lora /Olive ridley",
+      "nests": 1
+    },
+    {
+      "month": "2021-04",
+      "species": "Lora /Olive ridley",
+      "nests": 1
+    },
+    {
+      "month": "2021-05",
+      "species": "Lora /Olive ridley",
+      "nests": 4
+    },
+    {
+      "month": "2021-06",
+      "species": "Lora /Olive ridley",
+      "nests": 12
+    },
+    {
+      "month": "2021-07",
+      "species": "Lora /Olive ridley",
+      "nests": 23
+    },
+    {
+      "month": "2021-08",
+      "species": "Carey/Hawksbill",
+      "nests": 2
+    },
+    {
+      "month": "2021-08",
+      "species": "Lora /Olive ridley",
+      "nests": 88
+    },
+    {
+      "month": "2021-08",
+      "species": "Unknown",
+      "nests": 1
+    },
+    {
+      "month": "2021-09",
+      "species": "Lora /Olive ridley",
+      "nests": 83
+    },
+    {
+      "month": "2021-09",
+      "species": "Verde/Green",
+      "nests": 2
+    },
+    {
+      "month": "2021-10",
+      "species": "Carey/Hawksbill",
+      "nests": 2
+    },
+    {
+      "month": "2021-10",
+      "species": "Lora /Olive ridley",
+      "nests": 53
+    },
+    {
+      "month": "2021-10",
+      "species": "Verde/Green",
+      "nests": 1
+    },
+    {
+      "month": "2021-11",
+      "species": "Lora /Olive ridley",
+      "nests": 23
+    },
+    {
+      "month": "2021-11",
+      "species": "Unknown",
+      "nests": 1
+    },
+    {
+      "month": "2021-11",
+      "species": "Verde/Green",
+      "nests": 1
+    },
+    {
+      "month": "2021-12",
+      "species": "Lora /Olive ridley",
+      "nests": 5
+    },
+    {
+      "month": "2022-01",
+      "species": "Lora /Olive ridley",
+      "nests": 1
+    },
+    {
+      "month": "2022-05",
+      "species": "Lora /Olive ridley",
+      "nests": 2
+    },
+    {
+      "month": "2022-06",
+      "species": "Carey/Hawksbill",
+      "nests": 1
+    },
+    {
+      "month": "2022-06",
+      "species": "Lora /Olive ridley",
+      "nests": 9
+    },
+    {
+      "month": "2022-07",
+      "species": "Carey/Hawksbill",
+      "nests": 1
+    },
+    {
+      "month": "2022-07",
+      "species": "Lora /Olive ridley",
+      "nests": 25
+    },
+    {
+      "month": "2022-08",
+      "species": "Lora /Olive ridley",
+      "nests": 76
+    },
+    {
+      "month": "2022-09",
+      "species": "Lora /Olive ridley",
+      "nests": 76
+    },
+    {
+      "month": "2022-10",
+      "species": "Lora /Olive ridley",
+      "nests": 60
+    },
+    {
+      "month": "2022-11",
+      "species": "Lora /Olive ridley",
+      "nests": 26
+    },
+    {
+      "month": "2022-12",
+      "species": "Lora /Olive ridley",
+      "nests": 8
+    },
+    {
+      "month": "2023-01",
+      "species": "Lora /Olive ridley",
+      "nests": 2
+    },
+    {
+      "month": "2023-01",
+      "species": "Verde/Green",
+      "nests": 1
+    },
     {
       "month": "2023-05",
       "species": "Lora /Olive ridley",
@@ -307,7 +1444,7 @@
     {
       "month": "2023-07",
       "species": "Lora /Olive ridley",
-      "nests": 23
+      "nests": 25
     },
     {
       "month": "2023-08",
@@ -317,12 +1454,12 @@
     {
       "month": "2023-08",
       "species": "Lora /Olive ridley",
-      "nests": 96
+      "nests": 135
     },
     {
       "month": "2023-08",
       "species": "Verde/Green",
-      "nests": 1
+      "nests": 2
     },
     {
       "month": "2023-09",
@@ -332,12 +1469,12 @@
     {
       "month": "2023-09",
       "species": "Lora /Olive ridley",
-      "nests": 63
+      "nests": 81
     },
     {
       "month": "2023-10",
       "species": "Lora /Olive ridley",
-      "nests": 43
+      "nests": 65
     },
     {
       "month": "2023-10",
@@ -347,7 +1484,7 @@
     {
       "month": "2023-11",
       "species": "Lora /Olive ridley",
-      "nests": 28
+      "nests": 43
     },
     {
       "month": "2023-11",
@@ -367,7 +1504,7 @@
     {
       "month": "2024-04",
       "species": "Lora /Olive ridley",
-      "nests": 2
+      "nests": 4
     },
     {
       "month": "2024-05",
@@ -387,12 +1524,12 @@
     {
       "month": "2024-07",
       "species": "Lora /Olive ridley",
-      "nests": 18
+      "nests": 21
     },
     {
       "month": "2024-08",
       "species": "Lora /Olive ridley",
-      "nests": 27
+      "nests": 30
     },
     {
       "month": "2024-08",
@@ -402,17 +1539,17 @@
     {
       "month": "2024-09",
       "species": "Lora /Olive ridley",
-      "nests": 30
+      "nests": 48
     },
     {
       "month": "2024-10",
       "species": "Lora /Olive ridley",
-      "nests": 36
+      "nests": 38
     },
     {
       "month": "2024-11",
       "species": "Lora /Olive ridley",
-      "nests": 10
+      "nests": 12
     },
     {
       "month": "2024-12",
@@ -422,7 +1559,12 @@
     {
       "month": "2025-01",
       "species": "Lora /Olive ridley",
-      "nests": 2
+      "nests": 1
+    },
+    {
+      "month": "2025-03",
+      "species": "Lora /Olive ridley",
+      "nests": 1
     },
     {
       "month": "2025-04",
@@ -432,12 +1574,12 @@
     {
       "month": "2025-05",
       "species": "Lora /Olive ridley",
-      "nests": 5
+      "nests": 7
     },
     {
       "month": "2025-06",
       "species": "Lora /Olive ridley",
-      "nests": 9
+      "nests": 12
     },
     {
       "month": "2025-07",
@@ -447,7 +1589,7 @@
     {
       "month": "2025-07",
       "species": "Lora /Olive ridley",
-      "nests": 40
+      "nests": 51
     },
     {
       "month": "2025-07",
@@ -457,7 +1599,7 @@
     {
       "month": "2025-08",
       "species": "Lora /Olive ridley",
-      "nests": 108
+      "nests": 122
     },
     {
       "month": "2025-08",
@@ -472,37 +1614,32 @@
     {
       "month": "2025-09",
       "species": "Lora /Olive ridley",
-      "nests": 150
+      "nests": 161
     },
     {
       "month": "2025-09",
       "species": "Unknown",
-      "nests": 2
+      "nests": 3
     },
     {
       "month": "2025-09",
       "species": "Verde/Green",
-      "nests": 2
+      "nests": 3
     },
     {
       "month": "2025-10",
       "species": "Lora /Olive ridley",
-      "nests": 81
-    },
-    {
-      "month": "2025-10",
-      "species": "Unknown",
-      "nests": 1
+      "nests": 96
     },
     {
       "month": "2025-11",
       "species": "Lora /Olive ridley",
-      "nests": 34
+      "nests": 48
     },
     {
       "month": "2025-12",
       "species": "Lora /Olive ridley",
-      "nests": 16
+      "nests": 20
     },
     {
       "month": "2025-12",
@@ -512,27 +1649,27 @@
     {
       "month": "2026-01",
       "species": "Lora /Olive ridley",
-      "nests": 3
+      "nests": 4
     },
     {
       "month": "2026-05",
       "species": "Lora /Olive ridley",
-      "nests": 2
+      "nests": 3
     },
     {
       "month": "2026-06",
       "species": "Lora /Olive ridley",
-      "nests": 7
+      "nests": 11
     },
     {
       "month": "2026-07",
       "species": "Lora /Olive ridley",
-      "nests": 35
+      "nests": 43
     },
     {
       "month": "2026-08",
       "species": "Lora /Olive ridley",
-      "nests": 57
+      "nests": 70
     },
     {
       "month": "2026-08",
@@ -541,6 +1678,114 @@
     }
   ],
   "by_beach_year": [
+    {
+      "year": "2009",
+      "beach": "Tortuga",
+      "nests": 62,
+      "eggs": 4760
+    },
+    {
+      "year": "2010",
+      "beach": "Tortuga",
+      "nests": 56,
+      "eggs": 4804
+    },
+    {
+      "year": "2011",
+      "beach": "Tortuga",
+      "nests": 99,
+      "eggs": 8479
+    },
+    {
+      "year": "2012",
+      "beach": "Tortuga",
+      "nests": 76,
+      "eggs": 5397
+    },
+    {
+      "year": "2013",
+      "beach": "Tortuga",
+      "nests": 66,
+      "eggs": 6364
+    },
+    {
+      "year": "2014",
+      "beach": "Tortuga",
+      "nests": 105,
+      "eggs": 9295
+    },
+    {
+      "year": "2015",
+      "beach": "Tortuga",
+      "nests": 73,
+      "eggs": 6626
+    },
+    {
+      "year": "2016",
+      "beach": "Tortuga",
+      "nests": 18,
+      "eggs": 1521
+    },
+    {
+      "year": "2017",
+      "beach": "Tortuga",
+      "nests": 66,
+      "eggs": 5899
+    },
+    {
+      "year": "2018",
+      "beach": "Tortuga",
+      "nests": 55,
+      "eggs": 4770
+    },
+    {
+      "year": "2019",
+      "beach": "Hermosa",
+      "nests": 0,
+      "eggs": 84
+    },
+    {
+      "year": "2019",
+      "beach": "Tortuga",
+      "nests": 90,
+      "eggs": 7614
+    },
+    {
+      "year": "2020",
+      "beach": "Hermosa",
+      "nests": 64,
+      "eggs": 5638
+    },
+    {
+      "year": "2020",
+      "beach": "Tortuga",
+      "nests": 71,
+      "eggs": 6480
+    },
+    {
+      "year": "2021",
+      "beach": "Hermosa",
+      "nests": 162,
+      "eggs": 13001
+    },
+    {
+      "year": "2021",
+      "beach": "Tortuga",
+      "nests": 143,
+      "eggs": 12314
+    },
+    {
+      "year": "2022",
+      "beach": "Hermosa",
+      "nests": 156,
+      "eggs": 14658
+    },
+    {
+      "year": "2022",
+      "beach": "Tortuga",
+      "nests": 129,
+      "eggs": 12101
+    },
     {
       "year": "2023",
       "beach": "Ballena",
@@ -562,14 +1807,14 @@
     {
       "year": "2023",
       "beach": "Hermosa",
-      "nests": 117,
-      "eggs": 10557
+      "nests": 166,
+      "eggs": 14729
     },
     {
       "year": "2023",
       "beach": "Tortuga",
-      "nests": 146,
-      "eggs": 13590
+      "nests": 197,
+      "eggs": 18466
     },
     {
       "year": "2024",
@@ -580,14 +1825,14 @@
     {
       "year": "2024",
       "beach": "Hermosa",
-      "nests": 71,
-      "eggs": 6779
+      "nests": 92,
+      "eggs": 8445
     },
     {
       "year": "2024",
       "beach": "Tortuga",
-      "nests": 68,
-      "eggs": 6328
+      "nests": 77,
+      "eggs": 7005
     },
     {
       "year": "2024",
@@ -616,8 +1861,8 @@
     {
       "year": "2025",
       "beach": "Hermosa",
-      "nests": 214,
-      "eggs": 19527
+      "nests": 253,
+      "eggs": 22425
     },
     {
       "year": "2025",
@@ -634,23 +1879,1038 @@
     {
       "year": "2025",
       "beach": "Tortuga",
-      "nests": 223,
-      "eggs": 19353
+      "nests": 259,
+      "eggs": 22206
     },
     {
       "year": "2026",
       "beach": "Hermosa",
-      "nests": 44,
-      "eggs": 3951
+      "nests": 60,
+      "eggs": 5252
     },
     {
       "year": "2026",
       "beach": "Tortuga",
-      "nests": 62,
-      "eggs": 5431
+      "nests": 73,
+      "eggs": 6435
     }
   ],
   "by_activity_month": [
+    {
+      "month": "2009-09",
+      "activity": "Nido/Nest",
+      "count": 29
+    },
+    {
+      "month": "2009-09",
+      "activity": "Sálida Falsa/False crawl",
+      "count": 6
+    },
+    {
+      "month": "2009-10",
+      "activity": "Nido/Nest",
+      "count": 20
+    },
+    {
+      "month": "2009-10",
+      "activity": "Sálida Falsa/False crawl",
+      "count": 6
+    },
+    {
+      "month": "2009-11",
+      "activity": "Nido/Nest",
+      "count": 12
+    },
+    {
+      "month": "2009-11",
+      "activity": "Sálida Falsa/False crawl",
+      "count": 2
+    },
+    {
+      "month": "2009-12",
+      "activity": "Nido/Nest",
+      "count": 1
+    },
+    {
+      "month": "2009-12",
+      "activity": "Sálida Falsa/False crawl",
+      "count": 1
+    },
+    {
+      "month": "2010-07",
+      "activity": "Nido/Nest",
+      "count": 1
+    },
+    {
+      "month": "2010-08",
+      "activity": "Nido/Nest",
+      "count": 18
+    },
+    {
+      "month": "2010-08",
+      "activity": "Sálida Falsa/False crawl",
+      "count": 1
+    },
+    {
+      "month": "2010-08",
+      "activity": "Tortuga muerta/Dead turtle",
+      "count": 1
+    },
+    {
+      "month": "2010-09",
+      "activity": "Nido/Nest",
+      "count": 19
+    },
+    {
+      "month": "2010-09",
+      "activity": "Sálida Falsa/False crawl",
+      "count": 2
+    },
+    {
+      "month": "2010-10",
+      "activity": "Nido/Nest",
+      "count": 16
+    },
+    {
+      "month": "2010-10",
+      "activity": "Sálida Falsa/False crawl",
+      "count": 3
+    },
+    {
+      "month": "2010-11",
+      "activity": "Nido/Nest",
+      "count": 2
+    },
+    {
+      "month": "2010-11",
+      "activity": "Tortuga muerta/Dead turtle",
+      "count": 1
+    },
+    {
+      "month": "2011-07",
+      "activity": "Nido/Nest",
+      "count": 5
+    },
+    {
+      "month": "2011-08",
+      "activity": "Nido/Nest",
+      "count": 27
+    },
+    {
+      "month": "2011-08",
+      "activity": "Sálida Falsa/False crawl",
+      "count": 14
+    },
+    {
+      "month": "2011-09",
+      "activity": "Nido/Nest",
+      "count": 23
+    },
+    {
+      "month": "2011-09",
+      "activity": "Sálida Falsa/False crawl",
+      "count": 6
+    },
+    {
+      "month": "2011-09",
+      "activity": "Unknown",
+      "count": 1
+    },
+    {
+      "month": "2011-10",
+      "activity": "Nido/Nest",
+      "count": 20
+    },
+    {
+      "month": "2011-10",
+      "activity": "Sálida Falsa/False crawl",
+      "count": 9
+    },
+    {
+      "month": "2011-11",
+      "activity": "Nido/Nest",
+      "count": 18
+    },
+    {
+      "month": "2011-11",
+      "activity": "Sálida Falsa/False crawl",
+      "count": 5
+    },
+    {
+      "month": "2011-12",
+      "activity": "Nido/Nest",
+      "count": 6
+    },
+    {
+      "month": "2011-12",
+      "activity": "Sálida Falsa/False crawl",
+      "count": 5
+    },
+    {
+      "month": "2012-07",
+      "activity": "Nido/Nest",
+      "count": 3
+    },
+    {
+      "month": "2012-07",
+      "activity": "Sálida Falsa/False crawl",
+      "count": 1
+    },
+    {
+      "month": "2012-08",
+      "activity": "Nido/Nest",
+      "count": 20
+    },
+    {
+      "month": "2012-08",
+      "activity": "Sálida Falsa/False crawl",
+      "count": 5
+    },
+    {
+      "month": "2012-09",
+      "activity": "Nido/Nest",
+      "count": 23
+    },
+    {
+      "month": "2012-09",
+      "activity": "Sálida Falsa/False crawl",
+      "count": 4
+    },
+    {
+      "month": "2012-10",
+      "activity": "Nido/Nest",
+      "count": 13
+    },
+    {
+      "month": "2012-10",
+      "activity": "Sálida Falsa/False crawl",
+      "count": 3
+    },
+    {
+      "month": "2012-11",
+      "activity": "Nido/Nest",
+      "count": 13
+    },
+    {
+      "month": "2012-11",
+      "activity": "Sálida Falsa/False crawl",
+      "count": 2
+    },
+    {
+      "month": "2012-12",
+      "activity": "Nido/Nest",
+      "count": 4
+    },
+    {
+      "month": "2013-07",
+      "activity": "Nido/Nest",
+      "count": 3
+    },
+    {
+      "month": "2013-07",
+      "activity": "Sálida Falsa/False crawl",
+      "count": 2
+    },
+    {
+      "month": "2013-08",
+      "activity": "Nido/Nest",
+      "count": 10
+    },
+    {
+      "month": "2013-08",
+      "activity": "Sálida Falsa/False crawl",
+      "count": 6
+    },
+    {
+      "month": "2013-09",
+      "activity": "Nido/Nest",
+      "count": 18
+    },
+    {
+      "month": "2013-09",
+      "activity": "Sálida Falsa/False crawl",
+      "count": 7
+    },
+    {
+      "month": "2013-10",
+      "activity": "Nido/Nest",
+      "count": 16
+    },
+    {
+      "month": "2013-10",
+      "activity": "Sálida Falsa/False crawl",
+      "count": 4
+    },
+    {
+      "month": "2013-11",
+      "activity": "Nido/Nest",
+      "count": 14
+    },
+    {
+      "month": "2013-11",
+      "activity": "Sálida Falsa/False crawl",
+      "count": 9
+    },
+    {
+      "month": "2013-12",
+      "activity": "Nido/Nest",
+      "count": 5
+    },
+    {
+      "month": "2013-12",
+      "activity": "Sálida Falsa/False crawl",
+      "count": 1
+    },
+    {
+      "month": "2014-06",
+      "activity": "Nido/Nest",
+      "count": 2
+    },
+    {
+      "month": "2014-06",
+      "activity": "Sálida Falsa/False crawl",
+      "count": 2
+    },
+    {
+      "month": "2014-07",
+      "activity": "Nido/Nest",
+      "count": 3
+    },
+    {
+      "month": "2014-08",
+      "activity": "Nido/Nest",
+      "count": 31
+    },
+    {
+      "month": "2014-08",
+      "activity": "Sálida Falsa/False crawl",
+      "count": 11
+    },
+    {
+      "month": "2014-09",
+      "activity": "Nido/Nest",
+      "count": 30
+    },
+    {
+      "month": "2014-09",
+      "activity": "Sálida Falsa/False crawl",
+      "count": 5
+    },
+    {
+      "month": "2014-10",
+      "activity": "Nido/Nest",
+      "count": 27
+    },
+    {
+      "month": "2014-10",
+      "activity": "Sálida Falsa/False crawl",
+      "count": 6
+    },
+    {
+      "month": "2014-11",
+      "activity": "Nido/Nest",
+      "count": 6
+    },
+    {
+      "month": "2014-11",
+      "activity": "Sálida Falsa/False crawl",
+      "count": 4
+    },
+    {
+      "month": "2014-12",
+      "activity": "Nido/Nest",
+      "count": 6
+    },
+    {
+      "month": "2014-12",
+      "activity": "Sálida Falsa/False crawl",
+      "count": 2
+    },
+    {
+      "month": "2015-01",
+      "activity": "Nido/Nest",
+      "count": 1
+    },
+    {
+      "month": "2015-06",
+      "activity": "Nido/Nest",
+      "count": 1
+    },
+    {
+      "month": "2015-06",
+      "activity": "Sálida Falsa/False crawl",
+      "count": 1
+    },
+    {
+      "month": "2015-07",
+      "activity": "Nido/Nest",
+      "count": 5
+    },
+    {
+      "month": "2015-07",
+      "activity": "Sálida Falsa/False crawl",
+      "count": 2
+    },
+    {
+      "month": "2015-08",
+      "activity": "Nido/Nest",
+      "count": 8
+    },
+    {
+      "month": "2015-08",
+      "activity": "Sálida Falsa/False crawl",
+      "count": 1
+    },
+    {
+      "month": "2015-09",
+      "activity": "Nido/Nest",
+      "count": 13
+    },
+    {
+      "month": "2015-09",
+      "activity": "Sálida Falsa/False crawl",
+      "count": 4
+    },
+    {
+      "month": "2015-10",
+      "activity": "Nido/Nest",
+      "count": 29
+    },
+    {
+      "month": "2015-10",
+      "activity": "Sálida Falsa/False crawl",
+      "count": 8
+    },
+    {
+      "month": "2015-11",
+      "activity": "Nido/Nest",
+      "count": 12
+    },
+    {
+      "month": "2015-11",
+      "activity": "Sálida Falsa/False crawl",
+      "count": 4
+    },
+    {
+      "month": "2015-12",
+      "activity": "Nido/Nest",
+      "count": 4
+    },
+    {
+      "month": "2016-01",
+      "activity": "Nido/Nest",
+      "count": 1
+    },
+    {
+      "month": "2016-07",
+      "activity": "Nido/Nest",
+      "count": 3
+    },
+    {
+      "month": "2016-08",
+      "activity": "Nido/Nest",
+      "count": 3
+    },
+    {
+      "month": "2016-08",
+      "activity": "Sálida Falsa/False crawl",
+      "count": 3
+    },
+    {
+      "month": "2016-09",
+      "activity": "Nido/Nest",
+      "count": 5
+    },
+    {
+      "month": "2016-09",
+      "activity": "Sálida Falsa/False crawl",
+      "count": 2
+    },
+    {
+      "month": "2016-10",
+      "activity": "Nido/Nest",
+      "count": 3
+    },
+    {
+      "month": "2016-10",
+      "activity": "Sálida Falsa/False crawl",
+      "count": 2
+    },
+    {
+      "month": "2016-11",
+      "activity": "Nido/Nest",
+      "count": 3
+    },
+    {
+      "month": "2016-11",
+      "activity": "Sálida Falsa/False crawl",
+      "count": 2
+    },
+    {
+      "month": "2017-01",
+      "activity": "Nido/Nest",
+      "count": 1
+    },
+    {
+      "month": "2017-06",
+      "activity": "Nido/Nest",
+      "count": 1
+    },
+    {
+      "month": "2017-06",
+      "activity": "Unknown",
+      "count": 2
+    },
+    {
+      "month": "2017-07",
+      "activity": "Nido/Nest",
+      "count": 9
+    },
+    {
+      "month": "2017-07",
+      "activity": "Sálida Falsa/False crawl",
+      "count": 1
+    },
+    {
+      "month": "2017-07",
+      "activity": "Unknown",
+      "count": 2
+    },
+    {
+      "month": "2017-08",
+      "activity": "Nido/Nest",
+      "count": 11
+    },
+    {
+      "month": "2017-08",
+      "activity": "Sálida Falsa/False crawl",
+      "count": 30
+    },
+    {
+      "month": "2017-09",
+      "activity": "Nido/Nest",
+      "count": 15
+    },
+    {
+      "month": "2017-09",
+      "activity": "Sálida Falsa/False crawl",
+      "count": 30
+    },
+    {
+      "month": "2017-10",
+      "activity": "Nido/Nest",
+      "count": 16
+    },
+    {
+      "month": "2017-10",
+      "activity": "Sálida Falsa/False crawl",
+      "count": 25
+    },
+    {
+      "month": "2017-11",
+      "activity": "Nido/Nest",
+      "count": 9
+    },
+    {
+      "month": "2017-11",
+      "activity": "Sálida Falsa/False crawl",
+      "count": 7
+    },
+    {
+      "month": "2017-12",
+      "activity": "Nido/Nest",
+      "count": 4
+    },
+    {
+      "month": "2017-12",
+      "activity": "Sálida Falsa/False crawl",
+      "count": 2
+    },
+    {
+      "month": "2018-06",
+      "activity": "Nido/Nest",
+      "count": 2
+    },
+    {
+      "month": "2018-07",
+      "activity": "Nido/Nest",
+      "count": 3
+    },
+    {
+      "month": "2018-07",
+      "activity": "Sálida Falsa/False crawl",
+      "count": 1
+    },
+    {
+      "month": "2018-08",
+      "activity": "Nido/Nest",
+      "count": 8
+    },
+    {
+      "month": "2018-08",
+      "activity": "Sálida Falsa/False crawl",
+      "count": 9
+    },
+    {
+      "month": "2018-09",
+      "activity": "Nido/Nest",
+      "count": 11
+    },
+    {
+      "month": "2018-09",
+      "activity": "Sálida Falsa/False crawl",
+      "count": 2
+    },
+    {
+      "month": "2018-10",
+      "activity": "Nido/Nest",
+      "count": 14
+    },
+    {
+      "month": "2018-10",
+      "activity": "Sálida Falsa/False crawl",
+      "count": 12
+    },
+    {
+      "month": "2018-11",
+      "activity": "Nido/Nest",
+      "count": 12
+    },
+    {
+      "month": "2018-11",
+      "activity": "Sálida Falsa/False crawl",
+      "count": 11
+    },
+    {
+      "month": "2018-12",
+      "activity": "Nido/Nest",
+      "count": 5
+    },
+    {
+      "month": "2018-12",
+      "activity": "Sálida Falsa/False crawl",
+      "count": 2
+    },
+    {
+      "month": "2019-05",
+      "activity": "Nido/Nest",
+      "count": 1
+    },
+    {
+      "month": "2019-06",
+      "activity": "Nido/Nest",
+      "count": 2
+    },
+    {
+      "month": "2019-06",
+      "activity": "Sálida Falsa/False crawl",
+      "count": 2
+    },
+    {
+      "month": "2019-07",
+      "activity": "Nido/Nest",
+      "count": 10
+    },
+    {
+      "month": "2019-07",
+      "activity": "Sálida Falsa/False crawl",
+      "count": 6
+    },
+    {
+      "month": "2019-08",
+      "activity": "Nido/Nest",
+      "count": 23
+    },
+    {
+      "month": "2019-08",
+      "activity": "Sálida Falsa/False crawl",
+      "count": 5
+    },
+    {
+      "month": "2019-09",
+      "activity": "Nido Saqueado/Poached nest",
+      "count": 2
+    },
+    {
+      "month": "2019-09",
+      "activity": "Nido/Nest",
+      "count": 19
+    },
+    {
+      "month": "2019-09",
+      "activity": "Sálida Falsa/False crawl",
+      "count": 9
+    },
+    {
+      "month": "2019-10",
+      "activity": "Nido/Nest",
+      "count": 21
+    },
+    {
+      "month": "2019-10",
+      "activity": "Sálida Falsa/False crawl",
+      "count": 7
+    },
+    {
+      "month": "2019-10",
+      "activity": "Unknown",
+      "count": 2
+    },
+    {
+      "month": "2019-11",
+      "activity": "Nido/Nest",
+      "count": 13
+    },
+    {
+      "month": "2019-11",
+      "activity": "Sálida Falsa/False crawl",
+      "count": 1
+    },
+    {
+      "month": "2019-12",
+      "activity": "Nido/Nest",
+      "count": 1
+    },
+    {
+      "month": "2019-12",
+      "activity": "Sálida Falsa/False crawl",
+      "count": 1
+    },
+    {
+      "month": "2020-07",
+      "activity": "Nido/Nest",
+      "count": 8
+    },
+    {
+      "month": "2020-07",
+      "activity": "Sálida Falsa/False crawl",
+      "count": 1
+    },
+    {
+      "month": "2020-08",
+      "activity": "Nido Saqueado/Poached nest",
+      "count": 1
+    },
+    {
+      "month": "2020-08",
+      "activity": "Nido/Nest",
+      "count": 22
+    },
+    {
+      "month": "2020-08",
+      "activity": "Sálida Falsa/False crawl",
+      "count": 3
+    },
+    {
+      "month": "2020-09",
+      "activity": "Nido/Nest",
+      "count": 43
+    },
+    {
+      "month": "2020-09",
+      "activity": "Sálida Falsa/False crawl",
+      "count": 4
+    },
+    {
+      "month": "2020-10",
+      "activity": "Nido/Nest",
+      "count": 36
+    },
+    {
+      "month": "2020-10",
+      "activity": "Sálida Falsa/False crawl",
+      "count": 11
+    },
+    {
+      "month": "2020-11",
+      "activity": "Nido/Nest",
+      "count": 16
+    },
+    {
+      "month": "2020-11",
+      "activity": "Sálida Falsa/False crawl",
+      "count": 6
+    },
+    {
+      "month": "2020-12",
+      "activity": "Nido/Nest",
+      "count": 10
+    },
+    {
+      "month": "2020-12",
+      "activity": "Sálida Falsa/False crawl",
+      "count": 5
+    },
+    {
+      "month": "2021-01",
+      "activity": "Nido/Nest",
+      "count": 2
+    },
+    {
+      "month": "2021-03",
+      "activity": "Nido/Nest",
+      "count": 1
+    },
+    {
+      "month": "2021-04",
+      "activity": "Nido/Nest",
+      "count": 1
+    },
+    {
+      "month": "2021-05",
+      "activity": "Nido/Nest",
+      "count": 4
+    },
+    {
+      "month": "2021-06",
+      "activity": "Nido/Nest",
+      "count": 12
+    },
+    {
+      "month": "2021-07",
+      "activity": "Nido/Nest",
+      "count": 23
+    },
+    {
+      "month": "2021-07",
+      "activity": "Sálida Falsa/False crawl",
+      "count": 3
+    },
+    {
+      "month": "2021-07",
+      "activity": "Unknown",
+      "count": 3
+    },
+    {
+      "month": "2021-08",
+      "activity": "Nido Saqueado/Poached nest",
+      "count": 5
+    },
+    {
+      "month": "2021-08",
+      "activity": "Nido/Nest",
+      "count": 91
+    },
+    {
+      "month": "2021-08",
+      "activity": "Sálida Falsa/False crawl",
+      "count": 18
+    },
+    {
+      "month": "2021-08",
+      "activity": "Tortuga muerta/Dead turtle",
+      "count": 1
+    },
+    {
+      "month": "2021-08",
+      "activity": "Unknown",
+      "count": 3
+    },
+    {
+      "month": "2021-09",
+      "activity": "Nido Saqueado/Poached nest",
+      "count": 1
+    },
+    {
+      "month": "2021-09",
+      "activity": "Nido/Nest",
+      "count": 85
+    },
+    {
+      "month": "2021-09",
+      "activity": "Sálida Falsa/False crawl",
+      "count": 23
+    },
+    {
+      "month": "2021-09",
+      "activity": "Unknown",
+      "count": 3
+    },
+    {
+      "month": "2021-10",
+      "activity": "Nido/Nest",
+      "count": 56
+    },
+    {
+      "month": "2021-10",
+      "activity": "Sálida Falsa/False crawl",
+      "count": 13
+    },
+    {
+      "month": "2021-10",
+      "activity": "Unknown",
+      "count": 7
+    },
+    {
+      "month": "2021-11",
+      "activity": "Nido/Nest",
+      "count": 25
+    },
+    {
+      "month": "2021-11",
+      "activity": "Sálida Falsa/False crawl",
+      "count": 5
+    },
+    {
+      "month": "2021-11",
+      "activity": "Unknown",
+      "count": 1
+    },
+    {
+      "month": "2021-12",
+      "activity": "Nido/Nest",
+      "count": 5
+    },
+    {
+      "month": "2022-01",
+      "activity": "Nido/Nest",
+      "count": 1
+    },
+    {
+      "month": "2022-01",
+      "activity": "Unknown",
+      "count": 1
+    },
+    {
+      "month": "2022-05",
+      "activity": "Nido Saqueado/Poached nest",
+      "count": 1
+    },
+    {
+      "month": "2022-05",
+      "activity": "Nido/Nest",
+      "count": 2
+    },
+    {
+      "month": "2022-06",
+      "activity": "Nido Saqueado/Poached nest",
+      "count": 1
+    },
+    {
+      "month": "2022-06",
+      "activity": "Nido/Nest",
+      "count": 10
+    },
+    {
+      "month": "2022-06",
+      "activity": "Sálida Falsa/False crawl",
+      "count": 1
+    },
+    {
+      "month": "2022-06",
+      "activity": "Unknown",
+      "count": 1
+    },
+    {
+      "month": "2022-07",
+      "activity": "Nido/Nest",
+      "count": 26
+    },
+    {
+      "month": "2022-07",
+      "activity": "Sálida Falsa/False crawl",
+      "count": 5
+    },
+    {
+      "month": "2022-08",
+      "activity": "Anidación No efectivo /Not effective nesting",
+      "count": 3
+    },
+    {
+      "month": "2022-08",
+      "activity": "Nido Saqueado/Poached nest",
+      "count": 7
+    },
+    {
+      "month": "2022-08",
+      "activity": "Nido/Nest",
+      "count": 76
+    },
+    {
+      "month": "2022-08",
+      "activity": "Sálida Falsa/False crawl",
+      "count": 16
+    },
+    {
+      "month": "2022-09",
+      "activity": "Anidación No efectivo /Not effective nesting",
+      "count": 2
+    },
+    {
+      "month": "2022-09",
+      "activity": "Nido Saqueado/Poached nest",
+      "count": 23
+    },
+    {
+      "month": "2022-09",
+      "activity": "Nido/Nest",
+      "count": 76
+    },
+    {
+      "month": "2022-09",
+      "activity": "Sálida Falsa/False crawl",
+      "count": 29
+    },
+    {
+      "month": "2022-10",
+      "activity": "Anidación No efectivo /Not effective nesting",
+      "count": 2
+    },
+    {
+      "month": "2022-10",
+      "activity": "Nido Saqueado/Poached nest",
+      "count": 5
+    },
+    {
+      "month": "2022-10",
+      "activity": "Nido/Nest",
+      "count": 60
+    },
+    {
+      "month": "2022-10",
+      "activity": "Sálida Falsa/False crawl",
+      "count": 12
+    },
+    {
+      "month": "2022-10",
+      "activity": "Unknown",
+      "count": 1
+    },
+    {
+      "month": "2022-11",
+      "activity": "Anidación No efectivo /Not effective nesting",
+      "count": 1
+    },
+    {
+      "month": "2022-11",
+      "activity": "Nido Saqueado/Poached nest",
+      "count": 4
+    },
+    {
+      "month": "2022-11",
+      "activity": "Nido/Nest",
+      "count": 26
+    },
+    {
+      "month": "2022-11",
+      "activity": "Sálida Falsa/False crawl",
+      "count": 5
+    },
+    {
+      "month": "2022-12",
+      "activity": "Nido/Nest",
+      "count": 8
+    },
+    {
+      "month": "2022-12",
+      "activity": "Sálida Falsa/False crawl",
+      "count": 2
+    },
+    {
+      "month": "2023-01",
+      "activity": "Nido/Nest",
+      "count": 3
+    },
     {
       "month": "2023-05",
       "activity": "Nido/Nest",
@@ -669,12 +2929,12 @@
     {
       "month": "2023-06",
       "activity": "Sálida Falsa/False crawl",
-      "count": 1
+      "count": 2
     },
     {
       "month": "2023-07",
       "activity": "Anidación No efectivo /Not effective nesting",
-      "count": 1
+      "count": 3
     },
     {
       "month": "2023-07",
@@ -684,7 +2944,7 @@
     {
       "month": "2023-07",
       "activity": "Nido/Nest",
-      "count": 23
+      "count": 25
     },
     {
       "month": "2023-07",
@@ -699,17 +2959,17 @@
     {
       "month": "2023-08",
       "activity": "Nido Saqueado/Poached nest",
-      "count": 10
+      "count": 11
     },
     {
       "month": "2023-08",
       "activity": "Nido/Nest",
-      "count": 98
+      "count": 138
     },
     {
       "month": "2023-08",
       "activity": "Sálida Falsa/False crawl",
-      "count": 21
+      "count": 24
     },
     {
       "month": "2023-08",
@@ -719,27 +2979,27 @@
     {
       "month": "2023-09",
       "activity": "Anidación No efectivo /Not effective nesting",
-      "count": 10
+      "count": 11
     },
     {
       "month": "2023-09",
       "activity": "Nido Saqueado/Poached nest",
-      "count": 5
+      "count": 7
     },
     {
       "month": "2023-09",
       "activity": "Nido/Nest",
-      "count": 65
+      "count": 83
     },
     {
       "month": "2023-09",
       "activity": "Sálida Falsa/False crawl",
-      "count": 10
+      "count": 13
     },
     {
       "month": "2023-09",
       "activity": "Unknown",
-      "count": 1
+      "count": 2
     },
     {
       "month": "2023-10",
@@ -759,17 +3019,17 @@
     {
       "month": "2023-10",
       "activity": "Nido/Nest",
-      "count": 45
+      "count": 67
     },
     {
       "month": "2023-10",
       "activity": "Sálida Falsa/False crawl",
-      "count": 10
+      "count": 11
     },
     {
       "month": "2023-11",
       "activity": "Anidación No efectivo /Not effective nesting",
-      "count": 2
+      "count": 3
     },
     {
       "month": "2023-11",
@@ -784,16 +3044,11 @@
     {
       "month": "2023-11",
       "activity": "Nido/Nest",
-      "count": 29
+      "count": 44
     },
     {
       "month": "2023-11",
       "activity": "Tortuga muerta/Dead turtle",
-      "count": 1
-    },
-    {
-      "month": "2023-12",
-      "activity": "Anidación No efectivo /Not effective nesting",
       "count": 1
     },
     {
@@ -814,7 +3069,7 @@
     {
       "month": "2024-04",
       "activity": "Nido/Nest",
-      "count": 2
+      "count": 4
     },
     {
       "month": "2024-05",
@@ -829,7 +3084,7 @@
     {
       "month": "2024-06",
       "activity": "Nido Saqueado/Poached nest",
-      "count": 1
+      "count": 2
     },
     {
       "month": "2024-06",
@@ -839,12 +3094,12 @@
     {
       "month": "2024-07",
       "activity": "Anidación No efectivo /Not effective nesting",
-      "count": 1
+      "count": 2
     },
     {
       "month": "2024-07",
       "activity": "Nido/Nest",
-      "count": 18
+      "count": 21
     },
     {
       "month": "2024-07",
@@ -869,32 +3124,32 @@
     {
       "month": "2024-08",
       "activity": "Nido/Nest",
-      "count": 28
+      "count": 31
     },
     {
       "month": "2024-08",
       "activity": "Sálida Falsa/False crawl",
-      "count": 4
-    },
-    {
-      "month": "2024-09",
-      "activity": "Nido Saqueado/Poached nest",
       "count": 5
     },
     {
       "month": "2024-09",
+      "activity": "Nido Saqueado/Poached nest",
+      "count": 9
+    },
+    {
+      "month": "2024-09",
       "activity": "Nido salvaje /Wild nest",
-      "count": 2
+      "count": 3
     },
     {
       "month": "2024-09",
       "activity": "Nido/Nest",
-      "count": 30
+      "count": 48
     },
     {
       "month": "2024-09",
       "activity": "Sálida Falsa/False crawl",
-      "count": 7
+      "count": 9
     },
     {
       "month": "2024-09",
@@ -908,18 +3163,13 @@
     },
     {
       "month": "2024-10",
-      "activity": "Nido Saqueado/Poached nest",
-      "count": 3
-    },
-    {
-      "month": "2024-10",
       "activity": "Nido salvaje /Wild nest",
-      "count": 2
+      "count": 1
     },
     {
       "month": "2024-10",
       "activity": "Nido/Nest",
-      "count": 36
+      "count": 38
     },
     {
       "month": "2024-10",
@@ -944,12 +3194,12 @@
     {
       "month": "2024-11",
       "activity": "Nido/Nest",
-      "count": 10
+      "count": 12
     },
     {
       "month": "2024-11",
       "activity": "Sálida Falsa/False crawl",
-      "count": 2
+      "count": 3
     },
     {
       "month": "2024-12",
@@ -959,7 +3209,12 @@
     {
       "month": "2025-01",
       "activity": "Nido/Nest",
-      "count": 2
+      "count": 1
+    },
+    {
+      "month": "2025-03",
+      "activity": "Nido/Nest",
+      "count": 1
     },
     {
       "month": "2025-04",
@@ -979,12 +3234,12 @@
     {
       "month": "2025-05",
       "activity": "Nido/Nest",
-      "count": 5
+      "count": 7
     },
     {
       "month": "2025-05",
       "activity": "Sálida Falsa/False crawl",
-      "count": 1
+      "count": 3
     },
     {
       "month": "2025-05",
@@ -994,7 +3249,7 @@
     {
       "month": "2025-06",
       "activity": "Nido/Nest",
-      "count": 9
+      "count": 12
     },
     {
       "month": "2025-06",
@@ -1014,37 +3269,37 @@
     {
       "month": "2025-07",
       "activity": "Nido/Nest",
-      "count": 42
+      "count": 53
     },
     {
       "month": "2025-07",
       "activity": "Sálida Falsa/False crawl",
+      "count": 18
+    },
+    {
+      "month": "2025-07",
+      "activity": "Tortuga muerta/Dead turtle",
+      "count": 1
+    },
+    {
+      "month": "2025-08",
+      "activity": "Anidación No efectivo /Not effective nesting",
       "count": 17
     },
     {
-      "month": "2025-07",
-      "activity": "Tortuga muerta/Dead turtle",
-      "count": 1
-    },
-    {
-      "month": "2025-08",
-      "activity": "Anidación No efectivo /Not effective nesting",
-      "count": 14
-    },
-    {
       "month": "2025-08",
       "activity": "Nido Saqueado/Poached nest",
-      "count": 2
+      "count": 3
     },
     {
       "month": "2025-08",
       "activity": "Nido/Nest",
-      "count": 111
+      "count": 125
     },
     {
       "month": "2025-08",
       "activity": "Sálida Falsa/False crawl",
-      "count": 34
+      "count": 35
     },
     {
       "month": "2025-08",
@@ -1059,17 +3314,17 @@
     {
       "month": "2025-09",
       "activity": "Nido Saqueado/Poached nest",
-      "count": 21
+      "count": 23
     },
     {
       "month": "2025-09",
       "activity": "Nido/Nest",
-      "count": 154
+      "count": 167
     },
     {
       "month": "2025-09",
       "activity": "Sálida Falsa/False crawl",
-      "count": 37
+      "count": 39
     },
     {
       "month": "2025-09",
@@ -1079,7 +3334,7 @@
     {
       "month": "2025-10",
       "activity": "Anidación No efectivo /Not effective nesting",
-      "count": 9
+      "count": 11
     },
     {
       "month": "2025-10",
@@ -1094,44 +3349,44 @@
     {
       "month": "2025-10",
       "activity": "Nido/Nest",
-      "count": 82
+      "count": 96
     },
     {
       "month": "2025-10",
       "activity": "Sálida Falsa/False crawl",
-      "count": 23
+      "count": 24
     },
     {
       "month": "2025-11",
       "activity": "Anidación No efectivo /Not effective nesting",
-      "count": 3
+      "count": 4
     },
     {
       "month": "2025-11",
-      "activity": "Nido salvaje /Wild nest",
-      "count": 3
-    },
-    {
-      "month": "2025-11",
-      "activity": "Nido/Nest",
-      "count": 34
-    },
-    {
-      "month": "2025-11",
-      "activity": "Sálida Falsa/False crawl",
-      "count": 3
-    },
-    {
-      "month": "2025-12",
-      "activity": "Anidación No efectivo /Not effective nesting",
-      "count": 3
-    },
-    {
-      "month": "2025-12",
       "activity": "Nido Saqueado/Poached nest",
       "count": 1
     },
     {
+      "month": "2025-11",
+      "activity": "Nido salvaje /Wild nest",
+      "count": 3
+    },
+    {
+      "month": "2025-11",
+      "activity": "Nido/Nest",
+      "count": 48
+    },
+    {
+      "month": "2025-11",
+      "activity": "Sálida Falsa/False crawl",
+      "count": 5
+    },
+    {
+      "month": "2025-12",
+      "activity": "Anidación No efectivo /Not effective nesting",
+      "count": 3
+    },
+    {
       "month": "2025-12",
       "activity": "Nido salvaje /Wild nest",
       "count": 3
@@ -1139,7 +3394,7 @@
     {
       "month": "2025-12",
       "activity": "Nido/Nest",
-      "count": 19
+      "count": 23
     },
     {
       "month": "2025-12",
@@ -1154,12 +3409,12 @@
     {
       "month": "2026-01",
       "activity": "Nido/Nest",
-      "count": 3
+      "count": 4
     },
     {
       "month": "2026-05",
       "activity": "Nido/Nest",
-      "count": 2
+      "count": 3
     },
     {
       "month": "2026-06",
@@ -1169,7 +3424,7 @@
     {
       "month": "2026-06",
       "activity": "Nido/Nest",
-      "count": 7
+      "count": 11
     },
     {
       "month": "2026-06",
@@ -1179,12 +3434,12 @@
     {
       "month": "2026-07",
       "activity": "Anidación No efectivo /Not effective nesting",
-      "count": 4
+      "count": 5
     },
     {
       "month": "2026-07",
       "activity": "Nido/Nest",
-      "count": 35
+      "count": 43
     },
     {
       "month": "2026-07",
@@ -1194,12 +3449,12 @@
     {
       "month": "2026-08",
       "activity": "Anidación No efectivo /Not effective nesting",
-      "count": 5
+      "count": 6
     },
     {
       "month": "2026-08",
       "activity": "Nido Saqueado/Poached nest",
-      "count": 1
+      "count": 4
     },
     {
       "month": "2026-08",
@@ -1209,20 +3464,515 @@
     {
       "month": "2026-08",
       "activity": "Nido/Nest",
-      "count": 59
+      "count": 72
     },
     {
       "month": "2026-08",
       "activity": "Sálida Falsa/False crawl",
-      "count": 13
+      "count": 16
     },
     {
       "month": "2026-08",
       "activity": "Tortuga muerta/Dead turtle",
       "count": 1
+    },
+    {
+      "month": "2026-08",
+      "activity": "Unknown",
+      "count": 1
     }
   ],
   "nest_vs_poached_by_month": [
+    {
+      "month": "2009-09",
+      "nests": 29,
+      "poached": 0
+    },
+    {
+      "month": "2009-10",
+      "nests": 20,
+      "poached": 0
+    },
+    {
+      "month": "2009-11",
+      "nests": 12,
+      "poached": 0
+    },
+    {
+      "month": "2009-12",
+      "nests": 1,
+      "poached": 0
+    },
+    {
+      "month": "2010-07",
+      "nests": 1,
+      "poached": 0
+    },
+    {
+      "month": "2010-08",
+      "nests": 18,
+      "poached": 0
+    },
+    {
+      "month": "2010-09",
+      "nests": 19,
+      "poached": 0
+    },
+    {
+      "month": "2010-10",
+      "nests": 16,
+      "poached": 0
+    },
+    {
+      "month": "2010-11",
+      "nests": 2,
+      "poached": 0
+    },
+    {
+      "month": "2011-07",
+      "nests": 5,
+      "poached": 0
+    },
+    {
+      "month": "2011-08",
+      "nests": 27,
+      "poached": 0
+    },
+    {
+      "month": "2011-09",
+      "nests": 23,
+      "poached": 0
+    },
+    {
+      "month": "2011-10",
+      "nests": 20,
+      "poached": 0
+    },
+    {
+      "month": "2011-11",
+      "nests": 18,
+      "poached": 0
+    },
+    {
+      "month": "2011-12",
+      "nests": 6,
+      "poached": 0
+    },
+    {
+      "month": "2012-07",
+      "nests": 3,
+      "poached": 0
+    },
+    {
+      "month": "2012-08",
+      "nests": 20,
+      "poached": 0
+    },
+    {
+      "month": "2012-09",
+      "nests": 23,
+      "poached": 0
+    },
+    {
+      "month": "2012-10",
+      "nests": 13,
+      "poached": 0
+    },
+    {
+      "month": "2012-11",
+      "nests": 13,
+      "poached": 0
+    },
+    {
+      "month": "2012-12",
+      "nests": 4,
+      "poached": 0
+    },
+    {
+      "month": "2013-07",
+      "nests": 3,
+      "poached": 0
+    },
+    {
+      "month": "2013-08",
+      "nests": 10,
+      "poached": 0
+    },
+    {
+      "month": "2013-09",
+      "nests": 18,
+      "poached": 0
+    },
+    {
+      "month": "2013-10",
+      "nests": 16,
+      "poached": 0
+    },
+    {
+      "month": "2013-11",
+      "nests": 14,
+      "poached": 0
+    },
+    {
+      "month": "2013-12",
+      "nests": 5,
+      "poached": 0
+    },
+    {
+      "month": "2014-06",
+      "nests": 2,
+      "poached": 0
+    },
+    {
+      "month": "2014-07",
+      "nests": 3,
+      "poached": 0
+    },
+    {
+      "month": "2014-08",
+      "nests": 31,
+      "poached": 0
+    },
+    {
+      "month": "2014-09",
+      "nests": 30,
+      "poached": 0
+    },
+    {
+      "month": "2014-10",
+      "nests": 27,
+      "poached": 0
+    },
+    {
+      "month": "2014-11",
+      "nests": 6,
+      "poached": 0
+    },
+    {
+      "month": "2014-12",
+      "nests": 6,
+      "poached": 0
+    },
+    {
+      "month": "2015-01",
+      "nests": 1,
+      "poached": 0
+    },
+    {
+      "month": "2015-06",
+      "nests": 1,
+      "poached": 0
+    },
+    {
+      "month": "2015-07",
+      "nests": 5,
+      "poached": 0
+    },
+    {
+      "month": "2015-08",
+      "nests": 8,
+      "poached": 0
+    },
+    {
+      "month": "2015-09",
+      "nests": 13,
+      "poached": 0
+    },
+    {
+      "month": "2015-10",
+      "nests": 29,
+      "poached": 0
+    },
+    {
+      "month": "2015-11",
+      "nests": 12,
+      "poached": 0
+    },
+    {
+      "month": "2015-12",
+      "nests": 4,
+      "poached": 0
+    },
+    {
+      "month": "2016-01",
+      "nests": 1,
+      "poached": 0
+    },
+    {
+      "month": "2016-07",
+      "nests": 3,
+      "poached": 0
+    },
+    {
+      "month": "2016-08",
+      "nests": 3,
+      "poached": 0
+    },
+    {
+      "month": "2016-09",
+      "nests": 5,
+      "poached": 0
+    },
+    {
+      "month": "2016-10",
+      "nests": 3,
+      "poached": 0
+    },
+    {
+      "month": "2016-11",
+      "nests": 3,
+      "poached": 0
+    },
+    {
+      "month": "2017-01",
+      "nests": 1,
+      "poached": 0
+    },
+    {
+      "month": "2017-06",
+      "nests": 1,
+      "poached": 0
+    },
+    {
+      "month": "2017-07",
+      "nests": 9,
+      "poached": 0
+    },
+    {
+      "month": "2017-08",
+      "nests": 11,
+      "poached": 0
+    },
+    {
+      "month": "2017-09",
+      "nests": 15,
+      "poached": 0
+    },
+    {
+      "month": "2017-10",
+      "nests": 16,
+      "poached": 0
+    },
+    {
+      "month": "2017-11",
+      "nests": 9,
+      "poached": 0
+    },
+    {
+      "month": "2017-12",
+      "nests": 4,
+      "poached": 0
+    },
+    {
+      "month": "2018-06",
+      "nests": 2,
+      "poached": 0
+    },
+    {
+      "month": "2018-07",
+      "nests": 3,
+      "poached": 0
+    },
+    {
+      "month": "2018-08",
+      "nests": 8,
+      "poached": 0
+    },
+    {
+      "month": "2018-09",
+      "nests": 11,
+      "poached": 0
+    },
+    {
+      "month": "2018-10",
+      "nests": 14,
+      "poached": 0
+    },
+    {
+      "month": "2018-11",
+      "nests": 12,
+      "poached": 0
+    },
+    {
+      "month": "2018-12",
+      "nests": 5,
+      "poached": 0
+    },
+    {
+      "month": "2019-05",
+      "nests": 1,
+      "poached": 0
+    },
+    {
+      "month": "2019-06",
+      "nests": 2,
+      "poached": 0
+    },
+    {
+      "month": "2019-07",
+      "nests": 10,
+      "poached": 0
+    },
+    {
+      "month": "2019-08",
+      "nests": 23,
+      "poached": 0
+    },
+    {
+      "month": "2019-09",
+      "nests": 19,
+      "poached": 2
+    },
+    {
+      "month": "2019-10",
+      "nests": 21,
+      "poached": 0
+    },
+    {
+      "month": "2019-11",
+      "nests": 13,
+      "poached": 0
+    },
+    {
+      "month": "2019-12",
+      "nests": 1,
+      "poached": 0
+    },
+    {
+      "month": "2020-07",
+      "nests": 8,
+      "poached": 0
+    },
+    {
+      "month": "2020-08",
+      "nests": 22,
+      "poached": 1
+    },
+    {
+      "month": "2020-09",
+      "nests": 43,
+      "poached": 0
+    },
+    {
+      "month": "2020-10",
+      "nests": 36,
+      "poached": 0
+    },
+    {
+      "month": "2020-11",
+      "nests": 16,
+      "poached": 0
+    },
+    {
+      "month": "2020-12",
+      "nests": 10,
+      "poached": 0
+    },
+    {
+      "month": "2021-01",
+      "nests": 2,
+      "poached": 0
+    },
+    {
+      "month": "2021-03",
+      "nests": 1,
+      "poached": 0
+    },
+    {
+      "month": "2021-04",
+      "nests": 1,
+      "poached": 0
+    },
+    {
+      "month": "2021-05",
+      "nests": 4,
+      "poached": 0
+    },
+    {
+      "month": "2021-06",
+      "nests": 12,
+      "poached": 0
+    },
+    {
+      "month": "2021-07",
+      "nests": 23,
+      "poached": 0
+    },
+    {
+      "month": "2021-08",
+      "nests": 91,
+      "poached": 5
+    },
+    {
+      "month": "2021-09",
+      "nests": 85,
+      "poached": 1
+    },
+    {
+      "month": "2021-10",
+      "nests": 56,
+      "poached": 0
+    },
+    {
+      "month": "2021-11",
+      "nests": 25,
+      "poached": 0
+    },
+    {
+      "month": "2021-12",
+      "nests": 5,
+      "poached": 0
+    },
+    {
+      "month": "2022-01",
+      "nests": 1,
+      "poached": 0
+    },
+    {
+      "month": "2022-05",
+      "nests": 2,
+      "poached": 1
+    },
+    {
+      "month": "2022-06",
+      "nests": 10,
+      "poached": 1
+    },
+    {
+      "month": "2022-07",
+      "nests": 26,
+      "poached": 0
+    },
+    {
+      "month": "2022-08",
+      "nests": 76,
+      "poached": 7
+    },
+    {
+      "month": "2022-09",
+      "nests": 76,
+      "poached": 23
+    },
+    {
+      "month": "2022-10",
+      "nests": 60,
+      "poached": 5
+    },
+    {
+      "month": "2022-11",
+      "nests": 26,
+      "poached": 4
+    },
+    {
+      "month": "2022-12",
+      "nests": 8,
+      "poached": 0
+    },
+    {
+      "month": "2023-01",
+      "nests": 3,
+      "poached": 0
+    },
     {
       "month": "2023-05",
       "nests": 2,
@@ -1235,27 +3985,27 @@
     },
     {
       "month": "2023-07",
-      "nests": 23,
+      "nests": 25,
       "poached": 2
     },
     {
       "month": "2023-08",
-      "nests": 98,
-      "poached": 10
+      "nests": 138,
+      "poached": 11
     },
     {
       "month": "2023-09",
-      "nests": 65,
-      "poached": 5
+      "nests": 83,
+      "poached": 7
     },
     {
       "month": "2023-10",
-      "nests": 45,
+      "nests": 67,
       "poached": 3
     },
     {
       "month": "2023-11",
-      "nests": 29,
+      "nests": 44,
       "poached": 2
     },
     {
@@ -1270,7 +4020,7 @@
     },
     {
       "month": "2024-04",
-      "nests": 2,
+      "nests": 4,
       "poached": 0
     },
     {
@@ -1281,31 +4031,31 @@
     {
       "month": "2024-06",
       "nests": 11,
-      "poached": 1
+      "poached": 2
     },
     {
       "month": "2024-07",
-      "nests": 18,
+      "nests": 21,
       "poached": 0
     },
     {
       "month": "2024-08",
-      "nests": 28,
+      "nests": 31,
       "poached": 3
     },
     {
       "month": "2024-09",
-      "nests": 30,
-      "poached": 5
+      "nests": 48,
+      "poached": 9
     },
     {
       "month": "2024-10",
-      "nests": 36,
-      "poached": 3
+      "nests": 38,
+      "poached": 0
     },
     {
       "month": "2024-11",
-      "nests": 10,
+      "nests": 12,
       "poached": 4
     },
     {
@@ -1315,7 +4065,12 @@
     },
     {
       "month": "2025-01",
-      "nests": 2,
+      "nests": 1,
+      "poached": 0
+    },
+    {
+      "month": "2025-03",
+      "nests": 1,
       "poached": 0
     },
     {
@@ -1325,68 +4080,68 @@
     },
     {
       "month": "2025-05",
-      "nests": 5,
+      "nests": 7,
       "poached": 1
     },
     {
       "month": "2025-06",
-      "nests": 9,
+      "nests": 12,
       "poached": 0
     },
     {
       "month": "2025-07",
-      "nests": 42,
+      "nests": 53,
       "poached": 1
     },
     {
       "month": "2025-08",
-      "nests": 111,
-      "poached": 2
+      "nests": 125,
+      "poached": 3
     },
     {
       "month": "2025-09",
-      "nests": 154,
-      "poached": 21
+      "nests": 167,
+      "poached": 23
     },
     {
       "month": "2025-10",
-      "nests": 82,
+      "nests": 96,
       "poached": 5
     },
     {
       "month": "2025-11",
-      "nests": 34,
-      "poached": 0
-    },
-    {
-      "month": "2025-12",
-      "nests": 19,
+      "nests": 48,
       "poached": 1
     },
     {
+      "month": "2025-12",
+      "nests": 23,
+      "poached": 0
+    },
+    {
       "month": "2026-01",
-      "nests": 3,
+      "nests": 4,
       "poached": 0
     },
     {
       "month": "2026-05",
-      "nests": 2,
+      "nests": 3,
       "poached": 0
     },
     {
       "month": "2026-06",
-      "nests": 7,
+      "nests": 11,
       "poached": 0
     },
     {
       "month": "2026-07",
-      "nests": 35,
+      "nests": 43,
       "poached": 0
     },
     {
       "month": "2026-08",
-      "nests": 59,
-      "poached": 1
+      "nests": 72,
+      "poached": 4
     }
   ]
 }
