@@ -3,61 +3,136 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Tortuga Charts — Dev Preview</title>
+  <title>Reserva Playa Tortuga — Nesting Data</title>
   <style>
-    body { font-family: sans-serif; max-width: 900px; margin: 40px auto; padding: 0 16px; }
-    h1 { color: #2a9d8f; }
-    h2 { color: #264653; margin-top: 40px; font-size: 1rem; text-transform: uppercase; letter-spacing: .05em; }
-    section { margin-bottom: 40px; }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: system-ui, -apple-system, sans-serif;
+      background: #eef4f3;
+      color: #264653;
+      min-height: 100vh;
+    }
+
+    /* ── Header ── */
+    .dashboard-container .dash-header {
+      background: #264653;
+      color: #fff;
+      padding: 18px 24px;
+      display: flex;
+      align-items: center;
+      gap: 14px;
+    }
+    .dashboard-container .dash-header .turtle-icon { font-size: 2.2rem; line-height: 1; }
+    .dashboard-container .dash-header h1 {
+      font-size: 1.2rem;
+      font-weight: 700;
+      color: #fff;
+      letter-spacing: 0.015em;
+    }
+    .dashboard-container .dash-header .subtitle {
+      font-size: 0.78rem;
+      color: #9dcec8;
+      margin-top: 3px;
+    }
+
+    /* ── Main content ── */
+    .dashboard-container .dash-main {
+      padding: 20px;
+      max-width: 1440px;
+      margin: 0 auto;
+    }
+
+    /* ── 6-column dashboard grid ── */
+    .dashboard-container .dash-grid {
+      display: grid;
+      grid-template-columns: repeat(6, 1fr);
+      gap: 16px;
+    }
+
+    /* ── Cards ── */
+    .dashboard-container .card {
+      background: #fff;
+      border-radius: 10px;
+      box-shadow: 0 1px 4px rgba(38, 70, 83, 0.10), 0 0 0 1px rgba(38,70,83,0.04);
+      padding: 16px;
+      min-width: 0;
+      display: flex;
+      flex-direction: column;
+    }
+
+    /* ── Span helpers ── */
+    .dashboard-container .span-6 { grid-column: span 6; }
+    .dashboard-container .span-4 { grid-column: span 4; }
+    .dashboard-container .span-3 { grid-column: span 3; }
+    .dashboard-container .span-2 { grid-column: span 2; }
+
+    /* ── Responsive breakpoints ── */
+    @media (max-width: 1024px) {
+      .dashboard-container .span-4 { grid-column: span 6; }
+      .dashboard-container .span-2 { grid-column: span 6; }
+    }
+    @media (max-width: 700px) {
+      .dashboard-container .dash-grid { grid-template-columns: 1fr; gap: 12px; }
+      .dashboard-container .span-6, .dashboard-container .span-4, .dashboard-container .span-3, .dashboard-container .span-2 { grid-column: span 1; }
+      .dashboard-container .dash-main { padding: 12px; }
+    }
   </style>
 </head>
-<body>
-  <h1>Reserva Playa Tortuga — Chart Components</h1>
+<body class="dashboard-container">
 
-  <h2>Stat Tiles</h2>
-  <section>
-    <tortuga-stat-tiles data-src="/data/summary.json"></tortuga-stat-tiles>
-  </section>
+  <header class="dash-header">
+    <span class="turtle-icon">🐢</span>
+    <div>
+      <h1>Reserva Playa Tortuga</h1>
+      <div class="subtitle">Sea turtle nesting monitoring &middot; Pacific Costa Rica</div>
+    </div>
+  </header>
 
-  <h2>Nests by Month</h2>
-  <section>
-    <tortuga-nests-by-month data-src="/data/summary.json"></tortuga-nests-by-month>
-  </section>
+  <main class="dash-main">
+    <div class="dash-grid">
 
-  <h2>Nests by Beach &amp; Species</h2>
-  <section>
-    <tortuga-nests-by-beach data-src="/data/summary.json"></tortuga-nests-by-beach>
-  </section>
+      <!-- KPI stat tiles — full width -->
+      <div class="card span-6">
+        <tortuga-stat-tiles></tortuga-stat-tiles>
+      </div>
 
-  <h2>Activity Breakdown</h2>
-  <section>
-    <tortuga-activity-breakdown data-src="/data/summary.json"></tortuga-activity-breakdown>
-  </section>
+      <!-- Year-over-year trend (wide) + Activity breakdown (narrow) -->
+      <div class="card span-4">
+        <tortuga-year-over-year></tortuga-year-over-year>
+      </div>
+      <div class="card span-2">
+        <tortuga-activity-breakdown></tortuga-activity-breakdown>
+      </div>
 
-  <h2>Year-over-Year Comparison</h2>
-  <section>
-    <tortuga-year-over-year data-src="/data/summary.json"></tortuga-year-over-year>
-  </section>
+      <!-- Nest vs. poached timeline (wide) + Clutch size (narrow) -->
+      <div class="card span-4">
+        <tortuga-nest-vs-poached></tortuga-nest-vs-poached>
+      </div>
+      <div class="card span-2">
+        <tortuga-clutch-size></tortuga-clutch-size>
+      </div>
 
-  <h2>Nests Documented vs. Poached</h2>
-  <section>
-    <tortuga-nest-vs-poached data-src="/data/summary.json"></tortuga-nest-vs-poached>
-  </section>
+      <!-- Species phenology — full width -->
+      <div class="card span-6">
+        <tortuga-species-phenology></tortuga-species-phenology>
+      </div>
 
-  <h2>Nesting Phenology by Species</h2>
-  <section>
-    <tortuga-species-phenology data-src="/data/summary.json"></tortuga-species-phenology>
-  </section>
+      <!-- Monthly nests + Nests by beach — equal halves -->
+      <div class="card span-3">
+        <tortuga-nests-by-month></tortuga-nests-by-month>
+      </div>
+      <div class="card span-3">
+        <tortuga-nests-by-beach></tortuga-nests-by-beach>
+      </div>
 
-  <h2>Average Clutch Size by Species</h2>
-  <section>
-    <tortuga-clutch-size data-src="/data/summary.json"></tortuga-clutch-size>
-  </section>
+      <!-- Beach trend — full width -->
+      <div class="card span-6">
+        <tortuga-beach-trend></tortuga-beach-trend>
+      </div>
 
-  <h2>Beach Trend (Year-over-Year)</h2>
-  <section>
-    <tortuga-beach-trend data-src="/data/summary.json"></tortuga-beach-trend>
-  </section>
+    </div>
+  </main>
 
   <script type="module" src="/src/main.jsx"></script>
 </body>

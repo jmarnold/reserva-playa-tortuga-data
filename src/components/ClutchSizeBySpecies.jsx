@@ -105,6 +105,6 @@ export function ClutchSizeBySpecies({ src }) {
 }
 
 const styles = {
-  wrap: { fontFamily: 'sans-serif', padding: '8px', maxWidth: '520px' },
+  wrap: { fontFamily: 'sans-serif', padding: '8px' },
   msg: { fontFamily: 'sans-serif', color: '#555' },
 }

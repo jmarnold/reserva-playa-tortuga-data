@@ -37,7 +37,7 @@ export function defineWebComponent(tagName, Component) {
 
     _render() {
       if (!this._reactRoot) return
-      const src = this.getAttribute('data-src') || ''
+      const src = this.getAttribute('data-src') || '/data/summary.json'
       this._reactRoot.render(<Component src={src} />)
     }
   }

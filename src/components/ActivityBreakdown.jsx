@@ -62,6 +62,6 @@ export function ActivityBreakdown({ src }) {
 }
 
 const styles = {
-  wrap: { fontFamily: 'sans-serif', padding: '8px', maxWidth: '500px' },
+  wrap: { fontFamily: 'sans-serif', padding: '8px' },
   msg: { fontFamily: 'sans-serif', color: '#555' },
 }
