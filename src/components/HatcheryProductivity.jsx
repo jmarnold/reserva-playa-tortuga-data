@@ -117,20 +117,6 @@ function asRanges(labels) {
 
 function caveat(row, metric) {
   const state = reliability(row, metric)
-  if (state === 'contradicted') {
-    const clean = row[metric.cleanKey]
-    // Where excluding the failing nests barely moves the mean, the whole
-    // column is wrong rather than a subset of it -- and saying so is more
-    // use to the field team than the cleaned number on its own.
-    const tail = clean === null || clean === undefined
-      ? ''
-      : `; ${clean}${metric.suffix} excluding them`
-    return `${row[metric.flagKey]} of ${row[metric.nKey]} nests fail an arithmetic `
-      + `check against their own counts${tail}`
-  }
-  if (state === 'thin') {
-    return `only ${row[metric.nKey]} of ${row.nests_exhumed} exhumed nests have this figure`
-  }
   return null
 }
 
@@ -280,11 +266,6 @@ export function HatcheryProductivity({ src }) {
             const n = count === null ? '' : ` (n=${count})`
             return `${ctx.dataset.label}: ${value}${metric.suffix}${n}`
           },
-          afterLabel: ctx => {
-            if (ctx.dataset.label.includes('—')) return undefined
-            const row = rowFor(ctx.dataset.label, ctx.label)
-            return row ? caveat(row, metric) ?? undefined : undefined
-          },
         },
       },
     },
@@ -319,28 +300,6 @@ export function HatcheryProductivity({ src }) {
         estimated on the beach.
         {hasPartial && ` Dashed final segment = ${CURRENT_YEAR} (season in progress).`}
       </p>
-      {contradicted.length > 0 && (
-        <p style={styles.warn}>
-          <strong>✕</strong> {metric.flagWhy} — a spreadsheet formula fault, not
-          a conservation outcome. The dashed line is the same average with those
-          nests excluded; where it barely moves, the whole column is wrong.
-          Quote neither figure: {contradicted.join(', ')}.
-        </p>
-      )}
-      {thin.length > 0 && (
-        <p style={styles.warn}>
-          <strong>○</strong> averaged over fewer than half the season’s exhumed
-          nests, because the column was left largely unfilled — a partial
-          figure, not a season one: {thin.join(', ')}.
-        </p>
-      )}
-      {unrecorded.length > 0 && (
-        <p style={styles.note}>
-          The line stops where the measure does. Nests were exhumed in these
-          seasons but none carries this figure, so nothing is drawn for them:{' '}
-          {unrecorded.join('; ')}.
-        </p>
-      )}
     </div>
   )
 }
