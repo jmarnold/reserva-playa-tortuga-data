@@ -5,11 +5,10 @@ import {
   CategoryScale, LinearScale, PointElement, LineElement,
   Title, Tooltip, Legend,
 } from 'chart.js'
-import { useData } from '../useData'
+import { useSeasonData } from '../useSeasonData'
+import { CURRENT_YEAR } from '../seasonFilter'
 
 ChartJS.register(CategoryScale, LinearScale, PointElement, LineElement, Title, Tooltip, Legend)
-
-const CURRENT_YEAR = String(new Date().getFullYear())
 
 const BEACHES = [
   { name: 'Tortuga',   color: '#1a6b5f' },
@@ -18,7 +17,7 @@ const BEACHES = [
 ]
 
 export function BeachTrend({ src }) {
-  const { data, error } = useData(src)
+  const { data, error } = useSeasonData(src)
 
   if (error) return <p style={styles.msg}>Error: {error}</p>
   if (!data) return <p style={styles.msg}>Loading…</p>

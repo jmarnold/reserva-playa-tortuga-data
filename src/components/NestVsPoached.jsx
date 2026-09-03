@@ -5,7 +5,7 @@ import {
   CategoryScale, LinearScale, PointElement, LineElement, Filler,
   Title, Tooltip, Legend,
 } from 'chart.js'
-import { useData } from '../useData'
+import { useSeasonData } from '../useSeasonData'
 
 ChartJS.register(CategoryScale, LinearScale, PointElement, LineElement, Filler, Title, Tooltip, Legend)
 
@@ -17,7 +17,7 @@ function fmtMonth(ym) {
 }
 
 export function NestVsPoached({ src }) {
-  const { data, error } = useData(src)
+  const { data, error } = useSeasonData(src)
 
   if (error) return <p style={styles.msg}>Error: {error}</p>
   if (!data) return <p style={styles.msg}>Loading…</p>

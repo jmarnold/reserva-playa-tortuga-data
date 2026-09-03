@@ -5,18 +5,17 @@ import {
   CategoryScale, LinearScale, BarElement,
   Title, Tooltip, Legend,
 } from 'chart.js'
-import { useData } from '../useData'
+import { useSeasonData } from '../useSeasonData'
+import { CURRENT_YEAR } from '../seasonFilter'
 
 ChartJS.register(CategoryScale, LinearScale, BarElement, Title, Tooltip, Legend)
-
-const CURRENT_YEAR = String(new Date().getFullYear())
 
 function makeColors(rows, hex) {
   return rows.map(r => r.year === CURRENT_YEAR ? hex + '66' : hex)
 }
 
 export function YearOverYear({ src }) {
-  const { data, error } = useData(src)
+  const { data, error } = useSeasonData(src)
 
   if (error) return <p style={styles.msg}>Error: {error}</p>
   if (!data) return <p style={styles.msg}>Loading…</p>

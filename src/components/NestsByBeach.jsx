@@ -41,7 +41,7 @@ export function NestsByBeach({ src }) {
   const options = {
     responsive: true,
     plugins: {
-      title: { display: true, text: 'Nests by Beach & Species' },
+      title: { display: true, text: 'Nests by Beach & Species (all seasons)' },
     },
     scales: { x: { stacked: false }, y: { stacked: false } },
   }

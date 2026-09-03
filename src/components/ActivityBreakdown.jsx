@@ -4,7 +4,7 @@ import {
   Chart as ChartJS,
   ArcElement, Tooltip, Legend, Title,
 } from 'chart.js'
-import { useData } from '../useData'
+import { useSeasonData } from '../useSeasonData'
 
 ChartJS.register(ArcElement, Tooltip, Legend, Title)
 
@@ -22,7 +22,7 @@ const SHORT_LABELS = {
 const COLORS = ['#2a9d8f', '#e9c46a', '#f4a261', '#e76f51', '#264653', '#adb5bd', '#6c757d']
 
 export function ActivityBreakdown({ src }) {
-  const { data, error } = useData(src)
+  const { data, error } = useSeasonData(src)
 
   if (error) return <p style={styles.msg}>Error: {error}</p>
   if (!data) return <p style={styles.msg}>Loading…</p>

@@ -1,10 +1,9 @@
 import React from 'react'
-import { useData } from '../useData'
-
-const CURRENT_YEAR = String(new Date().getFullYear())
+import { useSeasonData } from '../useSeasonData'
+import { CURRENT_YEAR, SEASON_YEARS } from '../seasonFilter'
 
 export function StatTiles({ src }) {
-  const { data, error } = useData(src)
+  const { data, error } = useSeasonData(src)
 
   if (error) return <p style={styles.msg}>Error: {error}</p>
   if (!data) return <p style={styles.msg}>Loading…</p>
@@ -41,9 +40,11 @@ export function StatTiles({ src }) {
     })
     .reduce((sum, r) => sum + r.nests, 0)
 
+  const seasonLabel = SEASON_YEARS.join('–')
+
   const tiles = [
-    { label: 'Total Nests', value: totalNests.toLocaleString(), icon: '🐢', color: '#2a9d8f' },
-    { label: 'Total Eggs', value: totalEggs.toLocaleString(), icon: '🥚', color: '#2a9d8f' },
+    { label: `Nests (${seasonLabel})`, value: totalNests.toLocaleString(), icon: '🐢', color: '#2a9d8f' },
+    { label: `Eggs (${seasonLabel})`, value: totalEggs.toLocaleString(), icon: '🥚', color: '#2a9d8f' },
     { label: 'Species', value: speciesCount, icon: '🌊', color: '#2a9d8f' },
     {
       label: `Poaching rate ${lastComplete.year}`,
