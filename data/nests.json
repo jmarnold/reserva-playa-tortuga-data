@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-02T21:14:46.557283+00:00",
+  "generated_at": "2026-09-03T03:48:32.158578+00:00",
   "coordinate_precision_note": "Positions shown are deliberately offset to protect nests from poaching. They are approximate, are not survey-accurate, and must not be used to navigate to a nest. Contact the organisation for research access to precise data.",
   "count": 1732,
   "features": [
@@ -16045,16 +16045,6 @@
       "observed_month": "2026-06"
     },
     {
-      "lat": 9.075,
-      "lon": -83.674,
-      "species": "Lora /Olive ridley",
-      "beach": "Tortuga",
-      "sector": "10",
-      "activity": "Nido/Nest",
-      "egg_count": 111,
-      "observed_month": "2026-06"
-    },
-    {
       "lat": 9.19,
       "lon": -83.775,
       "species": "Lora /Olive ridley",
@@ -16062,6 +16052,16 @@
       "sector": "18",
       "activity": "Nido/Nest",
       "egg_count": 67,
+      "observed_month": "2026-06"
+    },
+    {
+      "lat": 9.075,
+      "lon": -83.674,
+      "species": "Lora /Olive ridley",
+      "beach": "Tortuga",
+      "sector": "10",
+      "activity": "Nido/Nest",
+      "egg_count": 111,
       "observed_month": "2026-06"
     },
     {
@@ -16095,6 +16095,16 @@
       "observed_month": "2026-06"
     },
     {
+      "lat": 9.073,
+      "lon": -83.661,
+      "species": "Lora /Olive ridley",
+      "beach": "Tortuga",
+      "sector": "15",
+      "activity": "Nido/Nest",
+      "egg_count": 111,
+      "observed_month": "2026-07"
+    },
+    {
       "lat": 9.087,
       "lon": -83.639,
       "species": "Lora /Olive ridley",
@@ -16115,13 +16125,13 @@
       "observed_month": "2026-07"
     },
     {
-      "lat": 9.073,
-      "lon": -83.661,
+      "lat": 9.201,
+      "lon": -83.781,
       "species": "Lora /Olive ridley",
-      "beach": "Tortuga",
-      "sector": "15",
+      "beach": "Hermosa",
+      "sector": "5",
       "activity": "Nido/Nest",
-      "egg_count": 111,
+      "egg_count": 106,
       "observed_month": "2026-07"
     },
     {
@@ -16132,16 +16142,6 @@
       "sector": "6",
       "activity": "Nido/Nest",
       "egg_count": 100,
-      "observed_month": "2026-07"
-    },
-    {
-      "lat": 9.201,
-      "lon": -83.781,
-      "species": "Lora /Olive ridley",
-      "beach": "Hermosa",
-      "sector": "5",
-      "activity": "Nido/Nest",
-      "egg_count": 106,
       "observed_month": "2026-07"
     },
     {
@@ -16185,16 +16185,6 @@
       "observed_month": "2026-07"
     },
     {
-      "lat": 9.082,
-      "lon": -83.679,
-      "species": "Lora /Olive ridley",
-      "beach": "Tortuga",
-      "sector": "1",
-      "activity": "Anidación No efectivo /Not effective nesting",
-      "egg_count": null,
-      "observed_month": "2026-07"
-    },
-    {
       "lat": 9.079,
       "lon": -83.666,
       "species": "Lora /Olive ridley",
@@ -16205,6 +16195,16 @@
       "observed_month": "2026-07"
     },
     {
+      "lat": 9.082,
+      "lon": -83.679,
+      "species": "Lora /Olive ridley",
+      "beach": "Tortuga",
+      "sector": "1",
+      "activity": "Anidación No efectivo /Not effective nesting",
+      "egg_count": null,
+      "observed_month": "2026-07"
+    },
+    {
       "lat": 9.366,
       "lon": -83.691,
       "species": "Lora /Olive ridley",
@@ -16212,6 +16212,16 @@
       "sector": "34",
       "activity": "Nido/Nest",
       "egg_count": 15,
+      "observed_month": "2026-07"
+    },
+    {
+      "lat": 9.062,
+      "lon": -83.657,
+      "species": "Lora /Olive ridley",
+      "beach": "Tortuga",
+      "sector": "22",
+      "activity": "Nido/Nest",
+      "egg_count": 70,
       "observed_month": "2026-07"
     },
     {
@@ -16232,16 +16242,6 @@
       "sector": "6",
       "activity": "Nido/Nest",
       "egg_count": 85,
-      "observed_month": "2026-07"
-    },
-    {
-      "lat": 9.062,
-      "lon": -83.657,
-      "species": "Lora /Olive ridley",
-      "beach": "Tortuga",
-      "sector": "22",
-      "activity": "Nido/Nest",
-      "egg_count": 70,
       "observed_month": "2026-07"
     },
     {
@@ -16325,16 +16325,6 @@
       "observed_month": "2026-07"
     },
     {
-      "lat": 9.062,
-      "lon": -83.659,
-      "species": "Lora /Olive ridley",
-      "beach": "Tortuga",
-      "sector": "17",
-      "activity": "Nido/Nest",
-      "egg_count": 73,
-      "observed_month": "2026-07"
-    },
-    {
       "lat": 9.063,
       "lon": -83.658,
       "species": "Lora /Olive ridley",
@@ -16342,6 +16332,16 @@
       "sector": "17",
       "activity": "Nido/Nest",
       "egg_count": 74,
+      "observed_month": "2026-07"
+    },
+    {
+      "lat": 9.062,
+      "lon": -83.659,
+      "species": "Lora /Olive ridley",
+      "beach": "Tortuga",
+      "sector": "17",
+      "activity": "Nido/Nest",
+      "egg_count": 73,
       "observed_month": "2026-07"
     },
     {
@@ -16355,16 +16355,6 @@
       "observed_month": "2026-07"
     },
     {
-      "lat": 9.07,
-      "lon": -83.676,
-      "species": "Lora /Olive ridley",
-      "beach": "Tortuga",
-      "sector": "8",
-      "activity": "Nido/Nest",
-      "egg_count": 82,
-      "observed_month": "2026-07"
-    },
-    {
       "lat": 9.067,
       "lon": -83.664,
       "species": "Lora /Olive ridley",
@@ -16372,36 +16362,6 @@
       "sector": "8",
       "activity": "Nido/Nest",
       "egg_count": 83,
-      "observed_month": "2026-07"
-    },
-    {
-      "lat": 9.067,
-      "lon": -83.659,
-      "species": "Lora /Olive ridley",
-      "beach": "Tortuga",
-      "sector": "14",
-      "activity": "Sálida Falsa/False crawl",
-      "egg_count": null,
-      "observed_month": "2026-07"
-    },
-    {
-      "lat": 9.07,
-      "lon": -83.658,
-      "species": "Lora /Olive ridley",
-      "beach": "Tortuga",
-      "sector": "25",
-      "activity": "Nido/Nest",
-      "egg_count": 75,
-      "observed_month": "2026-07"
-    },
-    {
-      "lat": 9.194,
-      "lon": -83.775,
-      "species": "Lora /Olive ridley",
-      "beach": "Hermosa",
-      "sector": "7",
-      "activity": "Nido/Nest",
-      "egg_count": 96,
       "observed_month": "2026-07"
     },
     {
@@ -16422,6 +16382,46 @@
       "sector": "7",
       "activity": "Nido/Nest",
       "egg_count": 88,
+      "observed_month": "2026-07"
+    },
+    {
+      "lat": 9.194,
+      "lon": -83.775,
+      "species": "Lora /Olive ridley",
+      "beach": "Hermosa",
+      "sector": "7",
+      "activity": "Nido/Nest",
+      "egg_count": 96,
+      "observed_month": "2026-07"
+    },
+    {
+      "lat": 9.07,
+      "lon": -83.676,
+      "species": "Lora /Olive ridley",
+      "beach": "Tortuga",
+      "sector": "8",
+      "activity": "Nido/Nest",
+      "egg_count": 82,
+      "observed_month": "2026-07"
+    },
+    {
+      "lat": 9.07,
+      "lon": -83.658,
+      "species": "Lora /Olive ridley",
+      "beach": "Tortuga",
+      "sector": "25",
+      "activity": "Nido/Nest",
+      "egg_count": 75,
+      "observed_month": "2026-07"
+    },
+    {
+      "lat": 9.067,
+      "lon": -83.659,
+      "species": "Lora /Olive ridley",
+      "beach": "Tortuga",
+      "sector": "14",
+      "activity": "Sálida Falsa/False crawl",
+      "egg_count": null,
       "observed_month": "2026-07"
     },
     {
@@ -16525,16 +16525,6 @@
       "observed_month": "2026-07"
     },
     {
-      "lat": 9.081,
-      "lon": -83.668,
-      "species": "Lora /Olive ridley",
-      "beach": "Tortuga",
-      "sector": "6",
-      "activity": "Nido/Nest",
-      "egg_count": 99,
-      "observed_month": "2026-07"
-    },
-    {
       "lat": 9.195,
       "lon": -83.774,
       "species": "Lora /Olive ridley",
@@ -16542,6 +16532,16 @@
       "sector": "6",
       "activity": "Nido/Nest",
       "egg_count": 89,
+      "observed_month": "2026-07"
+    },
+    {
+      "lat": 9.081,
+      "lon": -83.668,
+      "species": "Lora /Olive ridley",
+      "beach": "Tortuga",
+      "sector": "6",
+      "activity": "Nido/Nest",
+      "egg_count": 99,
       "observed_month": "2026-07"
     },
     {
@@ -16555,16 +16555,6 @@
       "observed_month": "2026-07"
     },
     {
-      "lat": 9.066,
-      "lon": -83.659,
-      "species": "Lora /Olive ridley",
-      "beach": "Tortuga",
-      "sector": "17",
-      "activity": "Nido/Nest",
-      "egg_count": 74,
-      "observed_month": "2026-07"
-    },
-    {
       "lat": 9.074,
       "lon": -83.661,
       "species": "Lora /Olive ridley",
@@ -16575,8 +16565,18 @@
       "observed_month": "2026-07"
     },
     {
-      "lat": 9.068,
-      "lon": -83.664,
+      "lat": 9.066,
+      "lon": -83.659,
+      "species": "Lora /Olive ridley",
+      "beach": "Tortuga",
+      "sector": "17",
+      "activity": "Nido/Nest",
+      "egg_count": 74,
+      "observed_month": "2026-07"
+    },
+    {
+      "lat": 9.082,
+      "lon": -83.668,
       "species": "Lora /Olive ridley",
       "beach": "Tortuga",
       "sector": "7",
@@ -16585,8 +16585,8 @@
       "observed_month": "2026-08"
     },
     {
-      "lat": 9.082,
-      "lon": -83.668,
+      "lat": 9.068,
+      "lon": -83.664,
       "species": "Lora /Olive ridley",
       "beach": "Tortuga",
       "sector": "7",
@@ -16601,56 +16601,6 @@
       "beach": "Tortuga",
       "sector": "12",
       "activity": "Tortuga muerta/Dead turtle",
-      "egg_count": null,
-      "observed_month": "2026-08"
-    },
-    {
-      "lat": 9.076,
-      "lon": -83.672,
-      "species": "Lora /Olive ridley",
-      "beach": "Tortuga",
-      "sector": "13",
-      "activity": "Nido/Nest",
-      "egg_count": 110,
-      "observed_month": "2026-08"
-    },
-    {
-      "lat": 9.074,
-      "lon": -83.662,
-      "species": "Lora /Olive ridley",
-      "beach": "Tortuga",
-      "sector": "16",
-      "activity": "Sálida Falsa/False crawl",
-      "egg_count": null,
-      "observed_month": "2026-08"
-    },
-    {
-      "lat": 9.196,
-      "lon": -83.785,
-      "species": "Lora /Olive ridley",
-      "beach": "Hermosa",
-      "sector": "5",
-      "activity": "Sálida Falsa/False crawl",
-      "egg_count": null,
-      "observed_month": "2026-08"
-    },
-    {
-      "lat": 9.171,
-      "lon": -83.766,
-      "species": "Lora /Olive ridley",
-      "beach": "Hermosa",
-      "sector": "30",
-      "activity": "Nido/Nest",
-      "egg_count": 111,
-      "observed_month": "2026-08"
-    },
-    {
-      "lat": 9.075,
-      "lon": -83.667,
-      "species": "Lora /Olive ridley",
-      "beach": "Tortuga",
-      "sector": "2",
-      "activity": "Sálida Falsa/False crawl",
       "egg_count": null,
       "observed_month": "2026-08"
     },
@@ -16672,6 +16622,56 @@
       "sector": "12",
       "activity": "Nido/Nest",
       "egg_count": 80,
+      "observed_month": "2026-08"
+    },
+    {
+      "lat": 9.075,
+      "lon": -83.667,
+      "species": "Lora /Olive ridley",
+      "beach": "Tortuga",
+      "sector": "2",
+      "activity": "Sálida Falsa/False crawl",
+      "egg_count": null,
+      "observed_month": "2026-08"
+    },
+    {
+      "lat": 9.171,
+      "lon": -83.766,
+      "species": "Lora /Olive ridley",
+      "beach": "Hermosa",
+      "sector": "30",
+      "activity": "Nido/Nest",
+      "egg_count": 111,
+      "observed_month": "2026-08"
+    },
+    {
+      "lat": 9.196,
+      "lon": -83.785,
+      "species": "Lora /Olive ridley",
+      "beach": "Hermosa",
+      "sector": "5",
+      "activity": "Sálida Falsa/False crawl",
+      "egg_count": null,
+      "observed_month": "2026-08"
+    },
+    {
+      "lat": 9.074,
+      "lon": -83.662,
+      "species": "Lora /Olive ridley",
+      "beach": "Tortuga",
+      "sector": "16",
+      "activity": "Sálida Falsa/False crawl",
+      "egg_count": null,
+      "observed_month": "2026-08"
+    },
+    {
+      "lat": 9.076,
+      "lon": -83.672,
+      "species": "Lora /Olive ridley",
+      "beach": "Tortuga",
+      "sector": "13",
+      "activity": "Nido/Nest",
+      "egg_count": 110,
       "observed_month": "2026-08"
     },
     {
@@ -16735,16 +16735,6 @@
       "observed_month": "2026-08"
     },
     {
-      "lat": 9.081,
-      "lon": -83.668,
-      "species": "Lora /Olive ridley",
-      "beach": "Tortuga",
-      "sector": "5",
-      "activity": "Nido/Nest",
-      "egg_count": 114,
-      "observed_month": "2026-08"
-    },
-    {
       "lat": 9.071,
       "lon": -83.666,
       "species": "Lora /Olive ridley",
@@ -16755,13 +16745,13 @@
       "observed_month": "2026-08"
     },
     {
-      "lat": 9.078,
-      "lon": -83.678,
+      "lat": 9.081,
+      "lon": -83.668,
       "species": "Lora /Olive ridley",
       "beach": "Tortuga",
-      "sector": "3",
+      "sector": "5",
       "activity": "Nido/Nest",
-      "egg_count": 94,
+      "egg_count": 114,
       "observed_month": "2026-08"
     },
     {
@@ -16775,6 +16765,16 @@
       "observed_month": "2026-08"
     },
     {
+      "lat": 9.171,
+      "lon": -83.753,
+      "species": "Lora /Olive ridley",
+      "beach": "Hermosa",
+      "sector": "40",
+      "activity": "Nido/Nest",
+      "egg_count": 99,
+      "observed_month": "2026-08"
+    },
+    {
       "lat": 9.168,
       "lon": -83.768,
       "species": "Lora /Olive ridley",
@@ -16785,13 +16785,13 @@
       "observed_month": "2026-08"
     },
     {
-      "lat": 9.171,
-      "lon": -83.753,
+      "lat": 9.078,
+      "lon": -83.678,
       "species": "Lora /Olive ridley",
-      "beach": "Hermosa",
-      "sector": "40",
+      "beach": "Tortuga",
+      "sector": "3",
       "activity": "Nido/Nest",
-      "egg_count": 99,
+      "egg_count": 94,
       "observed_month": "2026-08"
     },
     {
@@ -16815,16 +16815,6 @@
       "observed_month": "2026-08"
     },
     {
-      "lat": 9.174,
-      "lon": -83.77,
-      "species": "Lora /Olive ridley",
-      "beach": "Hermosa",
-      "sector": "35",
-      "activity": "Nido/Nest",
-      "egg_count": 102,
-      "observed_month": "2026-08"
-    },
-    {
       "lat": 9.18,
       "lon": -83.778,
       "species": "Lora /Olive ridley",
@@ -16832,6 +16822,16 @@
       "sector": "16",
       "activity": "Nido/Nest",
       "egg_count": 119,
+      "observed_month": "2026-08"
+    },
+    {
+      "lat": 9.174,
+      "lon": -83.77,
+      "species": "Lora /Olive ridley",
+      "beach": "Hermosa",
+      "sector": "35",
+      "activity": "Nido/Nest",
+      "egg_count": 102,
       "observed_month": "2026-08"
     },
     {
@@ -16895,16 +16895,6 @@
       "observed_month": "2026-08"
     },
     {
-      "lat": 9.057,
-      "lon": -83.664,
-      "species": "Lora /Olive ridley",
-      "beach": "Tortuga",
-      "sector": "22",
-      "activity": "Nido/Nest",
-      "egg_count": 52,
-      "observed_month": "2026-08"
-    },
-    {
       "lat": 9.075,
       "lon": -83.676,
       "species": "Lora /Olive ridley",
@@ -16912,16 +16902,6 @@
       "sector": "3",
       "activity": "Nido/Nest",
       "egg_count": 77,
-      "observed_month": "2026-08"
-    },
-    {
-      "lat": 9.072,
-      "lon": -83.665,
-      "species": "Lora /Olive ridley",
-      "beach": "Tortuga",
-      "sector": "6",
-      "activity": "Nido/Nest",
-      "egg_count": 94,
       "observed_month": "2026-08"
     },
     {
@@ -16955,13 +16935,23 @@
       "observed_month": "2026-08"
     },
     {
-      "lat": 9.096,
-      "lon": -83.46,
+      "lat": 9.072,
+      "lon": -83.665,
       "species": "Lora /Olive ridley",
-      "beach": "Hermosa",
-      "sector": "41",
+      "beach": "Tortuga",
+      "sector": "6",
       "activity": "Nido/Nest",
-      "egg_count": 109,
+      "egg_count": 94,
+      "observed_month": "2026-08"
+    },
+    {
+      "lat": 9.057,
+      "lon": -83.664,
+      "species": "Lora /Olive ridley",
+      "beach": "Tortuga",
+      "sector": "22",
+      "activity": "Nido/Nest",
+      "egg_count": 52,
       "observed_month": "2026-08"
     },
     {
@@ -16975,6 +16965,16 @@
       "observed_month": "2026-08"
     },
     {
+      "lat": 9.096,
+      "lon": -83.46,
+      "species": "Lora /Olive ridley",
+      "beach": "Hermosa",
+      "sector": "41",
+      "activity": "Nido/Nest",
+      "egg_count": 109,
+      "observed_month": "2026-08"
+    },
+    {
       "lat": 9.075,
       "lon": -83.669,
       "species": "Lora /Olive ridley",
@@ -16985,16 +16985,6 @@
       "observed_month": "2026-08"
     },
     {
-      "lat": 9.192,
-      "lon": -83.782,
-      "species": "Lora /Olive ridley",
-      "beach": "Hermosa",
-      "sector": "12",
-      "activity": "Anidación No efectivo /Not effective nesting",
-      "egg_count": null,
-      "observed_month": "2026-08"
-    },
-    {
       "lat": 9.077,
       "lon": -83.667,
       "species": "Lora /Olive ridley",
@@ -17002,6 +16992,16 @@
       "sector": "4",
       "activity": "Nido/Nest",
       "egg_count": 74,
+      "observed_month": "2026-08"
+    },
+    {
+      "lat": 9.192,
+      "lon": -83.782,
+      "species": "Lora /Olive ridley",
+      "beach": "Hermosa",
+      "sector": "12",
+      "activity": "Anidación No efectivo /Not effective nesting",
+      "egg_count": null,
       "observed_month": "2026-08"
     },
     {
@@ -17075,16 +17075,6 @@
       "observed_month": "2026-08"
     },
     {
-      "lat": 9.069,
-      "lon": -83.666,
-      "species": "Lora /Olive ridley",
-      "beach": "Tortuga",
-      "sector": "8",
-      "activity": "Nido/Nest",
-      "egg_count": 107,
-      "observed_month": "2026-08"
-    },
-    {
       "lat": 9.187,
       "lon": -83.763,
       "species": "Lora /Olive ridley",
@@ -17092,6 +17082,16 @@
       "sector": "29",
       "activity": "Nido/Nest",
       "egg_count": 109,
+      "observed_month": "2026-08"
+    },
+    {
+      "lat": 9.069,
+      "lon": -83.666,
+      "species": "Lora /Olive ridley",
+      "beach": "Tortuga",
+      "sector": "8",
+      "activity": "Nido/Nest",
+      "egg_count": 107,
       "observed_month": "2026-08"
     },
     {
@@ -17105,6 +17105,16 @@
       "observed_month": "2026-08"
     },
     {
+      "lat": 9.192,
+      "lon": -83.785,
+      "species": "Lora /Olive ridley",
+      "beach": "Hermosa",
+      "sector": "6",
+      "activity": "Nido/Nest",
+      "egg_count": 96,
+      "observed_month": "2026-08"
+    },
+    {
       "lat": 9.196,
       "lon": -83.778,
       "species": "Lora /Olive ridley",
@@ -17115,13 +17125,23 @@
       "observed_month": "2026-08"
     },
     {
-      "lat": 9.192,
-      "lon": -83.785,
+      "lat": 9.167,
+      "lon": -83.761,
       "species": "Lora /Olive ridley",
       "beach": "Hermosa",
+      "sector": "38",
+      "activity": "Anidación No efectivo /Not effective nesting",
+      "egg_count": null,
+      "observed_month": "2026-08"
+    },
+    {
+      "lat": 9.078,
+      "lon": -83.677,
+      "species": "Lora /Olive ridley",
+      "beach": "Tortuga",
       "sector": "6",
       "activity": "Nido/Nest",
-      "egg_count": 96,
+      "egg_count": 101,
       "observed_month": "2026-08"
     },
     {
@@ -17185,33 +17205,13 @@
       "observed_month": "2026-08"
     },
     {
-      "lat": 9.167,
-      "lon": -83.761,
+      "lat": 9.197,
+      "lon": -83.786,
       "species": "Lora /Olive ridley",
       "beach": "Hermosa",
-      "sector": "38",
-      "activity": "Anidación No efectivo /Not effective nesting",
-      "egg_count": null,
-      "observed_month": "2026-08"
-    },
-    {
-      "lat": 9.078,
-      "lon": -83.677,
-      "species": "Lora /Olive ridley",
-      "beach": "Tortuga",
-      "sector": "6",
+      "sector": "7",
       "activity": "Nido/Nest",
-      "egg_count": 101,
-      "observed_month": "2026-08"
-    },
-    {
-      "lat": 9.079,
-      "lon": -83.677,
-      "species": "Lora /Olive ridley",
-      "beach": "Tortuga",
-      "sector": "6",
-      "activity": "Nido/Nest",
-      "egg_count": 87,
+      "egg_count": 90,
       "observed_month": "2026-08"
     },
     {
@@ -17225,13 +17225,13 @@
       "observed_month": "2026-08"
     },
     {
-      "lat": 9.197,
-      "lon": -83.786,
+      "lat": 9.079,
+      "lon": -83.677,
       "species": "Lora /Olive ridley",
-      "beach": "Hermosa",
-      "sector": "7",
+      "beach": "Tortuga",
+      "sector": "6",
       "activity": "Nido/Nest",
-      "egg_count": 90,
+      "egg_count": 87,
       "observed_month": "2026-08"
     },
     {
@@ -17255,16 +17255,6 @@
       "observed_month": "2026-08"
     },
     {
-      "lat": 9.062,
-      "lon": -83.67,
-      "species": "Lora /Olive ridley",
-      "beach": "Tortuga",
-      "sector": "16",
-      "activity": "Nido/Nest",
-      "egg_count": 94,
-      "observed_month": "2026-08"
-    },
-    {
       "lat": 9.064,
       "lon": -83.673,
       "species": "Lora /Olive ridley",
@@ -17275,13 +17265,13 @@
       "observed_month": "2026-08"
     },
     {
-      "lat": 9.086,
+      "lat": 9.062,
       "lon": -83.67,
       "species": "Lora /Olive ridley",
       "beach": "Tortuga",
-      "sector": "1",
+      "sector": "16",
       "activity": "Nido/Nest",
-      "egg_count": 122,
+      "egg_count": 94,
       "observed_month": "2026-08"
     },
     {
@@ -17292,6 +17282,16 @@
       "sector": "31",
       "activity": "Nido salvaje /Wild nest",
       "egg_count": null,
+      "observed_month": "2026-08"
+    },
+    {
+      "lat": 9.086,
+      "lon": -83.67,
+      "species": "Lora /Olive ridley",
+      "beach": "Tortuga",
+      "sector": "1",
+      "activity": "Nido/Nest",
+      "egg_count": 122,
       "observed_month": "2026-08"
     },
     {
