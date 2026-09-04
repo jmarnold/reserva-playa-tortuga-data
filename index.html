@@ -7,138 +7,324 @@
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
-    body {
+    /* All rules scoped to .dashboard-container so they don't bleed
+       into the host WordPress page when this is embedded. */
+
+    .dashboard-container {
+      --teal:    #2a9d8f;
+      --dark:    #264653;
+      --sand:    #e9c46a;
+      --coral:   #e76f51;
+      --bg:      #eef4f3;
+      --bg-alt:  #f7fbfa;
+      --text:    #264653;
+      --muted:   #607b82;
+
       font-family: system-ui, -apple-system, sans-serif;
-      background: #eef4f3;
-      color: #264653;
-      min-height: 100vh;
+      color: var(--text);
+      scroll-snap-type: y mandatory;
+      overflow-y: scroll;
+      scroll-behavior: smooth;
+      height: 100svh;
     }
 
-    /* ── Header ── */
-    .dashboard-container .dash-header {
-      background: #264653;
-      color: #fff;
-      padding: 18px 24px;
+    /* ── Slide shell ── */
+    .dashboard-container .slide {
+      scroll-snap-align: start;
+      min-height: 100svh;
       display: flex;
       align-items: center;
-      gap: 14px;
+      justify-content: center;
+      position: relative;
+      padding: 48px 24px 48px 80px;
     }
-    .dashboard-container .dash-header .turtle-icon { font-size: 2.2rem; line-height: 1; }
-    .dashboard-container .dash-header h1 {
-      font-size: 1.2rem;
-      font-weight: 700;
-      color: #fff;
-      letter-spacing: 0.015em;
-    }
-    .dashboard-container .dash-header .subtitle {
-      font-size: 0.78rem;
-      color: #9dcec8;
-      margin-top: 3px;
-    }
+    .dashboard-container .slide:nth-child(even) { background: var(--bg-alt); }
+    .dashboard-container .slide:nth-child(odd)  { background: var(--bg); }
+    .dashboard-container .slide-hero            { background: var(--dark) !important; color: #fff; }
 
-    /* ── Main content ── */
-    .dashboard-container .dash-main {
-      padding: 20px;
-      max-width: 1440px;
+    /* ── Two-column inner layout ── */
+    .dashboard-container .slide-inner {
+      display: grid;
+      grid-template-columns: 320px 1fr;
+      gap: 48px;
+      width: 100%;
+      max-width: 1360px;
+      align-items: center;
+    }
+    .dashboard-container .slide-hero .slide-inner {
+      grid-template-columns: 1fr;
+      text-align: center;
+      max-width: 900px;
       margin: 0 auto;
     }
 
-    /* ── 6-column dashboard grid ── */
-    .dashboard-container .dash-grid {
-      display: grid;
-      grid-template-columns: repeat(6, 1fr);
-      gap: 16px;
+    /* ── Text column ── */
+    .dashboard-container .slide-label {
+      display: inline-block;
+      font-size: 0.7rem;
+      font-weight: 700;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--teal);
+      margin-bottom: 10px;
+    }
+    .dashboard-container .slide-hero .slide-label { color: #9dcec8; }
+
+    .dashboard-container .slide-text h2 {
+      font-size: clamp(1.5rem, 3vw, 2.4rem);
+      font-weight: 800;
+      line-height: 1.15;
+      margin-bottom: 16px;
+      color: inherit;
+    }
+    .dashboard-container .slide-hero h2 { color: #fff; font-size: clamp(2rem, 5vw, 3.6rem); }
+
+    .dashboard-container .slide-text p {
+      font-size: 1rem;
+      line-height: 1.7;
+      color: var(--muted);
+      max-width: 34ch;
+    }
+    .dashboard-container .slide-hero p {
+      color: #9dcec8;
+      max-width: 55ch;
+      margin: 0 auto;
+      font-size: 1.1rem;
     }
 
-    /* ── Cards ── */
-    .dashboard-container .card {
-      background: #fff;
-      border-radius: 10px;
-      box-shadow: 0 1px 4px rgba(38, 70, 83, 0.10), 0 0 0 1px rgba(38,70,83,0.04);
-      padding: 16px;
+    /* ── Chart column ── */
+    .dashboard-container .slide-chart {
       min-width: 0;
+      background: #fff;
+      border-radius: 14px;
+      padding: 24px;
+      box-shadow: 0 2px 12px rgba(38,70,83,0.09), 0 0 0 1px rgba(38,70,83,0.05);
+    }
+    .dashboard-container .slide-hero .slide-chart {
+      background: transparent;
+      box-shadow: none;
+      padding: 32px 0 0;
+    }
+
+    /* ── Entrance animations ── */
+    .dashboard-container .slide-text,
+    .dashboard-container .slide-chart {
+      opacity: 0;
+      transform: translateY(28px);
+      transition: opacity 0.65s ease, transform 0.65s ease;
+    }
+    .dashboard-container .slide-chart { transition-delay: 0.18s; }
+    .dashboard-container .slide.is-visible .slide-text,
+    .dashboard-container .slide.is-visible .slide-chart {
+      opacity: 1;
+      transform: none;
+    }
+
+    /* ── Side navigation dots ── */
+    .dashboard-container .slide-nav {
+      position: fixed;
+      left: 22px;
+      top: 50%;
+      transform: translateY(-50%);
       display: flex;
       flex-direction: column;
+      gap: 10px;
+      z-index: 100;
+    }
+    .dashboard-container .dot {
+      display: block;
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: rgba(38,70,83,0.25);
+      border: none;
+      cursor: pointer;
+      transition: background 0.25s, transform 0.25s;
+      text-decoration: none;
+    }
+    .dashboard-container .dot.active {
+      background: var(--teal);
+      transform: scale(1.4);
     }
 
-    /* ── Span helpers ── */
-    .dashboard-container .span-6 { grid-column: span 6; }
-    .dashboard-container .span-4 { grid-column: span 4; }
-    .dashboard-container .span-3 { grid-column: span 3; }
-    .dashboard-container .span-2 { grid-column: span 2; }
-
-    /* ── Responsive breakpoints ── */
-    @media (max-width: 1024px) {
-      .dashboard-container .span-4 { grid-column: span 6; }
-      .dashboard-container .span-2 { grid-column: span 6; }
+    /* ── Divider line in text ── */
+    .dashboard-container .slide-rule {
+      width: 40px;
+      height: 3px;
+      background: var(--teal);
+      border-radius: 2px;
+      margin: 18px 0;
     }
-    @media (max-width: 700px) {
-      .dashboard-container .dash-grid { grid-template-columns: 1fr; gap: 12px; }
-      .dashboard-container .span-6, .dashboard-container .span-4, .dashboard-container .span-3, .dashboard-container .span-2 { grid-column: span 1; }
-      .dashboard-container .dash-main { padding: 12px; }
+    .dashboard-container .slide-hero .slide-rule { margin: 18px auto; }
+
+    /* ── Responsive ── */
+    @media (max-width: 900px) {
+      /* Proximity lets users scroll freely when slide content exceeds viewport */
+      .dashboard-container { scroll-snap-type: y proximity; }
+      .dashboard-container .slide {
+        padding: 40px 20px 40px 44px;
+        align-items: flex-start;
+        min-height: 100svh;
+      }
+      .dashboard-container .slide-inner {
+        grid-template-columns: 1fr;
+        gap: 24px;
+      }
+      .dashboard-container .slide-text p { max-width: none; }
+      .dashboard-container .slide-text h2 { font-size: clamp(1.3rem, 5vw, 2rem); }
+      /* Ensure chart containers have explicit height for maintainAspectRatio:false */
+      .dashboard-container .slide-chart {
+        height: auto;
+        min-height: 0;
+      }
+    }
+    @media (max-width: 500px) {
+      .dashboard-container .slide { padding: 28px 14px 28px 34px; }
+      .dashboard-container .slide-nav { left: 8px; gap: 8px; }
+      .dashboard-container .dot { width: 6px; height: 6px; }
+      .dashboard-container .slide-hero h2 { font-size: clamp(1.6rem, 8vw, 2.8rem); }
     }
   </style>
 </head>
 <body class="dashboard-container">
 
-  <header class="dash-header">
-    <span class="turtle-icon">🐢</span>
-    <div>
-      <h1>Reserva Playa Tortuga</h1>
-      <div class="subtitle">Sea turtle nesting monitoring &middot; Pacific Costa Rica</div>
-    </div>
-  </header>
+  <!-- Side navigation dots -->
+  <nav class="slide-nav" aria-label="Jump to section">
+    <a class="dot" href="#slide-1" title="Overview"></a>
+    <a class="dot" href="#slide-2" title="Year over year"></a>
+    <a class="dot" href="#slide-3" title="Three species"></a>
+    <a class="dot" href="#slide-4" title="Poaching pressure"></a>
+    <a class="dot" href="#slide-5" title="Beach by beach"></a>
+    <a class="dot" href="#slide-6" title="The hatchery"></a>
+  </nav>
 
-  <main class="dash-main">
-    <div class="dash-grid">
-
-      <!-- KPI stat tiles — full width -->
-      <div class="card span-6">
+  <!-- ── 1. Hero ── -->
+  <section class="slide slide-hero" id="slide-1">
+    <div class="slide-inner">
+      <div class="slide-text">
+        <span class="slide-label">Pacific Costa Rica</span>
+        <h2>🐢 Reserva Playa Tortuga</h2>
+        <div class="slide-rule"></div>
+        <p>
+          Sea turtle nesting monitoring across every crawl, every clutch, every season.
+        </p>
+      </div>
+      <div class="slide-chart">
         <tortuga-stat-tiles></tortuga-stat-tiles>
       </div>
+    </div>
+  </section>
 
-      <!-- Year-over-year trend (wide) + Activity breakdown (narrow) -->
-      <div class="card span-4">
+  <!-- ── 2. Year over year ── -->
+  <section class="slide" id="slide-2">
+    <div class="slide-inner">
+      <div class="slide-text">
+        <span class="slide-label">The record</span>
+        <h2>Every nest, every season</h2>
+        <div class="slide-rule"></div>
+        <p>
+          Field teams patrol the coastline from May through November,
+          logging every nesting event. The multi-year data reveals
+          how activity has shifted over time.
+        </p>
+      </div>
+      <div class="slide-chart">
         <tortuga-year-over-year></tortuga-year-over-year>
       </div>
-      <div class="card span-2">
-        <tortuga-activity-breakdown></tortuga-activity-breakdown>
-      </div>
+    </div>
+  </section>
 
-      <!-- Nest vs. poached timeline (wide) + Clutch size (narrow) -->
-      <div class="card span-4">
-        <tortuga-nest-vs-poached></tortuga-nest-vs-poached>
+  <!-- ── 3. Species phenology ── -->
+  <section class="slide" id="slide-3">
+    <div class="slide-inner">
+      <div class="slide-text">
+        <span class="slide-label">Who nests here</span>
+        <h2>Three species, one coastline</h2>
+        <div class="slide-rule"></div>
+        <p>
+          Olive Ridley, Green, and Hawksbill turtles each follow
+          their own seasonal rhythm. The August - October window
+          sees all three species nesting simultaneously at peak.
+        </p>
       </div>
-      <div class="card span-2">
-        <tortuga-clutch-size></tortuga-clutch-size>
-      </div>
-
-      <!-- Species phenology — full width -->
-      <div class="card span-6">
+      <div class="slide-chart">
         <tortuga-species-phenology></tortuga-species-phenology>
       </div>
+    </div>
+  </section>
 
-      <!-- Monthly nests + Nests by beach — equal halves -->
-      <div class="card span-3">
-        <tortuga-nests-by-month></tortuga-nests-by-month>
+  <!-- ── 4. Poaching ── -->
+  <section class="slide" id="slide-4">
+    <div class="slide-inner">
+      <div class="slide-text">
+        <span class="slide-label">The threat</span>
+        <h2>Not every nest survives</h2>
+        <div class="slide-rule"></div>
+        <p>
+          Poaching is tracked alongside nesting. Months where
+          more than 15% of total nest activity was lost to poachers
+          are flagged, showing where and when the reserve's
+          protection work matters most.
+        </p>
       </div>
-      <div class="card span-3">
-        <tortuga-nests-by-beach></tortuga-nests-by-beach>
+      <div class="slide-chart">
+        <tortuga-nest-vs-poached></tortuga-nest-vs-poached>
       </div>
+    </div>
+  </section>
 
-      <!-- Beach trend — full width -->
-      <div class="card span-6">
+  <!-- ── 5. Beach trend ── -->
+  <section class="slide" id="slide-5">
+    <div class="slide-inner">
+      <div class="slide-text">
+        <span class="slide-label">Where they nest</span>
+        <h2>Different beaches, different stories</h2>
+        <div class="slide-rule"></div>
+        <p>
+          Tortuga and Hermosa carry the bulk of nesting activity,
+          each beach with its own trend.
+        </p>
+      </div>
+      <div class="slide-chart">
         <tortuga-beach-trend></tortuga-beach-trend>
       </div>
+    </div>
+  </section>
 
-      <!-- Hatchery productivity — full width -->
-      <div class="card span-6">
+  <!-- ── 6. Hatchery ── -->
+  <section class="slide" id="slide-6">
+    <div class="slide-inner">
+      <div class="slide-text">
+        <span class="slide-label">Closing the loop</span>
+        <h2>From egg to ocean</h2>
+        <div class="slide-rule"></div>
+        <p>
+          Eggs at highest risk are moved to the on-site hatchery.
+          Season-by-season fertility, emergence, and hatchling
+          release counts are tracked to help observe the effectiveness of conservation efforts.
+        </p>
+      </div>
+      <div class="slide-chart">
         <tortuga-hatchery-productivity></tortuga-hatchery-productivity>
       </div>
-
     </div>
-  </main>
+  </section>
 
   <script type="module" src="/src/main.jsx"></script>
+  <script>
+    const slides = Array.from(document.querySelectorAll('.dashboard-container .slide'))
+    const dots   = Array.from(document.querySelectorAll('.dashboard-container .dot'))
+
+    const io = new IntersectionObserver(entries => {
+      entries.forEach(e => {
+        if (!e.isIntersecting) return
+        e.target.classList.add('is-visible')
+        const idx = slides.indexOf(e.target)
+        dots.forEach((d, i) => d.classList.toggle('active', i === idx))
+      })
+    }, { threshold: 0.4 })
+
+    slides.forEach(s => io.observe(s))
+  </script>
 </body>
 </html>

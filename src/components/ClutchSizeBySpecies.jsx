@@ -70,6 +70,7 @@ export function ClutchSizeBySpecies({ src }) {
   const options = {
     indexAxis: 'y',
     responsive: true,
+    maintainAspectRatio: false,
     plugins: {
       title: {
         display: true,
@@ -105,6 +106,6 @@ export function ClutchSizeBySpecies({ src }) {
 }
 
 const styles = {
-  wrap: { fontFamily: 'sans-serif', padding: '8px' },
+  wrap: { fontFamily: 'sans-serif', padding: '8px', height: 'clamp(220px, 30vh, 300px)' },
   msg: { fontFamily: 'sans-serif', color: '#555' },
 }

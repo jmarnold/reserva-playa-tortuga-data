@@ -49,6 +49,7 @@ export function YearOverYear({ src }) {
 
   const options = {
     responsive: true,
+    maintainAspectRatio: false,
     plugins: {
       title: { display: true, text: 'Year-over-Year: Nests, False Crawls & Poaching' },
       legend: { position: 'top' },
@@ -80,7 +81,7 @@ export function YearOverYear({ src }) {
 }
 
 const styles = {
-  wrap: { fontFamily: 'sans-serif', padding: '8px' },
+  wrap: { fontFamily: 'sans-serif', padding: '8px', height: 'clamp(260px, 38vh, 400px)' },
   msg: { fontFamily: 'sans-serif', color: '#555' },
   note: { fontSize: '0.75rem', color: '#888', margin: '4px 8px 0' },
 }

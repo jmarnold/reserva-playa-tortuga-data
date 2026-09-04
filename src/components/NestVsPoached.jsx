@@ -67,6 +67,7 @@ export function NestVsPoached({ src }) {
 
   const options = {
     responsive: true,
+    maintainAspectRatio: false,
     interaction: { mode: 'index', intersect: false },
     plugins: {
       title: { display: true, text: 'Nests Documented vs. Nests Found Poached (monthly)' },
@@ -103,7 +104,7 @@ export function NestVsPoached({ src }) {
 }
 
 const styles = {
-  wrap: { fontFamily: 'sans-serif', padding: '8px' },
+  wrap: { fontFamily: 'sans-serif', padding: '8px', height: 'clamp(260px, 38vh, 400px)' },
   msg: { fontFamily: 'sans-serif', color: '#555' },
   note: { fontSize: '0.75rem', color: '#888', margin: '4px 8px 0' },
 }

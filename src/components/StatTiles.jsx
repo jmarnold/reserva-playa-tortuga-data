@@ -1,6 +1,6 @@
 import React from 'react'
 import { useSeasonData } from '../useSeasonData'
-import { CURRENT_YEAR, SEASON_YEARS } from '../seasonFilter'
+import { CURRENT_YEAR, START_YEAR, SEASON_YEARS } from '../seasonFilter'
 
 export function StatTiles({ src }) {
   const { data, error } = useSeasonData(src)
@@ -40,7 +40,7 @@ export function StatTiles({ src }) {
     })
     .reduce((sum, r) => sum + r.nests, 0)
 
-  const seasonLabel = SEASON_YEARS.join('–')
+  const seasonLabel = START_YEAR === CURRENT_YEAR ? CURRENT_YEAR : `${START_YEAR}–${CURRENT_YEAR}`
 
   const tiles = [
     { label: `Nests (${seasonLabel})`, value: totalNests.toLocaleString(), icon: '🐢', color: '#2a9d8f' },
@@ -76,21 +76,22 @@ export function StatTiles({ src }) {
 const styles = {
   grid: {
     display: 'flex',
-    gap: '16px',
+    gap: '12px',
     flexWrap: 'wrap',
     fontFamily: 'sans-serif',
     padding: '8px',
   },
   tile: {
-    flex: '1 1 120px',
+    flex: '1 1 100px',
     background: '#f0faf9',
     border: '1px solid #2a9d8f33',
     borderRadius: '8px',
-    padding: '16px',
+    padding: '14px 10px',
     textAlign: 'center',
+    minWidth: 0,
   },
-  icon: { fontSize: '2rem', marginBottom: '8px' },
-  value: { fontSize: '2rem', fontWeight: 700 },
-  label: { fontSize: '0.85rem', color: '#555', marginTop: '4px' },
+  icon: { fontSize: 'clamp(1.4rem, 4vw, 2rem)', marginBottom: '6px' },
+  value: { fontSize: 'clamp(1.4rem, 4vw, 2rem)', fontWeight: 700 },
+  label: { fontSize: 'clamp(0.7rem, 2vw, 0.85rem)', color: '#555', marginTop: '4px' },
   msg: { fontFamily: 'sans-serif', color: '#555' },
 }

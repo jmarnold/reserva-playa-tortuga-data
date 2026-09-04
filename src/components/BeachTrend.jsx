@@ -10,10 +10,16 @@ import { CURRENT_YEAR } from '../seasonFilter'
 
 ChartJS.register(CategoryScale, LinearScale, PointElement, LineElement, Title, Tooltip, Legend)
 
+const MONTHS = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec']
+
+function fmtMonth(ym) {
+  const [y, m] = ym.split('-')
+  return `${MONTHS[parseInt(m, 10) - 1]} '${y.slice(2)}`
+}
+
 const BEACHES = [
-  { name: 'Tortuga',   color: '#1a6b5f' },
-  { name: 'Hermosa',   color: '#52b788' },
-  { name: 'Dominical', color: '#e9c46a' },
+  { name: 'Tortuga', color: '#1a6b5f' },
+  { name: 'Hermosa', color: '#52b788' },
 ]
 
 export function BeachTrend({ src }) {
@@ -22,63 +28,66 @@ export function BeachTrend({ src }) {
   if (error) return <p style={styles.msg}>Error: {error}</p>
   if (!data) return <p style={styles.msg}>Loading…</p>
 
-  const rows = data.by_beach_year ?? []
+  const rows = data.by_beach_month ?? []
   if (!rows.length) return null
 
-  const years = [...new Set(rows.map(r => r.year))].sort()
-  const lastYearIdx = years.length - 1
+  const months = [...new Set(rows.map(r => r.month))].sort()
+  const lastIdx = months.length - 1
+  const isCurrentYear = mo => mo.startsWith(CURRENT_YEAR)
 
-  const datasets = BEACHES.map(({ name, color }) => {
-    const nestsByYear = years.map(yr => {
-      const match = rows.find(r => r.beach === name && r.year === yr)
+  const datasets = BEACHES.map(({ name, color }) => ({
+    label: name,
+    data: months.map(mo => {
+      const match = rows.find(r => r.beach === name && r.month === mo)
       return match ? match.nests : null
-    })
-    return {
-      label: name,
-      data: nestsByYear,
-      borderColor: color,
-      backgroundColor: color + '22',
-      tension: 0.3,
-      borderWidth: 2,
-      pointRadius: 5,
-      pointHoverRadius: 7,
-      // Dashed segment leading into the partial (current) year
-      segment: {
-        borderDash: ctx => ctx.p1DataIndex === lastYearIdx ? [5, 4] : undefined,
-      },
-      spanGaps: true,
-    }
-  })
+    }),
+    borderColor: color,
+    backgroundColor: color + '22',
+    tension: 0.3,
+    borderWidth: 2,
+    pointRadius: 3,
+    pointHoverRadius: 6,
+    segment: {
+      borderDash: ctx => isCurrentYear(months[ctx.p1DataIndex]) ? [5, 4] : undefined,
+    },
+    spanGaps: true,
+  }))
 
-  const hasPartial = years.includes(CURRENT_YEAR)
+  const hasPartial = months.some(isCurrentYear)
 
   const options = {
     responsive: true,
+    maintainAspectRatio: false,
     interaction: { mode: 'index', intersect: false },
     plugins: {
-      title: { display: true, text: 'Nests per Year by Beach' },
+      title: { display: true, text: 'Nests per Month by Beach' },
       legend: { position: 'top' },
       tooltip: {
         callbacks: {
           title: ctx => {
-            const yr = ctx[0].label
-            return yr === CURRENT_YEAR ? `${yr} (partial year)` : yr
+            const mo = months[ctx[0].dataIndex]
+            return isCurrentYear(mo)
+              ? `${fmtMonth(mo)} (season in progress)`
+              : fmtMonth(mo)
           },
         },
       },
     },
     scales: {
-      x: {},
+      x: {
+        labels: months.map(fmtMonth),
+        ticks: { maxRotation: 45, autoSkip: true, maxTicksLimit: 18 },
+      },
       y: { beginAtZero: true, title: { display: true, text: 'Nests' } },
     },
   }
 
   return (
     <div style={styles.wrap}>
-      <Line data={{ labels: years, datasets }} options={options} />
+      <Line data={{ labels: months.map(fmtMonth), datasets }} options={options} />
       {hasPartial && (
         <p style={styles.note}>
-          Dashed line segment = {CURRENT_YEAR} (partial year — season in progress).
+          Dashed segments = {CURRENT_YEAR} (season in progress).
         </p>
       )}
     </div>
@@ -86,7 +95,7 @@ export function BeachTrend({ src }) {
 }
 
 const styles = {
-  wrap: { fontFamily: 'sans-serif', padding: '8px' },
+  wrap: { fontFamily: 'sans-serif', padding: '8px', height: 'clamp(260px, 38vh, 400px)' },
   msg: { fontFamily: 'sans-serif', color: '#555' },
   note: { fontSize: '0.75rem', color: '#888', margin: '4px 8px 0' },
 }

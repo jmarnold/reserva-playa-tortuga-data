@@ -40,6 +40,7 @@ export function NestsByBeach({ src }) {
 
   const options = {
     responsive: true,
+    maintainAspectRatio: false,
     plugins: {
       title: { display: true, text: 'Nests by Beach & Species (all seasons)' },
     },
@@ -54,6 +55,6 @@ export function NestsByBeach({ src }) {
 }
 
 const styles = {
-  wrap: { fontFamily: 'sans-serif', padding: '8px' },
+  wrap: { fontFamily: 'sans-serif', padding: '8px', height: 'clamp(260px, 38vh, 400px)' },
   msg: { fontFamily: 'sans-serif', color: '#555' },
 }

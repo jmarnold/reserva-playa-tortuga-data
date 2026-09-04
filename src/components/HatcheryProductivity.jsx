@@ -219,6 +219,7 @@ export function HatcheryProductivity({ src }) {
 
   const options = {
     responsive: true,
+    maintainAspectRatio: false,
     interaction: { mode: 'index', intersect: false },
     plugins: {
       title: { display: true, text: `Hatchery Productivity by Beach — ${metric.label}` },
@@ -305,7 +306,7 @@ export function HatcheryProductivity({ src }) {
 }
 
 const styles = {
-  wrap: { fontFamily: 'sans-serif', padding: '8px' },
+  wrap: { fontFamily: 'sans-serif', padding: '8px', height: 'clamp(260px, 38vh, 400px)' },
   msg: { fontFamily: 'sans-serif', color: '#555' },
   tabs: { display: 'flex', flexWrap: 'wrap', gap: '6px', margin: '0 0 10px' },
   tab: {

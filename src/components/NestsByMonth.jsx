@@ -31,6 +31,7 @@ export function NestsByMonth({ src }) {
 
   const options = {
     responsive: true,
+    maintainAspectRatio: false,
     plugins: {
       legend: { display: false },
       title: { display: true, text: 'Nests per Month' },
@@ -48,6 +49,6 @@ export function NestsByMonth({ src }) {
 }
 
 const styles = {
-  wrap: { fontFamily: 'sans-serif', padding: '8px' },
+  wrap: { fontFamily: 'sans-serif', padding: '8px', height: 'clamp(260px, 38vh, 400px)' },
   msg: { fontFamily: 'sans-serif', color: '#555' },
 }

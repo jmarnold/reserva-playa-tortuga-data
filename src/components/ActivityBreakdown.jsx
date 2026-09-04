@@ -48,9 +48,10 @@ export function ActivityBreakdown({ src }) {
 
   const options = {
     responsive: true,
+    maintainAspectRatio: false,
     plugins: {
       title: { display: true, text: 'Activity Breakdown' },
-      legend: { position: 'right' },
+      legend: { position: 'bottom' },
     },
   }
 
@@ -62,6 +63,6 @@ export function ActivityBreakdown({ src }) {
 }
 
 const styles = {
-  wrap: { fontFamily: 'sans-serif', padding: '8px' },
+  wrap: { fontFamily: 'sans-serif', padding: '8px', height: 'clamp(260px, 38vh, 360px)' },
   msg: { fontFamily: 'sans-serif', color: '#555' },
 }
