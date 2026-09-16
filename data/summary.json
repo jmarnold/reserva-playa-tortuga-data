@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-03T22:53:05.081467+00:00",
-  "total_nests": 2701,
-  "total_eggs": 237108,
+  "generated_at": "2026-09-16T03:29:14.620255+00:00",
+  "total_nests": 2734,
+  "total_eggs": 240323,
   "by_beach": [
     {
       "beach": "Ballena",
@@ -43,8 +43,8 @@
     {
       "beach": "Hermosa",
       "species": "Lora /Olive ridley",
-      "nests": 910,
-      "eggs": 80172
+      "nests": 925,
+      "eggs": 81631
     },
     {
       "beach": "Hermosa",
@@ -73,8 +73,8 @@
     {
       "beach": "Tortuga",
       "species": "Lora /Olive ridley",
-      "nests": 1703,
-      "eggs": 149513
+      "nests": 1721,
+      "eggs": 151269
     },
     {
       "beach": "Tortuga",
@@ -616,7 +616,11 @@
     },
     {
       "month": "2026-08",
-      "nests": 101
+      "nests": 112
+    },
+    {
+      "month": "2026-09",
+      "nests": 40
     }
   ],
   "by_year": [
@@ -775,20 +779,20 @@
     },
     {
       "year": "2026",
-      "total": 180,
-      "nests": 133,
-      "eggs": 11687,
-      "false_crawls": 27,
-      "poached": 4,
-      "wild": 1
+      "total": 231,
+      "nests": 166,
+      "eggs": 14902,
+      "false_crawls": 33,
+      "poached": 9,
+      "wild": 2
     }
   ],
   "by_species": [
     {
       "species": "Lora /Olive ridley",
-      "nests": 2645,
-      "eggs": 232427,
-      "avg_eggs_per_clutch": 91.9
+      "nests": 2678,
+      "eggs": 235642,
+      "avg_eggs_per_clutch": 92.0
     },
     {
       "species": "Verde/Green",
@@ -1639,12 +1643,17 @@
     {
       "month": "2026-08",
       "species": "Lora /Olive ridley",
-      "nests": 70
+      "nests": 77
     },
     {
       "month": "2026-08",
       "species": "Unknown",
       "nests": 2
+    },
+    {
+      "month": "2026-09",
+      "species": "Lora /Olive ridley",
+      "nests": 26
     }
   ],
   "by_beach_year": [
@@ -1855,14 +1864,20 @@
     {
       "year": "2026",
       "beach": "Hermosa",
-      "nests": 60,
-      "eggs": 5252
+      "nests": 75,
+      "eggs": 6711
     },
     {
       "year": "2026",
       "beach": "Tortuga",
-      "nests": 73,
-      "eggs": 6435
+      "nests": 91,
+      "eggs": 8191
+    },
+    {
+      "year": "2026",
+      "beach": "Unknown",
+      "nests": 0,
+      "eggs": 0
     }
   ],
   "by_activity_month": [
@@ -1873,7 +1888,7 @@
     },
     {
       "month": "2009-09",
-      "activity": "S\u00e1lida Falsa/False crawl",
+      "activity": "Sálida Falsa/False crawl",
       "count": 6
     },
     {
@@ -1883,7 +1898,7 @@
     },
     {
       "month": "2009-10",
-      "activity": "S\u00e1lida Falsa/False crawl",
+      "activity": "Sálida Falsa/False crawl",
       "count": 6
     },
     {
@@ -1893,7 +1908,7 @@
     },
     {
       "month": "2009-11",
-      "activity": "S\u00e1lida Falsa/False crawl",
+      "activity": "Sálida Falsa/False crawl",
       "count": 2
     },
     {
@@ -1903,7 +1918,7 @@
     },
     {
       "month": "2009-12",
-      "activity": "S\u00e1lida Falsa/False crawl",
+      "activity": "Sálida Falsa/False crawl",
       "count": 1
     },
     {
@@ -1918,7 +1933,7 @@
     },
     {
       "month": "2010-08",
-      "activity": "S\u00e1lida Falsa/False crawl",
+      "activity": "Sálida Falsa/False crawl",
       "count": 1
     },
     {
@@ -1933,7 +1948,7 @@
     },
     {
       "month": "2010-09",
-      "activity": "S\u00e1lida Falsa/False crawl",
+      "activity": "Sálida Falsa/False crawl",
       "count": 2
     },
     {
@@ -1943,7 +1958,7 @@
     },
     {
       "month": "2010-10",
-      "activity": "S\u00e1lida Falsa/False crawl",
+      "activity": "Sálida Falsa/False crawl",
       "count": 3
     },
     {
@@ -1968,7 +1983,7 @@
     },
     {
       "month": "2011-08",
-      "activity": "S\u00e1lida Falsa/False crawl",
+      "activity": "Sálida Falsa/False crawl",
       "count": 14
     },
     {
@@ -1978,7 +1993,7 @@
     },
     {
       "month": "2011-09",
-      "activity": "S\u00e1lida Falsa/False crawl",
+      "activity": "Sálida Falsa/False crawl",
       "count": 6
     },
     {
@@ -1993,7 +2008,7 @@
     },
     {
       "month": "2011-10",
-      "activity": "S\u00e1lida Falsa/False crawl",
+      "activity": "Sálida Falsa/False crawl",
       "count": 9
     },
     {
@@ -2003,7 +2018,7 @@
     },
     {
       "month": "2011-11",
-      "activity": "S\u00e1lida Falsa/False crawl",
+      "activity": "Sálida Falsa/False crawl",
       "count": 5
     },
     {
@@ -2013,7 +2028,7 @@
     },
     {
       "month": "2011-12",
-      "activity": "S\u00e1lida Falsa/False crawl",
+      "activity": "Sálida Falsa/False crawl",
       "count": 5
     },
     {
@@ -2023,7 +2038,7 @@
     },
     {
       "month": "2012-07",
-      "activity": "S\u00e1lida Falsa/False crawl",
+      "activity": "Sálida Falsa/False crawl",
       "count": 1
     },
     {
@@ -2033,7 +2048,7 @@
     },
     {
       "month": "2012-08",
-      "activity": "S\u00e1lida Falsa/False crawl",
+      "activity": "Sálida Falsa/False crawl",
       "count": 5
     },
     {
@@ -2043,7 +2058,7 @@
     },
     {
       "month": "2012-09",
-      "activity": "S\u00e1lida Falsa/False crawl",
+      "activity": "Sálida Falsa/False crawl",
       "count": 4
     },
     {
@@ -2053,7 +2068,7 @@
     },
     {
       "month": "2012-10",
-      "activity": "S\u00e1lida Falsa/False crawl",
+      "activity": "Sálida Falsa/False crawl",
       "count": 3
     },
     {
@@ -2063,7 +2078,7 @@
     },
     {
       "month": "2012-11",
-      "activity": "S\u00e1lida Falsa/False crawl",
+      "activity": "Sálida Falsa/False crawl",
       "count": 2
     },
     {
@@ -2078,7 +2093,7 @@
     },
     {
       "month": "2013-07",
-      "activity": "S\u00e1lida Falsa/False crawl",
+      "activity": "Sálida Falsa/False crawl",
       "count": 2
     },
     {
@@ -2088,7 +2103,7 @@
     },
     {
       "month": "2013-08",
-      "activity": "S\u00e1lida Falsa/False crawl",
+      "activity": "Sálida Falsa/False crawl",
       "count": 6
     },
     {
@@ -2098,7 +2113,7 @@
     },
     {
       "month": "2013-09",
-      "activity": "S\u00e1lida Falsa/False crawl",
+      "activity": "Sálida Falsa/False crawl",
       "count": 7
     },
     {
@@ -2108,7 +2123,7 @@
     },
     {
       "month": "2013-10",
-      "activity": "S\u00e1lida Falsa/False crawl",
+      "activity": "Sálida Falsa/False crawl",
       "count": 4
     },
     {
@@ -2118,7 +2133,7 @@
     },
     {
       "month": "2013-11",
-      "activity": "S\u00e1lida Falsa/False crawl",
+      "activity": "Sálida Falsa/False crawl",
       "count": 9
     },
     {
@@ -2128,7 +2143,7 @@
     },
     {
       "month": "2013-12",
-      "activity": "S\u00e1lida Falsa/False crawl",
+      "activity": "Sálida Falsa/False crawl",
       "count": 1
     },
     {
@@ -2138,7 +2153,7 @@
     },
     {
       "month": "2014-06",
-      "activity": "S\u00e1lida Falsa/False crawl",
+      "activity": "Sálida Falsa/False crawl",
       "count": 2
     },
     {
@@ -2153,7 +2168,7 @@
     },
     {
       "month": "2014-08",
-      "activity": "S\u00e1lida Falsa/False crawl",
+      "activity": "Sálida Falsa/False crawl",
       "count": 11
     },
     {
@@ -2163,7 +2178,7 @@
     },
     {
       "month": "2014-09",
-      "activity": "S\u00e1lida Falsa/False crawl",
+      "activity": "Sálida Falsa/False crawl",
       "count": 5
     },
     {
@@ -2173,7 +2188,7 @@
     },
     {
       "month": "2014-10",
-      "activity": "S\u00e1lida Falsa/False crawl",
+      "activity": "Sálida Falsa/False crawl",
       "count": 6
     },
     {
@@ -2183,7 +2198,7 @@
     },
     {
       "month": "2014-11",
-      "activity": "S\u00e1lida Falsa/False crawl",
+      "activity": "Sálida Falsa/False crawl",
       "count": 4
     },
     {
@@ -2193,7 +2208,7 @@
     },
     {
       "month": "2014-12",
-      "activity": "S\u00e1lida Falsa/False crawl",
+      "activity": "Sálida Falsa/False crawl",
       "count": 2
     },
     {
@@ -2208,7 +2223,7 @@
     },
     {
       "month": "2015-06",
-      "activity": "S\u00e1lida Falsa/False crawl",
+      "activity": "Sálida Falsa/False crawl",
       "count": 1
     },
     {
@@ -2218,7 +2233,7 @@
     },
     {
       "month": "2015-07",
-      "activity": "S\u00e1lida Falsa/False crawl",
+      "activity": "Sálida Falsa/False crawl",
       "count": 2
     },
     {
@@ -2228,7 +2243,7 @@
     },
     {
       "month": "2015-08",
-      "activity": "S\u00e1lida Falsa/False crawl",
+      "activity": "Sálida Falsa/False crawl",
       "count": 1
     },
     {
@@ -2238,7 +2253,7 @@
     },
     {
       "month": "2015-09",
-      "activity": "S\u00e1lida Falsa/False crawl",
+      "activity": "Sálida Falsa/False crawl",
       "count": 4
     },
     {
@@ -2248,7 +2263,7 @@
     },
     {
       "month": "2015-10",
-      "activity": "S\u00e1lida Falsa/False crawl",
+      "activity": "Sálida Falsa/False crawl",
       "count": 8
     },
     {
@@ -2258,7 +2273,7 @@
     },
     {
       "month": "2015-11",
-      "activity": "S\u00e1lida Falsa/False crawl",
+      "activity": "Sálida Falsa/False crawl",
       "count": 4
     },
     {
@@ -2283,7 +2298,7 @@
     },
     {
       "month": "2016-08",
-      "activity": "S\u00e1lida Falsa/False crawl",
+      "activity": "Sálida Falsa/False crawl",
       "count": 3
     },
     {
@@ -2293,7 +2308,7 @@
     },
     {
       "month": "2016-09",
-      "activity": "S\u00e1lida Falsa/False crawl",
+      "activity": "Sálida Falsa/False crawl",
       "count": 2
     },
     {
@@ -2303,7 +2318,7 @@
     },
     {
       "month": "2016-10",
-      "activity": "S\u00e1lida Falsa/False crawl",
+      "activity": "Sálida Falsa/False crawl",
       "count": 2
     },
     {
@@ -2313,7 +2328,7 @@
     },
     {
       "month": "2016-11",
-      "activity": "S\u00e1lida Falsa/False crawl",
+      "activity": "Sálida Falsa/False crawl",
       "count": 2
     },
     {
@@ -2338,7 +2353,7 @@
     },
     {
       "month": "2017-07",
-      "activity": "S\u00e1lida Falsa/False crawl",
+      "activity": "Sálida Falsa/False crawl",
       "count": 1
     },
     {
@@ -2353,7 +2368,7 @@
     },
     {
       "month": "2017-08",
-      "activity": "S\u00e1lida Falsa/False crawl",
+      "activity": "Sálida Falsa/False crawl",
       "count": 30
     },
     {
@@ -2363,7 +2378,7 @@
     },
     {
       "month": "2017-09",
-      "activity": "S\u00e1lida Falsa/False crawl",
+      "activity": "Sálida Falsa/False crawl",
       "count": 30
     },
     {
@@ -2373,7 +2388,7 @@
     },
     {
       "month": "2017-10",
-      "activity": "S\u00e1lida Falsa/False crawl",
+      "activity": "Sálida Falsa/False crawl",
       "count": 25
     },
     {
@@ -2383,7 +2398,7 @@
     },
     {
       "month": "2017-11",
-      "activity": "S\u00e1lida Falsa/False crawl",
+      "activity": "Sálida Falsa/False crawl",
       "count": 7
     },
     {
@@ -2393,7 +2408,7 @@
     },
     {
       "month": "2017-12",
-      "activity": "S\u00e1lida Falsa/False crawl",
+      "activity": "Sálida Falsa/False crawl",
       "count": 2
     },
     {
@@ -2408,7 +2423,7 @@
     },
     {
       "month": "2018-07",
-      "activity": "S\u00e1lida Falsa/False crawl",
+      "activity": "Sálida Falsa/False crawl",
       "count": 1
     },
     {
@@ -2418,7 +2433,7 @@
     },
     {
       "month": "2018-08",
-      "activity": "S\u00e1lida Falsa/False crawl",
+      "activity": "Sálida Falsa/False crawl",
       "count": 9
     },
     {
@@ -2428,7 +2443,7 @@
     },
     {
       "month": "2018-09",
-      "activity": "S\u00e1lida Falsa/False crawl",
+      "activity": "Sálida Falsa/False crawl",
       "count": 2
     },
     {
@@ -2438,7 +2453,7 @@
     },
     {
       "month": "2018-10",
-      "activity": "S\u00e1lida Falsa/False crawl",
+      "activity": "Sálida Falsa/False crawl",
       "count": 12
     },
     {
@@ -2448,7 +2463,7 @@
     },
     {
       "month": "2018-11",
-      "activity": "S\u00e1lida Falsa/False crawl",
+      "activity": "Sálida Falsa/False crawl",
       "count": 11
     },
     {
@@ -2458,7 +2473,7 @@
     },
     {
       "month": "2018-12",
-      "activity": "S\u00e1lida Falsa/False crawl",
+      "activity": "Sálida Falsa/False crawl",
       "count": 2
     },
     {
@@ -2473,7 +2488,7 @@
     },
     {
       "month": "2019-06",
-      "activity": "S\u00e1lida Falsa/False crawl",
+      "activity": "Sálida Falsa/False crawl",
       "count": 2
     },
     {
@@ -2483,7 +2498,7 @@
     },
     {
       "month": "2019-07",
-      "activity": "S\u00e1lida Falsa/False crawl",
+      "activity": "Sálida Falsa/False crawl",
       "count": 6
     },
     {
@@ -2493,7 +2508,7 @@
     },
     {
       "month": "2019-08",
-      "activity": "S\u00e1lida Falsa/False crawl",
+      "activity": "Sálida Falsa/False crawl",
       "count": 5
     },
     {
@@ -2508,7 +2523,7 @@
     },
     {
       "month": "2019-09",
-      "activity": "S\u00e1lida Falsa/False crawl",
+      "activity": "Sálida Falsa/False crawl",
       "count": 9
     },
     {
@@ -2518,7 +2533,7 @@
     },
     {
       "month": "2019-10",
-      "activity": "S\u00e1lida Falsa/False crawl",
+      "activity": "Sálida Falsa/False crawl",
       "count": 7
     },
     {
@@ -2533,7 +2548,7 @@
     },
     {
       "month": "2019-11",
-      "activity": "S\u00e1lida Falsa/False crawl",
+      "activity": "Sálida Falsa/False crawl",
       "count": 1
     },
     {
@@ -2543,7 +2558,7 @@
     },
     {
       "month": "2019-12",
-      "activity": "S\u00e1lida Falsa/False crawl",
+      "activity": "Sálida Falsa/False crawl",
       "count": 1
     },
     {
@@ -2553,7 +2568,7 @@
     },
     {
       "month": "2020-07",
-      "activity": "S\u00e1lida Falsa/False crawl",
+      "activity": "Sálida Falsa/False crawl",
       "count": 1
     },
     {
@@ -2568,7 +2583,7 @@
     },
     {
       "month": "2020-08",
-      "activity": "S\u00e1lida Falsa/False crawl",
+      "activity": "Sálida Falsa/False crawl",
       "count": 3
     },
     {
@@ -2578,7 +2593,7 @@
     },
     {
       "month": "2020-09",
-      "activity": "S\u00e1lida Falsa/False crawl",
+      "activity": "Sálida Falsa/False crawl",
       "count": 4
     },
     {
@@ -2588,7 +2603,7 @@
     },
     {
       "month": "2020-10",
-      "activity": "S\u00e1lida Falsa/False crawl",
+      "activity": "Sálida Falsa/False crawl",
       "count": 11
     },
     {
@@ -2598,7 +2613,7 @@
     },
     {
       "month": "2020-11",
-      "activity": "S\u00e1lida Falsa/False crawl",
+      "activity": "Sálida Falsa/False crawl",
       "count": 6
     },
     {
@@ -2608,7 +2623,7 @@
     },
     {
       "month": "2020-12",
-      "activity": "S\u00e1lida Falsa/False crawl",
+      "activity": "Sálida Falsa/False crawl",
       "count": 5
     },
     {
@@ -2643,7 +2658,7 @@
     },
     {
       "month": "2021-07",
-      "activity": "S\u00e1lida Falsa/False crawl",
+      "activity": "Sálida Falsa/False crawl",
       "count": 3
     },
     {
@@ -2663,7 +2678,7 @@
     },
     {
       "month": "2021-08",
-      "activity": "S\u00e1lida Falsa/False crawl",
+      "activity": "Sálida Falsa/False crawl",
       "count": 18
     },
     {
@@ -2688,7 +2703,7 @@
     },
     {
       "month": "2021-09",
-      "activity": "S\u00e1lida Falsa/False crawl",
+      "activity": "Sálida Falsa/False crawl",
       "count": 23
     },
     {
@@ -2703,7 +2718,7 @@
     },
     {
       "month": "2021-10",
-      "activity": "S\u00e1lida Falsa/False crawl",
+      "activity": "Sálida Falsa/False crawl",
       "count": 13
     },
     {
@@ -2718,7 +2733,7 @@
     },
     {
       "month": "2021-11",
-      "activity": "S\u00e1lida Falsa/False crawl",
+      "activity": "Sálida Falsa/False crawl",
       "count": 5
     },
     {
@@ -2763,7 +2778,7 @@
     },
     {
       "month": "2022-06",
-      "activity": "S\u00e1lida Falsa/False crawl",
+      "activity": "Sálida Falsa/False crawl",
       "count": 1
     },
     {
@@ -2778,12 +2793,12 @@
     },
     {
       "month": "2022-07",
-      "activity": "S\u00e1lida Falsa/False crawl",
+      "activity": "Sálida Falsa/False crawl",
       "count": 5
     },
     {
       "month": "2022-08",
-      "activity": "Anidaci\u00f3n No efectivo /Not effective nesting",
+      "activity": "Anidación No efectivo /Not effective nesting",
       "count": 3
     },
     {
@@ -2798,12 +2813,12 @@
     },
     {
       "month": "2022-08",
-      "activity": "S\u00e1lida Falsa/False crawl",
+      "activity": "Sálida Falsa/False crawl",
       "count": 16
     },
     {
       "month": "2022-09",
-      "activity": "Anidaci\u00f3n No efectivo /Not effective nesting",
+      "activity": "Anidación No efectivo /Not effective nesting",
       "count": 2
     },
     {
@@ -2818,12 +2833,12 @@
     },
     {
       "month": "2022-09",
-      "activity": "S\u00e1lida Falsa/False crawl",
+      "activity": "Sálida Falsa/False crawl",
       "count": 29
     },
     {
       "month": "2022-10",
-      "activity": "Anidaci\u00f3n No efectivo /Not effective nesting",
+      "activity": "Anidación No efectivo /Not effective nesting",
       "count": 2
     },
     {
@@ -2838,7 +2853,7 @@
     },
     {
       "month": "2022-10",
-      "activity": "S\u00e1lida Falsa/False crawl",
+      "activity": "Sálida Falsa/False crawl",
       "count": 12
     },
     {
@@ -2848,7 +2863,7 @@
     },
     {
       "month": "2022-11",
-      "activity": "Anidaci\u00f3n No efectivo /Not effective nesting",
+      "activity": "Anidación No efectivo /Not effective nesting",
       "count": 1
     },
     {
@@ -2863,7 +2878,7 @@
     },
     {
       "month": "2022-11",
-      "activity": "S\u00e1lida Falsa/False crawl",
+      "activity": "Sálida Falsa/False crawl",
       "count": 5
     },
     {
@@ -2873,7 +2888,7 @@
     },
     {
       "month": "2022-12",
-      "activity": "S\u00e1lida Falsa/False crawl",
+      "activity": "Sálida Falsa/False crawl",
       "count": 2
     },
     {
@@ -2898,12 +2913,12 @@
     },
     {
       "month": "2023-06",
-      "activity": "S\u00e1lida Falsa/False crawl",
+      "activity": "Sálida Falsa/False crawl",
       "count": 2
     },
     {
       "month": "2023-07",
-      "activity": "Anidaci\u00f3n No efectivo /Not effective nesting",
+      "activity": "Anidación No efectivo /Not effective nesting",
       "count": 3
     },
     {
@@ -2918,12 +2933,12 @@
     },
     {
       "month": "2023-07",
-      "activity": "S\u00e1lida Falsa/False crawl",
+      "activity": "Sálida Falsa/False crawl",
       "count": 1
     },
     {
       "month": "2023-08",
-      "activity": "Anidaci\u00f3n No efectivo /Not effective nesting",
+      "activity": "Anidación No efectivo /Not effective nesting",
       "count": 7
     },
     {
@@ -2938,7 +2953,7 @@
     },
     {
       "month": "2023-08",
-      "activity": "S\u00e1lida Falsa/False crawl",
+      "activity": "Sálida Falsa/False crawl",
       "count": 24
     },
     {
@@ -2948,7 +2963,7 @@
     },
     {
       "month": "2023-09",
-      "activity": "Anidaci\u00f3n No efectivo /Not effective nesting",
+      "activity": "Anidación No efectivo /Not effective nesting",
       "count": 11
     },
     {
@@ -2963,7 +2978,7 @@
     },
     {
       "month": "2023-09",
-      "activity": "S\u00e1lida Falsa/False crawl",
+      "activity": "Sálida Falsa/False crawl",
       "count": 13
     },
     {
@@ -2973,7 +2988,7 @@
     },
     {
       "month": "2023-10",
-      "activity": "Anidaci\u00f3n No efectivo /Not effective nesting",
+      "activity": "Anidación No efectivo /Not effective nesting",
       "count": 7
     },
     {
@@ -2993,12 +3008,12 @@
     },
     {
       "month": "2023-10",
-      "activity": "S\u00e1lida Falsa/False crawl",
+      "activity": "Sálida Falsa/False crawl",
       "count": 11
     },
     {
       "month": "2023-11",
-      "activity": "Anidaci\u00f3n No efectivo /Not effective nesting",
+      "activity": "Anidación No efectivo /Not effective nesting",
       "count": 3
     },
     {
@@ -3048,7 +3063,7 @@
     },
     {
       "month": "2024-05",
-      "activity": "S\u00e1lida Falsa/False crawl",
+      "activity": "Sálida Falsa/False crawl",
       "count": 1
     },
     {
@@ -3063,7 +3078,7 @@
     },
     {
       "month": "2024-07",
-      "activity": "Anidaci\u00f3n No efectivo /Not effective nesting",
+      "activity": "Anidación No efectivo /Not effective nesting",
       "count": 2
     },
     {
@@ -3073,7 +3088,7 @@
     },
     {
       "month": "2024-07",
-      "activity": "S\u00e1lida Falsa/False crawl",
+      "activity": "Sálida Falsa/False crawl",
       "count": 2
     },
     {
@@ -3083,7 +3098,7 @@
     },
     {
       "month": "2024-08",
-      "activity": "Anidaci\u00f3n No efectivo /Not effective nesting",
+      "activity": "Anidación No efectivo /Not effective nesting",
       "count": 1
     },
     {
@@ -3098,7 +3113,7 @@
     },
     {
       "month": "2024-08",
-      "activity": "S\u00e1lida Falsa/False crawl",
+      "activity": "Sálida Falsa/False crawl",
       "count": 5
     },
     {
@@ -3118,7 +3133,7 @@
     },
     {
       "month": "2024-09",
-      "activity": "S\u00e1lida Falsa/False crawl",
+      "activity": "Sálida Falsa/False crawl",
       "count": 9
     },
     {
@@ -3128,7 +3143,7 @@
     },
     {
       "month": "2024-10",
-      "activity": "Anidaci\u00f3n No efectivo /Not effective nesting",
+      "activity": "Anidación No efectivo /Not effective nesting",
       "count": 3
     },
     {
@@ -3143,7 +3158,7 @@
     },
     {
       "month": "2024-10",
-      "activity": "S\u00e1lida Falsa/False crawl",
+      "activity": "Sálida Falsa/False crawl",
       "count": 6
     },
     {
@@ -3153,7 +3168,7 @@
     },
     {
       "month": "2024-11",
-      "activity": "Anidaci\u00f3n No efectivo /Not effective nesting",
+      "activity": "Anidación No efectivo /Not effective nesting",
       "count": 1
     },
     {
@@ -3168,7 +3183,7 @@
     },
     {
       "month": "2024-11",
-      "activity": "S\u00e1lida Falsa/False crawl",
+      "activity": "Sálida Falsa/False crawl",
       "count": 3
     },
     {
@@ -3208,7 +3223,7 @@
     },
     {
       "month": "2025-05",
-      "activity": "S\u00e1lida Falsa/False crawl",
+      "activity": "Sálida Falsa/False crawl",
       "count": 3
     },
     {
@@ -3223,12 +3238,12 @@
     },
     {
       "month": "2025-06",
-      "activity": "S\u00e1lida Falsa/False crawl",
+      "activity": "Sálida Falsa/False crawl",
       "count": 2
     },
     {
       "month": "2025-07",
-      "activity": "Anidaci\u00f3n No efectivo /Not effective nesting",
+      "activity": "Anidación No efectivo /Not effective nesting",
       "count": 2
     },
     {
@@ -3243,7 +3258,7 @@
     },
     {
       "month": "2025-07",
-      "activity": "S\u00e1lida Falsa/False crawl",
+      "activity": "Sálida Falsa/False crawl",
       "count": 18
     },
     {
@@ -3253,7 +3268,7 @@
     },
     {
       "month": "2025-08",
-      "activity": "Anidaci\u00f3n No efectivo /Not effective nesting",
+      "activity": "Anidación No efectivo /Not effective nesting",
       "count": 17
     },
     {
@@ -3268,7 +3283,7 @@
     },
     {
       "month": "2025-08",
-      "activity": "S\u00e1lida Falsa/False crawl",
+      "activity": "Sálida Falsa/False crawl",
       "count": 35
     },
     {
@@ -3278,7 +3293,7 @@
     },
     {
       "month": "2025-09",
-      "activity": "Anidaci\u00f3n No efectivo /Not effective nesting",
+      "activity": "Anidación No efectivo /Not effective nesting",
       "count": 28
     },
     {
@@ -3293,7 +3308,7 @@
     },
     {
       "month": "2025-09",
-      "activity": "S\u00e1lida Falsa/False crawl",
+      "activity": "Sálida Falsa/False crawl",
       "count": 39
     },
     {
@@ -3303,7 +3318,7 @@
     },
     {
       "month": "2025-10",
-      "activity": "Anidaci\u00f3n No efectivo /Not effective nesting",
+      "activity": "Anidación No efectivo /Not effective nesting",
       "count": 11
     },
     {
@@ -3323,12 +3338,12 @@
     },
     {
       "month": "2025-10",
-      "activity": "S\u00e1lida Falsa/False crawl",
+      "activity": "Sálida Falsa/False crawl",
       "count": 24
     },
     {
       "month": "2025-11",
-      "activity": "Anidaci\u00f3n No efectivo /Not effective nesting",
+      "activity": "Anidación No efectivo /Not effective nesting",
       "count": 4
     },
     {
@@ -3348,12 +3363,12 @@
     },
     {
       "month": "2025-11",
-      "activity": "S\u00e1lida Falsa/False crawl",
+      "activity": "Sálida Falsa/False crawl",
       "count": 5
     },
     {
       "month": "2025-12",
-      "activity": "Anidaci\u00f3n No efectivo /Not effective nesting",
+      "activity": "Anidación No efectivo /Not effective nesting",
       "count": 3
     },
     {
@@ -3368,12 +3383,12 @@
     },
     {
       "month": "2025-12",
-      "activity": "S\u00e1lida Falsa/False crawl",
+      "activity": "Sálida Falsa/False crawl",
       "count": 6
     },
     {
       "month": "2026-01",
-      "activity": "Anidaci\u00f3n No efectivo /Not effective nesting",
+      "activity": "Anidación No efectivo /Not effective nesting",
       "count": 1
     },
     {
@@ -3388,7 +3403,7 @@
     },
     {
       "month": "2026-06",
-      "activity": "Anidaci\u00f3n No efectivo /Not effective nesting",
+      "activity": "Anidación No efectivo /Not effective nesting",
       "count": 1
     },
     {
@@ -3398,12 +3413,12 @@
     },
     {
       "month": "2026-06",
-      "activity": "S\u00e1lida Falsa/False crawl",
+      "activity": "Sálida Falsa/False crawl",
       "count": 2
     },
     {
       "month": "2026-07",
-      "activity": "Anidaci\u00f3n No efectivo /Not effective nesting",
+      "activity": "Anidación No efectivo /Not effective nesting",
       "count": 5
     },
     {
@@ -3413,18 +3428,18 @@
     },
     {
       "month": "2026-07",
-      "activity": "S\u00e1lida Falsa/False crawl",
+      "activity": "Sálida Falsa/False crawl",
       "count": 9
     },
     {
       "month": "2026-08",
-      "activity": "Anidaci\u00f3n No efectivo /Not effective nesting",
+      "activity": "Anidación No efectivo /Not effective nesting",
       "count": 6
     },
     {
       "month": "2026-08",
       "activity": "Nido Saqueado/Poached nest",
-      "count": 4
+      "count": 6
     },
     {
       "month": "2026-08",
@@ -3434,12 +3449,12 @@
     {
       "month": "2026-08",
       "activity": "Nido/Nest",
-      "count": 72
+      "count": 79
     },
     {
       "month": "2026-08",
-      "activity": "S\u00e1lida Falsa/False crawl",
-      "count": 16
+      "activity": "Sálida Falsa/False crawl",
+      "count": 17
     },
     {
       "month": "2026-08",
@@ -3449,7 +3464,32 @@
     {
       "month": "2026-08",
       "activity": "Unknown",
+      "count": 2
+    },
+    {
+      "month": "2026-09",
+      "activity": "Anidación No efectivo /Not effective nesting",
+      "count": 5
+    },
+    {
+      "month": "2026-09",
+      "activity": "Nido Saqueado/Poached nest",
+      "count": 3
+    },
+    {
+      "month": "2026-09",
+      "activity": "Nido salvaje /Wild nest",
       "count": 1
+    },
+    {
+      "month": "2026-09",
+      "activity": "Nido/Nest",
+      "count": 26
+    },
+    {
+      "month": "2026-09",
+      "activity": "Sálida Falsa/False crawl",
+      "count": 5
     }
   ],
   "nest_vs_poached_by_month": [
@@ -4110,8 +4150,13 @@
     },
     {
       "month": "2026-08",
-      "nests": 72,
-      "poached": 4
+      "nests": 79,
+      "poached": 6
+    },
+    {
+      "month": "2026-09",
+      "nests": 26,
+      "poached": 3
     }
   ],
   "productivity_by_beach_season": [
@@ -4539,1523 +4584,6 @@
       "released_n": 7,
       "released_per_nest": 60.6,
       "released_total": 424
-    }
-  ],
-  "by_beach_month": [
-    {
-      "month": "2009-09",
-      "beach": "Tortuga",
-      "nests": 29
-    },
-    {
-      "month": "2009-10",
-      "beach": "Tortuga",
-      "nests": 20
-    },
-    {
-      "month": "2009-11",
-      "beach": "Tortuga",
-      "nests": 12
-    },
-    {
-      "month": "2009-12",
-      "beach": "Tortuga",
-      "nests": 1
-    },
-    {
-      "month": "2010-07",
-      "beach": "Tortuga",
-      "nests": 1
-    },
-    {
-      "month": "2010-08",
-      "beach": "Tortuga",
-      "nests": 18
-    },
-    {
-      "month": "2010-09",
-      "beach": "Tortuga",
-      "nests": 19
-    },
-    {
-      "month": "2010-10",
-      "beach": "Tortuga",
-      "nests": 16
-    },
-    {
-      "month": "2010-11",
-      "beach": "Tortuga",
-      "nests": 2
-    },
-    {
-      "month": "2011-07",
-      "beach": "Tortuga",
-      "nests": 5
-    },
-    {
-      "month": "2011-08",
-      "beach": "Tortuga",
-      "nests": 27
-    },
-    {
-      "month": "2011-09",
-      "beach": "Tortuga",
-      "nests": 23
-    },
-    {
-      "month": "2011-10",
-      "beach": "Tortuga",
-      "nests": 20
-    },
-    {
-      "month": "2011-11",
-      "beach": "Tortuga",
-      "nests": 18
-    },
-    {
-      "month": "2011-12",
-      "beach": "Tortuga",
-      "nests": 6
-    },
-    {
-      "month": "2012-07",
-      "beach": "Tortuga",
-      "nests": 3
-    },
-    {
-      "month": "2012-08",
-      "beach": "Tortuga",
-      "nests": 20
-    },
-    {
-      "month": "2012-09",
-      "beach": "Tortuga",
-      "nests": 23
-    },
-    {
-      "month": "2012-10",
-      "beach": "Tortuga",
-      "nests": 13
-    },
-    {
-      "month": "2012-11",
-      "beach": "Tortuga",
-      "nests": 13
-    },
-    {
-      "month": "2012-12",
-      "beach": "Tortuga",
-      "nests": 4
-    },
-    {
-      "month": "2013-07",
-      "beach": "Tortuga",
-      "nests": 3
-    },
-    {
-      "month": "2013-08",
-      "beach": "Tortuga",
-      "nests": 10
-    },
-    {
-      "month": "2013-09",
-      "beach": "Tortuga",
-      "nests": 18
-    },
-    {
-      "month": "2013-10",
-      "beach": "Tortuga",
-      "nests": 16
-    },
-    {
-      "month": "2013-11",
-      "beach": "Tortuga",
-      "nests": 14
-    },
-    {
-      "month": "2013-12",
-      "beach": "Tortuga",
-      "nests": 5
-    },
-    {
-      "month": "2014-06",
-      "beach": "Tortuga",
-      "nests": 2
-    },
-    {
-      "month": "2014-07",
-      "beach": "Tortuga",
-      "nests": 3
-    },
-    {
-      "month": "2014-08",
-      "beach": "Tortuga",
-      "nests": 31
-    },
-    {
-      "month": "2014-09",
-      "beach": "Tortuga",
-      "nests": 30
-    },
-    {
-      "month": "2014-10",
-      "beach": "Tortuga",
-      "nests": 27
-    },
-    {
-      "month": "2014-11",
-      "beach": "Tortuga",
-      "nests": 6
-    },
-    {
-      "month": "2014-12",
-      "beach": "Tortuga",
-      "nests": 6
-    },
-    {
-      "month": "2015-01",
-      "beach": "Tortuga",
-      "nests": 1
-    },
-    {
-      "month": "2015-06",
-      "beach": "Tortuga",
-      "nests": 1
-    },
-    {
-      "month": "2015-07",
-      "beach": "Tortuga",
-      "nests": 5
-    },
-    {
-      "month": "2015-08",
-      "beach": "Tortuga",
-      "nests": 8
-    },
-    {
-      "month": "2015-09",
-      "beach": "Tortuga",
-      "nests": 13
-    },
-    {
-      "month": "2015-10",
-      "beach": "Tortuga",
-      "nests": 29
-    },
-    {
-      "month": "2015-11",
-      "beach": "Tortuga",
-      "nests": 12
-    },
-    {
-      "month": "2015-12",
-      "beach": "Tortuga",
-      "nests": 4
-    },
-    {
-      "month": "2016-01",
-      "beach": "Tortuga",
-      "nests": 1
-    },
-    {
-      "month": "2016-07",
-      "beach": "Tortuga",
-      "nests": 3
-    },
-    {
-      "month": "2016-08",
-      "beach": "Tortuga",
-      "nests": 3
-    },
-    {
-      "month": "2016-09",
-      "beach": "Tortuga",
-      "nests": 5
-    },
-    {
-      "month": "2016-10",
-      "beach": "Tortuga",
-      "nests": 3
-    },
-    {
-      "month": "2016-11",
-      "beach": "Tortuga",
-      "nests": 3
-    },
-    {
-      "month": "2017-01",
-      "beach": "Tortuga",
-      "nests": 1
-    },
-    {
-      "month": "2017-06",
-      "beach": "Tortuga",
-      "nests": 1
-    },
-    {
-      "month": "2017-07",
-      "beach": "Tortuga",
-      "nests": 9
-    },
-    {
-      "month": "2017-08",
-      "beach": "Tortuga",
-      "nests": 11
-    },
-    {
-      "month": "2017-09",
-      "beach": "Tortuga",
-      "nests": 15
-    },
-    {
-      "month": "2017-10",
-      "beach": "Tortuga",
-      "nests": 16
-    },
-    {
-      "month": "2017-11",
-      "beach": "Tortuga",
-      "nests": 9
-    },
-    {
-      "month": "2017-12",
-      "beach": "Tortuga",
-      "nests": 4
-    },
-    {
-      "month": "2018-06",
-      "beach": "Tortuga",
-      "nests": 2
-    },
-    {
-      "month": "2018-07",
-      "beach": "Tortuga",
-      "nests": 3
-    },
-    {
-      "month": "2018-08",
-      "beach": "Tortuga",
-      "nests": 8
-    },
-    {
-      "month": "2018-09",
-      "beach": "Tortuga",
-      "nests": 11
-    },
-    {
-      "month": "2018-10",
-      "beach": "Tortuga",
-      "nests": 14
-    },
-    {
-      "month": "2018-11",
-      "beach": "Tortuga",
-      "nests": 12
-    },
-    {
-      "month": "2018-12",
-      "beach": "Tortuga",
-      "nests": 5
-    },
-    {
-      "month": "2019-05",
-      "beach": "Hermosa",
-      "nests": 0
-    },
-    {
-      "month": "2019-05",
-      "beach": "Tortuga",
-      "nests": 1
-    },
-    {
-      "month": "2019-06",
-      "beach": "Hermosa",
-      "nests": 0
-    },
-    {
-      "month": "2019-06",
-      "beach": "Tortuga",
-      "nests": 2
-    },
-    {
-      "month": "2019-07",
-      "beach": "Hermosa",
-      "nests": 0
-    },
-    {
-      "month": "2019-07",
-      "beach": "Tortuga",
-      "nests": 10
-    },
-    {
-      "month": "2019-08",
-      "beach": "Hermosa",
-      "nests": 0
-    },
-    {
-      "month": "2019-08",
-      "beach": "Tortuga",
-      "nests": 23
-    },
-    {
-      "month": "2019-09",
-      "beach": "Hermosa",
-      "nests": 0
-    },
-    {
-      "month": "2019-09",
-      "beach": "Tortuga",
-      "nests": 19
-    },
-    {
-      "month": "2019-10",
-      "beach": "Hermosa",
-      "nests": 0
-    },
-    {
-      "month": "2019-10",
-      "beach": "Tortuga",
-      "nests": 21
-    },
-    {
-      "month": "2019-11",
-      "beach": "Hermosa",
-      "nests": 0
-    },
-    {
-      "month": "2019-11",
-      "beach": "Tortuga",
-      "nests": 13
-    },
-    {
-      "month": "2019-12",
-      "beach": "Hermosa",
-      "nests": 0
-    },
-    {
-      "month": "2019-12",
-      "beach": "Tortuga",
-      "nests": 1
-    },
-    {
-      "month": "2020-07",
-      "beach": "Hermosa",
-      "nests": 4
-    },
-    {
-      "month": "2020-07",
-      "beach": "Tortuga",
-      "nests": 4
-    },
-    {
-      "month": "2020-08",
-      "beach": "Hermosa",
-      "nests": 10
-    },
-    {
-      "month": "2020-08",
-      "beach": "Tortuga",
-      "nests": 12
-    },
-    {
-      "month": "2020-09",
-      "beach": "Hermosa",
-      "nests": 20
-    },
-    {
-      "month": "2020-09",
-      "beach": "Tortuga",
-      "nests": 23
-    },
-    {
-      "month": "2020-10",
-      "beach": "Hermosa",
-      "nests": 17
-    },
-    {
-      "month": "2020-10",
-      "beach": "Tortuga",
-      "nests": 19
-    },
-    {
-      "month": "2020-11",
-      "beach": "Hermosa",
-      "nests": 8
-    },
-    {
-      "month": "2020-11",
-      "beach": "Tortuga",
-      "nests": 8
-    },
-    {
-      "month": "2020-12",
-      "beach": "Hermosa",
-      "nests": 5
-    },
-    {
-      "month": "2020-12",
-      "beach": "Tortuga",
-      "nests": 5
-    },
-    {
-      "month": "2021-01",
-      "beach": "Hermosa",
-      "nests": 1
-    },
-    {
-      "month": "2021-01",
-      "beach": "Tortuga",
-      "nests": 1
-    },
-    {
-      "month": "2021-03",
-      "beach": "Hermosa",
-      "nests": 1
-    },
-    {
-      "month": "2021-03",
-      "beach": "Tortuga",
-      "nests": 0
-    },
-    {
-      "month": "2021-04",
-      "beach": "Hermosa",
-      "nests": 1
-    },
-    {
-      "month": "2021-04",
-      "beach": "Tortuga",
-      "nests": 0
-    },
-    {
-      "month": "2021-05",
-      "beach": "Hermosa",
-      "nests": 2
-    },
-    {
-      "month": "2021-05",
-      "beach": "Tortuga",
-      "nests": 2
-    },
-    {
-      "month": "2021-06",
-      "beach": "Hermosa",
-      "nests": 6
-    },
-    {
-      "month": "2021-06",
-      "beach": "Tortuga",
-      "nests": 6
-    },
-    {
-      "month": "2021-07",
-      "beach": "Hermosa",
-      "nests": 12
-    },
-    {
-      "month": "2021-07",
-      "beach": "Tortuga",
-      "nests": 11
-    },
-    {
-      "month": "2021-08",
-      "beach": "Hermosa",
-      "nests": 48
-    },
-    {
-      "month": "2021-08",
-      "beach": "Tortuga",
-      "nests": 43
-    },
-    {
-      "month": "2021-09",
-      "beach": "Hermosa",
-      "nests": 45
-    },
-    {
-      "month": "2021-09",
-      "beach": "Tortuga",
-      "nests": 40
-    },
-    {
-      "month": "2021-10",
-      "beach": "Hermosa",
-      "nests": 30
-    },
-    {
-      "month": "2021-10",
-      "beach": "Tortuga",
-      "nests": 26
-    },
-    {
-      "month": "2021-11",
-      "beach": "Hermosa",
-      "nests": 13
-    },
-    {
-      "month": "2021-11",
-      "beach": "Tortuga",
-      "nests": 12
-    },
-    {
-      "month": "2021-12",
-      "beach": "Hermosa",
-      "nests": 3
-    },
-    {
-      "month": "2021-12",
-      "beach": "Tortuga",
-      "nests": 2
-    },
-    {
-      "month": "2022-01",
-      "beach": "Hermosa",
-      "nests": 1
-    },
-    {
-      "month": "2022-01",
-      "beach": "Tortuga",
-      "nests": 0
-    },
-    {
-      "month": "2022-05",
-      "beach": "Hermosa",
-      "nests": 1
-    },
-    {
-      "month": "2022-05",
-      "beach": "Tortuga",
-      "nests": 1
-    },
-    {
-      "month": "2022-06",
-      "beach": "Hermosa",
-      "nests": 5
-    },
-    {
-      "month": "2022-06",
-      "beach": "Tortuga",
-      "nests": 5
-    },
-    {
-      "month": "2022-07",
-      "beach": "Hermosa",
-      "nests": 14
-    },
-    {
-      "month": "2022-07",
-      "beach": "Tortuga",
-      "nests": 12
-    },
-    {
-      "month": "2022-08",
-      "beach": "Hermosa",
-      "nests": 42
-    },
-    {
-      "month": "2022-08",
-      "beach": "Tortuga",
-      "nests": 34
-    },
-    {
-      "month": "2022-09",
-      "beach": "Hermosa",
-      "nests": 42
-    },
-    {
-      "month": "2022-09",
-      "beach": "Tortuga",
-      "nests": 34
-    },
-    {
-      "month": "2022-10",
-      "beach": "Hermosa",
-      "nests": 33
-    },
-    {
-      "month": "2022-10",
-      "beach": "Tortuga",
-      "nests": 27
-    },
-    {
-      "month": "2022-11",
-      "beach": "Hermosa",
-      "nests": 14
-    },
-    {
-      "month": "2022-11",
-      "beach": "Tortuga",
-      "nests": 12
-    },
-    {
-      "month": "2022-12",
-      "beach": "Hermosa",
-      "nests": 4
-    },
-    {
-      "month": "2022-12",
-      "beach": "Tortuga",
-      "nests": 4
-    },
-    {
-      "month": "2023-01",
-      "beach": "Ballena",
-      "nests": 0
-    },
-    {
-      "month": "2023-01",
-      "beach": "Ballena, sector Elan",
-      "nests": 0
-    },
-    {
-      "month": "2023-01",
-      "beach": "Dominical",
-      "nests": 0
-    },
-    {
-      "month": "2023-01",
-      "beach": "Hermosa",
-      "nests": 1
-    },
-    {
-      "month": "2023-01",
-      "beach": "Tortuga",
-      "nests": 2
-    },
-    {
-      "month": "2023-05",
-      "beach": "Ballena",
-      "nests": 0
-    },
-    {
-      "month": "2023-05",
-      "beach": "Ballena, sector Elan",
-      "nests": 0
-    },
-    {
-      "month": "2023-05",
-      "beach": "Dominical",
-      "nests": 0
-    },
-    {
-      "month": "2023-05",
-      "beach": "Hermosa",
-      "nests": 1
-    },
-    {
-      "month": "2023-05",
-      "beach": "Tortuga",
-      "nests": 1
-    },
-    {
-      "month": "2023-06",
-      "beach": "Ballena",
-      "nests": 0
-    },
-    {
-      "month": "2023-06",
-      "beach": "Ballena, sector Elan",
-      "nests": 0
-    },
-    {
-      "month": "2023-06",
-      "beach": "Dominical",
-      "nests": 0
-    },
-    {
-      "month": "2023-06",
-      "beach": "Hermosa",
-      "nests": 4
-    },
-    {
-      "month": "2023-06",
-      "beach": "Tortuga",
-      "nests": 4
-    },
-    {
-      "month": "2023-07",
-      "beach": "Ballena",
-      "nests": 0
-    },
-    {
-      "month": "2023-07",
-      "beach": "Ballena, sector Elan",
-      "nests": 0
-    },
-    {
-      "month": "2023-07",
-      "beach": "Dominical",
-      "nests": 1
-    },
-    {
-      "month": "2023-07",
-      "beach": "Hermosa",
-      "nests": 11
-    },
-    {
-      "month": "2023-07",
-      "beach": "Tortuga",
-      "nests": 13
-    },
-    {
-      "month": "2023-08",
-      "beach": "Ballena",
-      "nests": 0
-    },
-    {
-      "month": "2023-08",
-      "beach": "Ballena, sector Elan",
-      "nests": 0
-    },
-    {
-      "month": "2023-08",
-      "beach": "Dominical",
-      "nests": 4
-    },
-    {
-      "month": "2023-08",
-      "beach": "Hermosa",
-      "nests": 61
-    },
-    {
-      "month": "2023-08",
-      "beach": "Tortuga",
-      "nests": 73
-    },
-    {
-      "month": "2023-09",
-      "beach": "Ballena",
-      "nests": 0
-    },
-    {
-      "month": "2023-09",
-      "beach": "Ballena, sector Elan",
-      "nests": 0
-    },
-    {
-      "month": "2023-09",
-      "beach": "Dominical",
-      "nests": 2
-    },
-    {
-      "month": "2023-09",
-      "beach": "Hermosa",
-      "nests": 37
-    },
-    {
-      "month": "2023-09",
-      "beach": "Tortuga",
-      "nests": 44
-    },
-    {
-      "month": "2023-10",
-      "beach": "Ballena",
-      "nests": 0
-    },
-    {
-      "month": "2023-10",
-      "beach": "Ballena, sector Elan",
-      "nests": 0
-    },
-    {
-      "month": "2023-10",
-      "beach": "Dominical",
-      "nests": 2
-    },
-    {
-      "month": "2023-10",
-      "beach": "Hermosa",
-      "nests": 30
-    },
-    {
-      "month": "2023-10",
-      "beach": "Tortuga",
-      "nests": 35
-    },
-    {
-      "month": "2023-11",
-      "beach": "Ballena",
-      "nests": 0
-    },
-    {
-      "month": "2023-11",
-      "beach": "Ballena, sector Elan",
-      "nests": 0
-    },
-    {
-      "month": "2023-11",
-      "beach": "Dominical",
-      "nests": 1
-    },
-    {
-      "month": "2023-11",
-      "beach": "Hermosa",
-      "nests": 20
-    },
-    {
-      "month": "2023-11",
-      "beach": "Tortuga",
-      "nests": 23
-    },
-    {
-      "month": "2023-12",
-      "beach": "Ballena",
-      "nests": 0
-    },
-    {
-      "month": "2023-12",
-      "beach": "Ballena, sector Elan",
-      "nests": 0
-    },
-    {
-      "month": "2023-12",
-      "beach": "Dominical",
-      "nests": 0
-    },
-    {
-      "month": "2023-12",
-      "beach": "Hermosa",
-      "nests": 2
-    },
-    {
-      "month": "2023-12",
-      "beach": "Tortuga",
-      "nests": 2
-    },
-    {
-      "month": "2024-01",
-      "beach": "Dominical",
-      "nests": 0
-    },
-    {
-      "month": "2024-01",
-      "beach": "Hermosa",
-      "nests": 1
-    },
-    {
-      "month": "2024-01",
-      "beach": "Tortuga",
-      "nests": 0
-    },
-    {
-      "month": "2024-01",
-      "beach": "Unknown",
-      "nests": 0
-    },
-    {
-      "month": "2024-04",
-      "beach": "Dominical",
-      "nests": 0
-    },
-    {
-      "month": "2024-04",
-      "beach": "Hermosa",
-      "nests": 2
-    },
-    {
-      "month": "2024-04",
-      "beach": "Tortuga",
-      "nests": 2
-    },
-    {
-      "month": "2024-04",
-      "beach": "Unknown",
-      "nests": 0
-    },
-    {
-      "month": "2024-05",
-      "beach": "Dominical",
-      "nests": 0
-    },
-    {
-      "month": "2024-05",
-      "beach": "Hermosa",
-      "nests": 1
-    },
-    {
-      "month": "2024-05",
-      "beach": "Tortuga",
-      "nests": 0
-    },
-    {
-      "month": "2024-05",
-      "beach": "Unknown",
-      "nests": 0
-    },
-    {
-      "month": "2024-06",
-      "beach": "Dominical",
-      "nests": 0
-    },
-    {
-      "month": "2024-06",
-      "beach": "Hermosa",
-      "nests": 6
-    },
-    {
-      "month": "2024-06",
-      "beach": "Tortuga",
-      "nests": 5
-    },
-    {
-      "month": "2024-06",
-      "beach": "Unknown",
-      "nests": 0
-    },
-    {
-      "month": "2024-07",
-      "beach": "Dominical",
-      "nests": 0
-    },
-    {
-      "month": "2024-07",
-      "beach": "Hermosa",
-      "nests": 11
-    },
-    {
-      "month": "2024-07",
-      "beach": "Tortuga",
-      "nests": 10
-    },
-    {
-      "month": "2024-07",
-      "beach": "Unknown",
-      "nests": 0
-    },
-    {
-      "month": "2024-08",
-      "beach": "Dominical",
-      "nests": 0
-    },
-    {
-      "month": "2024-08",
-      "beach": "Hermosa",
-      "nests": 17
-    },
-    {
-      "month": "2024-08",
-      "beach": "Tortuga",
-      "nests": 14
-    },
-    {
-      "month": "2024-08",
-      "beach": "Unknown",
-      "nests": 0
-    },
-    {
-      "month": "2024-09",
-      "beach": "Dominical",
-      "nests": 0
-    },
-    {
-      "month": "2024-09",
-      "beach": "Hermosa",
-      "nests": 26
-    },
-    {
-      "month": "2024-09",
-      "beach": "Tortuga",
-      "nests": 22
-    },
-    {
-      "month": "2024-09",
-      "beach": "Unknown",
-      "nests": 0
-    },
-    {
-      "month": "2024-10",
-      "beach": "Dominical",
-      "nests": 0
-    },
-    {
-      "month": "2024-10",
-      "beach": "Hermosa",
-      "nests": 21
-    },
-    {
-      "month": "2024-10",
-      "beach": "Tortuga",
-      "nests": 17
-    },
-    {
-      "month": "2024-10",
-      "beach": "Unknown",
-      "nests": 0
-    },
-    {
-      "month": "2024-11",
-      "beach": "Dominical",
-      "nests": 0
-    },
-    {
-      "month": "2024-11",
-      "beach": "Hermosa",
-      "nests": 7
-    },
-    {
-      "month": "2024-11",
-      "beach": "Tortuga",
-      "nests": 5
-    },
-    {
-      "month": "2024-11",
-      "beach": "Unknown",
-      "nests": 0
-    },
-    {
-      "month": "2024-12",
-      "beach": "Dominical",
-      "nests": 0
-    },
-    {
-      "month": "2024-12",
-      "beach": "Hermosa",
-      "nests": 1
-    },
-    {
-      "month": "2024-12",
-      "beach": "Tortuga",
-      "nests": 1
-    },
-    {
-      "month": "2024-12",
-      "beach": "Unknown",
-      "nests": 0
-    },
-    {
-      "month": "2025-01",
-      "beach": "Ballena",
-      "nests": 0
-    },
-    {
-      "month": "2025-01",
-      "beach": "Chaman",
-      "nests": 0
-    },
-    {
-      "month": "2025-01",
-      "beach": "Dominical",
-      "nests": 0
-    },
-    {
-      "month": "2025-01",
-      "beach": "Hermosa",
-      "nests": 0
-    },
-    {
-      "month": "2025-01",
-      "beach": "Parque Nacional Marino Ballena-Sector Colonia",
-      "nests": 0
-    },
-    {
-      "month": "2025-01",
-      "beach": "Pinuela",
-      "nests": 0
-    },
-    {
-      "month": "2025-01",
-      "beach": "Tortuga",
-      "nests": 0
-    },
-    {
-      "month": "2025-03",
-      "beach": "Ballena",
-      "nests": 0
-    },
-    {
-      "month": "2025-03",
-      "beach": "Chaman",
-      "nests": 0
-    },
-    {
-      "month": "2025-03",
-      "beach": "Dominical",
-      "nests": 0
-    },
-    {
-      "month": "2025-03",
-      "beach": "Hermosa",
-      "nests": 0
-    },
-    {
-      "month": "2025-03",
-      "beach": "Parque Nacional Marino Ballena-Sector Colonia",
-      "nests": 0
-    },
-    {
-      "month": "2025-03",
-      "beach": "Pinuela",
-      "nests": 0
-    },
-    {
-      "month": "2025-03",
-      "beach": "Tortuga",
-      "nests": 0
-    },
-    {
-      "month": "2025-04",
-      "beach": "Ballena",
-      "nests": 0
-    },
-    {
-      "month": "2025-04",
-      "beach": "Chaman",
-      "nests": 0
-    },
-    {
-      "month": "2025-04",
-      "beach": "Dominical",
-      "nests": 0
-    },
-    {
-      "month": "2025-04",
-      "beach": "Hermosa",
-      "nests": 0
-    },
-    {
-      "month": "2025-04",
-      "beach": "Parque Nacional Marino Ballena-Sector Colonia",
-      "nests": 0
-    },
-    {
-      "month": "2025-04",
-      "beach": "Pinuela",
-      "nests": 0
-    },
-    {
-      "month": "2025-04",
-      "beach": "Tortuga",
-      "nests": 0
-    },
-    {
-      "month": "2025-05",
-      "beach": "Ballena",
-      "nests": 0
-    },
-    {
-      "month": "2025-05",
-      "beach": "Chaman",
-      "nests": 0
-    },
-    {
-      "month": "2025-05",
-      "beach": "Dominical",
-      "nests": 0
-    },
-    {
-      "month": "2025-05",
-      "beach": "Hermosa",
-      "nests": 3
-    },
-    {
-      "month": "2025-05",
-      "beach": "Parque Nacional Marino Ballena-Sector Colonia",
-      "nests": 0
-    },
-    {
-      "month": "2025-05",
-      "beach": "Pinuela",
-      "nests": 0
-    },
-    {
-      "month": "2025-05",
-      "beach": "Tortuga",
-      "nests": 3
-    },
-    {
-      "month": "2025-06",
-      "beach": "Ballena",
-      "nests": 0
-    },
-    {
-      "month": "2025-06",
-      "beach": "Chaman",
-      "nests": 0
-    },
-    {
-      "month": "2025-06",
-      "beach": "Dominical",
-      "nests": 0
-    },
-    {
-      "month": "2025-06",
-      "beach": "Hermosa",
-      "nests": 6
-    },
-    {
-      "month": "2025-06",
-      "beach": "Parque Nacional Marino Ballena-Sector Colonia",
-      "nests": 0
-    },
-    {
-      "month": "2025-06",
-      "beach": "Pinuela",
-      "nests": 0
-    },
-    {
-      "month": "2025-06",
-      "beach": "Tortuga",
-      "nests": 6
-    },
-    {
-      "month": "2025-07",
-      "beach": "Ballena",
-      "nests": 0
-    },
-    {
-      "month": "2025-07",
-      "beach": "Chaman",
-      "nests": 0
-    },
-    {
-      "month": "2025-07",
-      "beach": "Dominical",
-      "nests": 2
-    },
-    {
-      "month": "2025-07",
-      "beach": "Hermosa",
-      "nests": 25
-    },
-    {
-      "month": "2025-07",
-      "beach": "Parque Nacional Marino Ballena-Sector Colonia",
-      "nests": 0
-    },
-    {
-      "month": "2025-07",
-      "beach": "Pinuela",
-      "nests": 0
-    },
-    {
-      "month": "2025-07",
-      "beach": "Tortuga",
-      "nests": 26
-    },
-    {
-      "month": "2025-08",
-      "beach": "Ballena",
-      "nests": 0
-    },
-    {
-      "month": "2025-08",
-      "beach": "Chaman",
-      "nests": 0
-    },
-    {
-      "month": "2025-08",
-      "beach": "Dominical",
-      "nests": 4
-    },
-    {
-      "month": "2025-08",
-      "beach": "Hermosa",
-      "nests": 59
-    },
-    {
-      "month": "2025-08",
-      "beach": "Parque Nacional Marino Ballena-Sector Colonia",
-      "nests": 0
-    },
-    {
-      "month": "2025-08",
-      "beach": "Pinuela",
-      "nests": 0
-    },
-    {
-      "month": "2025-08",
-      "beach": "Tortuga",
-      "nests": 61
-    },
-    {
-      "month": "2025-09",
-      "beach": "Ballena",
-      "nests": 0
-    },
-    {
-      "month": "2025-09",
-      "beach": "Chaman",
-      "nests": 0
-    },
-    {
-      "month": "2025-09",
-      "beach": "Dominical",
-      "nests": 6
-    },
-    {
-      "month": "2025-09",
-      "beach": "Hermosa",
-      "nests": 79
-    },
-    {
-      "month": "2025-09",
-      "beach": "Parque Nacional Marino Ballena-Sector Colonia",
-      "nests": 0
-    },
-    {
-      "month": "2025-09",
-      "beach": "Pinuela",
-      "nests": 0
-    },
-    {
-      "month": "2025-09",
-      "beach": "Tortuga",
-      "nests": 81
-    },
-    {
-      "month": "2025-10",
-      "beach": "Ballena",
-      "nests": 0
-    },
-    {
-      "month": "2025-10",
-      "beach": "Chaman",
-      "nests": 0
-    },
-    {
-      "month": "2025-10",
-      "beach": "Dominical",
-      "nests": 3
-    },
-    {
-      "month": "2025-10",
-      "beach": "Hermosa",
-      "nests": 45
-    },
-    {
-      "month": "2025-10",
-      "beach": "Parque Nacional Marino Ballena-Sector Colonia",
-      "nests": 0
-    },
-    {
-      "month": "2025-10",
-      "beach": "Pinuela",
-      "nests": 0
-    },
-    {
-      "month": "2025-10",
-      "beach": "Tortuga",
-      "nests": 47
-    },
-    {
-      "month": "2025-11",
-      "beach": "Ballena",
-      "nests": 0
-    },
-    {
-      "month": "2025-11",
-      "beach": "Chaman",
-      "nests": 0
-    },
-    {
-      "month": "2025-11",
-      "beach": "Dominical",
-      "nests": 2
-    },
-    {
-      "month": "2025-11",
-      "beach": "Hermosa",
-      "nests": 23
-    },
-    {
-      "month": "2025-11",
-      "beach": "Parque Nacional Marino Ballena-Sector Colonia",
-      "nests": 0
-    },
-    {
-      "month": "2025-11",
-      "beach": "Pinuela",
-      "nests": 0
-    },
-    {
-      "month": "2025-11",
-      "beach": "Tortuga",
-      "nests": 23
-    },
-    {
-      "month": "2025-12",
-      "beach": "Ballena",
-      "nests": 0
-    },
-    {
-      "month": "2025-12",
-      "beach": "Chaman",
-      "nests": 0
-    },
-    {
-      "month": "2025-12",
-      "beach": "Dominical",
-      "nests": 1
-    },
-    {
-      "month": "2025-12",
-      "beach": "Hermosa",
-      "nests": 11
-    },
-    {
-      "month": "2025-12",
-      "beach": "Parque Nacional Marino Ballena-Sector Colonia",
-      "nests": 0
-    },
-    {
-      "month": "2025-12",
-      "beach": "Pinuela",
-      "nests": 0
-    },
-    {
-      "month": "2025-12",
-      "beach": "Tortuga",
-      "nests": 11
-    },
-    {
-      "month": "2026-01",
-      "beach": "Hermosa",
-      "nests": 2
-    },
-    {
-      "month": "2026-01",
-      "beach": "Tortuga",
-      "nests": 2
-    },
-    {
-      "month": "2026-05",
-      "beach": "Hermosa",
-      "nests": 1
-    },
-    {
-      "month": "2026-05",
-      "beach": "Tortuga",
-      "nests": 2
-    },
-    {
-      "month": "2026-06",
-      "beach": "Hermosa",
-      "nests": 5
-    },
-    {
-      "month": "2026-06",
-      "beach": "Tortuga",
-      "nests": 6
-    },
-    {
-      "month": "2026-07",
-      "beach": "Hermosa",
-      "nests": 19
-    },
-    {
-      "month": "2026-07",
-      "beach": "Tortuga",
-      "nests": 24
-    },
-    {
-      "month": "2026-08",
-      "beach": "Hermosa",
-      "nests": 32
-    },
-    {
-      "month": "2026-08",
-      "beach": "Tortuga",
-      "nests": 40
     }
   ]
 }
