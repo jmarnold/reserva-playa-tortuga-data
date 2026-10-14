@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-14T04:06:24.771961+00:00",
-  "total_nests": 2736,
-  "total_eggs": 240456,
+  "generated_at": "2026-10-14T04:59:07.627699+00:00",
+  "total_nests": 2790,
+  "total_eggs": 245766,
   "by_beach": [
     {
       "beach": "Ballena",
@@ -43,14 +43,14 @@
     {
       "beach": "Hermosa",
       "species": "Lora /Olive ridley",
-      "nests": 925,
-      "eggs": 81631
+      "nests": 956,
+      "eggs": 84699
     },
     {
       "beach": "Hermosa",
       "species": "Unknown",
-      "nests": 11,
-      "eggs": 955
+      "nests": 12,
+      "eggs": 1065
     },
     {
       "beach": "Hermosa",
@@ -73,8 +73,8 @@
     {
       "beach": "Tortuga",
       "species": "Lora /Olive ridley",
-      "nests": 1723,
-      "eggs": 151402
+      "nests": 1745,
+      "eggs": 153534
     },
     {
       "beach": "Tortuga",
@@ -616,11 +616,15 @@
     },
     {
       "month": "2026-08",
-      "nests": 112
+      "nests": 113
     },
     {
       "month": "2026-09",
-      "nests": 44
+      "nests": 97
+    },
+    {
+      "month": "2026-10",
+      "nests": 36
     }
   ],
   "by_year": [
@@ -779,20 +783,20 @@
     },
     {
       "year": "2026",
-      "total": 235,
-      "nests": 168,
-      "eggs": 15035,
-      "false_crawls": 33,
-      "poached": 11,
-      "wild": 2
+      "total": 325,
+      "nests": 222,
+      "eggs": 20345,
+      "false_crawls": 53,
+      "poached": 20,
+      "wild": 3
     }
   ],
   "by_species": [
     {
       "species": "Lora /Olive ridley",
-      "nests": 2680,
-      "eggs": 235775,
-      "avg_eggs_per_clutch": 92.0
+      "nests": 2733,
+      "eggs": 240975,
+      "avg_eggs_per_clutch": 92.1
     },
     {
       "species": "Verde/Green",
@@ -802,9 +806,9 @@
     },
     {
       "species": "Unknown",
-      "nests": 12,
-      "eggs": 1079,
-      "avg_eggs_per_clutch": 89.9
+      "nests": 13,
+      "eggs": 1189,
+      "avg_eggs_per_clutch": 91.5
     },
     {
       "species": "Carey/Hawksbill",
@@ -1653,7 +1657,17 @@
     {
       "month": "2026-09",
       "species": "Lora /Olive ridley",
-      "nests": 28
+      "nests": 60
+    },
+    {
+      "month": "2026-09",
+      "species": "Unknown",
+      "nests": 1
+    },
+    {
+      "month": "2026-10",
+      "species": "Lora /Olive ridley",
+      "nests": 21
     }
   ],
   "by_beach_year": [
@@ -1864,14 +1878,14 @@
     {
       "year": "2026",
       "beach": "Hermosa",
-      "nests": 75,
-      "eggs": 6711
+      "nests": 107,
+      "eggs": 9889
     },
     {
       "year": "2026",
       "beach": "Tortuga",
-      "nests": 93,
-      "eggs": 8324
+      "nests": 115,
+      "eggs": 10456
     },
     {
       "year": "2026",
@@ -3439,7 +3453,7 @@
     {
       "month": "2026-08",
       "activity": "Nido Saqueado/Poached nest",
-      "count": 6
+      "count": 7
     },
     {
       "month": "2026-08",
@@ -3469,27 +3483,47 @@
     {
       "month": "2026-09",
       "activity": "Anidación No efectivo /Not effective nesting",
-      "count": 5
+      "count": 10
     },
     {
       "month": "2026-09",
       "activity": "Nido Saqueado/Poached nest",
-      "count": 5
+      "count": 11
     },
     {
       "month": "2026-09",
       "activity": "Nido salvaje /Wild nest",
-      "count": 1
+      "count": 2
     },
     {
       "month": "2026-09",
       "activity": "Nido/Nest",
-      "count": 28
+      "count": 61
     },
     {
       "month": "2026-09",
       "activity": "Sálida Falsa/False crawl",
-      "count": 5
+      "count": 13
+    },
+    {
+      "month": "2026-10",
+      "activity": "Anidación No efectivo /Not effective nesting",
+      "count": 1
+    },
+    {
+      "month": "2026-10",
+      "activity": "Nido Saqueado/Poached nest",
+      "count": 2
+    },
+    {
+      "month": "2026-10",
+      "activity": "Nido/Nest",
+      "count": 21
+    },
+    {
+      "month": "2026-10",
+      "activity": "Sálida Falsa/False crawl",
+      "count": 12
     }
   ],
   "nest_vs_poached_by_month": [
@@ -4151,12 +4185,17 @@
     {
       "month": "2026-08",
       "nests": 79,
-      "poached": 6
+      "poached": 7
     },
     {
       "month": "2026-09",
-      "nests": 28,
-      "poached": 5
+      "nests": 61,
+      "poached": 11
+    },
+    {
+      "month": "2026-10",
+      "nests": 21,
+      "poached": 2
     }
   ],
   "productivity_by_beach_season": [
