@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-15T13:28:48.062324+00:00",
+  "generated_at": "2026-10-15T19:54:49.967672+00:00",
   "coordinate_precision_note": "Positions shown are deliberately offset to protect nests from poaching. They are approximate, are not survey-accurate, and must not be used to navigate to a nest. Contact the organisation for research access to precise data.",
-  "count": 1866,
+  "count": 1868,
   "features": [
     {
       "lat": 9.191,
@@ -18660,6 +18660,26 @@
       "species": "Lora /Olive ridley",
       "beach": "Tortuga",
       "sector": "4",
+      "activity": "Sálida Falsa/False crawl",
+      "egg_count": null,
+      "observed_month": "2026-10"
+    },
+    {
+      "lat": 9.078,
+      "lon": -83.678,
+      "species": "Lora /Olive ridley",
+      "beach": "Tortuga",
+      "sector": "2",
+      "activity": "Nido/Nest",
+      "egg_count": 109,
+      "observed_month": "2026-10"
+    },
+    {
+      "lat": 9.085,
+      "lon": -83.673,
+      "species": "Lora /Olive ridley",
+      "beach": "Tortuga",
+      "sector": "0",
       "activity": "Sálida Falsa/False crawl",
       "egg_count": null,
       "observed_month": "2026-10"
