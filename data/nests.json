@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-23T13:30:17.306407+00:00",
+  "generated_at": "2026-10-26T04:54:11.482172+00:00",
   "coordinate_precision_note": "Positions shown are deliberately offset to protect nests from poaching. They are approximate, are not survey-accurate, and must not be used to navigate to a nest. Contact the organisation for research access to precise data.",
-  "count": 1882,
+  "count": 1883,
   "features": [
     {
       "lat": 9.191,
@@ -18822,6 +18822,16 @@
       "sector": "6",
       "activity": "Nido/Nest",
       "egg_count": 102,
+      "observed_month": "2026-10"
+    },
+    {
+      "lat": 9.19,
+      "lon": -83.785,
+      "species": "Lora /Olive ridley",
+      "beach": "Hermosa",
+      "sector": "6",
+      "activity": "Anidación No efectivo /Not effective nesting",
+      "egg_count": null,
       "observed_month": "2026-10"
     }
   ]
