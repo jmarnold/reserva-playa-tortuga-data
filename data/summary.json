@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-28T15:09:59.840544+00:00",
+  "generated_at": "2026-10-29T05:54:13.413109+00:00",
   "total_nests": 2811,
   "total_eggs": 247713,
   "by_beach": [
@@ -624,7 +624,7 @@
     },
     {
       "month": "2026-10",
-      "nests": 62
+      "nests": 63
     }
   ],
   "by_year": [
@@ -783,7 +783,7 @@
     },
     {
       "year": "2026",
-      "total": 351,
+      "total": 352,
       "nests": 243,
       "eggs": 22394,
       "false_crawls": 55,
@@ -3508,7 +3508,7 @@
     {
       "month": "2026-10",
       "activity": "Anidación No efectivo /Not effective nesting",
-      "count": 3
+      "count": 4
     },
     {
       "month": "2026-10",
