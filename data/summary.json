@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-01T15:15:20.888305+00:00",
-  "total_nests": 2818,
-  "total_eggs": 248415,
+  "generated_at": "2026-11-03T06:54:24.376819+00:00",
+  "total_nests": 2819,
+  "total_eggs": 248507,
   "by_beach": [
     {
       "beach": "Ballena",
@@ -79,8 +79,8 @@
     {
       "beach": "Tortuga",
       "species": "Lora /Olive ridley",
-      "nests": 1765,
-      "eggs": 155361
+      "nests": 1766,
+      "eggs": 155453
     },
     {
       "beach": "Tortuga",
@@ -631,6 +631,10 @@
     {
       "month": "2026-10",
       "nests": 70
+    },
+    {
+      "month": "2026-11",
+      "nests": 1
     }
   ],
   "by_year": [
@@ -789,9 +793,9 @@
     },
     {
       "year": "2026",
-      "total": 359,
-      "nests": 250,
-      "eggs": 23096,
+      "total": 360,
+      "nests": 251,
+      "eggs": 23188,
       "false_crawls": 55,
       "poached": 20,
       "wild": 3
@@ -800,8 +804,8 @@
   "by_species": [
     {
       "species": "Lora /Olive ridley",
-      "nests": 2761,
-      "eggs": 243624,
+      "nests": 2762,
+      "eggs": 243716,
       "avg_eggs_per_clutch": 92.1
     },
     {
@@ -1674,6 +1678,11 @@
       "month": "2026-10",
       "species": "Lora /Olive ridley",
       "nests": 49
+    },
+    {
+      "month": "2026-11",
+      "species": "Lora /Olive ridley",
+      "nests": 1
     }
   ],
   "by_beach_year": [
@@ -1896,8 +1905,8 @@
     {
       "year": "2026",
       "beach": "Tortuga",
-      "nests": 135,
-      "eggs": 12385
+      "nests": 136,
+      "eggs": 12477
     },
     {
       "year": "2026",
@@ -3541,6 +3550,11 @@
       "month": "2026-10",
       "activity": "Unknown",
       "count": 1
+    },
+    {
+      "month": "2026-11",
+      "activity": "Nido/Nest",
+      "count": 1
     }
   ],
   "nest_vs_poached_by_month": [
@@ -4213,6 +4227,11 @@
       "month": "2026-10",
       "nests": 49,
       "poached": 2
+    },
+    {
+      "month": "2026-11",
+      "nests": 1,
+      "poached": 0
     }
   ],
   "productivity_by_beach_season": [
