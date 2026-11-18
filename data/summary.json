@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-16T18:37:37.883300+00:00",
+  "generated_at": "2026-11-18T07:36:26.751850+00:00",
   "total_nests": 2828,
   "total_eggs": 249236,
   "by_beach": [
@@ -634,7 +634,7 @@
     },
     {
       "month": "2026-11",
-      "nests": 12
+      "nests": 13
     }
   ],
   "by_year": [
@@ -793,10 +793,10 @@
     },
     {
       "year": "2026",
-      "total": 371,
+      "total": 372,
       "nests": 260,
       "eggs": 23917,
-      "false_crawls": 56,
+      "false_crawls": 57,
       "poached": 20,
       "wild": 3
     }
@@ -3564,7 +3564,7 @@
     {
       "month": "2026-11",
       "activity": "Sálida Falsa/False crawl",
-      "count": 1
+      "count": 2
     }
   ],
   "nest_vs_poached_by_month": [
