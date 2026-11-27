@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-24T09:59:31.626194+00:00",
-  "total_nests": 2829,
-  "total_eggs": 249351,
+  "generated_at": "2026-11-27T18:14:51.010478+00:00",
+  "total_nests": 2830,
+  "total_eggs": 249419,
   "by_beach": [
     {
       "beach": "Ballena",
@@ -49,8 +49,8 @@
     {
       "beach": "Hermosa",
       "species": "Lora /Olive ridley",
-      "nests": 963,
-      "eggs": 85403
+      "nests": 964,
+      "eggs": 85471
     },
     {
       "beach": "Hermosa",
@@ -634,7 +634,7 @@
     },
     {
       "month": "2026-11",
-      "nests": 15
+      "nests": 16
     }
   ],
   "by_year": [
@@ -793,9 +793,9 @@
     },
     {
       "year": "2026",
-      "total": 374,
-      "nests": 261,
-      "eggs": 24032,
+      "total": 375,
+      "nests": 262,
+      "eggs": 24100,
       "false_crawls": 57,
       "poached": 20,
       "wild": 3
@@ -804,8 +804,8 @@
   "by_species": [
     {
       "species": "Lora /Olive ridley",
-      "nests": 2772,
-      "eggs": 244560,
+      "nests": 2773,
+      "eggs": 244628,
       "avg_eggs_per_clutch": 92.1
     },
     {
@@ -1682,7 +1682,7 @@
     {
       "month": "2026-11",
       "species": "Lora /Olive ridley",
-      "nests": 11
+      "nests": 12
     }
   ],
   "by_beach_year": [
@@ -1899,8 +1899,8 @@
     {
       "year": "2026",
       "beach": "Hermosa",
-      "nests": 114,
-      "eggs": 10593
+      "nests": 115,
+      "eggs": 10661
     },
     {
       "year": "2026",
@@ -3559,7 +3559,7 @@
     {
       "month": "2026-11",
       "activity": "Nido/Nest",
-      "count": 11
+      "count": 12
     },
     {
       "month": "2026-11",
@@ -4240,7 +4240,7 @@
     },
     {
       "month": "2026-11",
-      "nests": 11,
+      "nests": 12,
       "poached": 0
     }
   ],
